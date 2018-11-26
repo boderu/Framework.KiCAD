@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATtiny412-SSFR
+D AVR® Microcontroller with Core Independent Peripherals and picoPower® technology
+K ATtiny412
+F U.MCU.ATtiny412.pdf
+$ENDCMP
+#
+#End Doc Library
