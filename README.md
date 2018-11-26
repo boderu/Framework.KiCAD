@@ -4,6 +4,9 @@ Bibliotheken und Einstellungen für KiCAD
 
 [TOC]
 
+## TODOs
+- R.Yageo.RC0805 vervollständigen: ab hier: (https://www.digikey.de/products/de/resistors/chip-resistor-surface-mount/52?FV=ffec1104%2Cfffc000d%2Cc0001%2C1c0002%2C400006%2C1f140000%2Cffe00034&quantity=0&ColumnSort=0&page=6&pageSize=25)
+
 ## Reference designators
 Es werden die Bezeichner aus der englischen Wikipedia verwendet (https://en.wikipedia.org/wiki/Reference_designator).
 - **A**	Separable assembly or sub-assembly (e.g. printed circuit assembly)
@@ -50,9 +53,13 @@ Es werden die Bezeichner aus der englischen Wikipedia verwendet (https://en.wiki
 - **XTAL**	Crystal
 - **Y**	Crystal or oscillator
 - **Z**	Zener diode
-# Einstellungen
-## Symbol-Editor
+## Einstellungen
+### Symbol-Editor
 - Masseinheiten sind imperial
-- Raster ist 0.1 inch
+- Raster ist 0.1 inch. Pins und Texte werden in diesem Raster abgelegt. Symbolzeichnungen können ein feineres Raster verwenden.
 - Hauptbeschriftungen sind 0.07 inch
 - Nebenbeschriftungen sind 0.04 inch
+- Datenblätter befinden sich im gleichen Verzeichnis wie die Symbolbibliotheken. Der Name entspricht der Symbolbibliothek und kann durch einen Punkt getrennt noch spezielle Namenszusätze haben (vom Allgemeinen ins Spezielle).
+### Schaltplan-Editor
+- Masseinheiten sind imperial
+- Raster ist 0.1 inch. Symbole aus den Originalbibliotheken deren Pins noch im 0.05 inch Raster liegen, müssen in eine eigene Bibliothek überführt werden.
