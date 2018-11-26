@@ -53,6 +53,7 @@ Es werden die Bezeichner aus der englischen Wikipedia verwendet (https://en.wiki
 - **XTAL**	Crystal
 - **Y**	Crystal or oscillator
 - **Z**	Zener diode
+
 ## Einstellungen
 ### Symbol-Editor
 - Masseinheiten sind imperial
@@ -60,6 +61,7 @@ Es werden die Bezeichner aus der englischen Wikipedia verwendet (https://en.wiki
 - Hauptbeschriftungen sind 0.07 inch
 - Nebenbeschriftungen sind 0.04 inch
 - Datenblätter befinden sich im gleichen Verzeichnis wie die Symbolbibliotheken. Der Name entspricht der Symbolbibliothek und kann durch einen Punkt getrennt noch spezielle Namenszusätze haben (vom Allgemeinen ins Spezielle).
+
 ### Schaltplan-Editor
 - Masseinheiten sind imperial
 - Raster ist 0.1 inch. Symbole aus den Originalbibliotheken deren Pins noch im 0.05 inch Raster liegen, müssen in eine eigene Bibliothek überführt werden.
