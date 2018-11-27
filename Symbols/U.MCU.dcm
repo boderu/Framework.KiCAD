@@ -6,4 +6,10 @@ K ATtiny412
 F U.MCU.ATtiny412.pdf
 $ENDCMP
 #
+$CMP SAMC21E18A-AU
+D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog
+K SAM
+F U.MCU.SAM_C20-21.pdf
+$ENDCMP
+#
 #End Doc Library

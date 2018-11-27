@@ -63,6 +63,7 @@ Es werden die Bezeichner aus der englischen Wikipedia verwendet (https://en.wiki
 - Nebenbeschriftungen sind 0.04 inch
 - Datenblätter befinden sich im gleichen Verzeichnis wie die Symbolbibliotheken. Der Name entspricht der Symbolbibliothek und kann durch einen Punkt getrennt noch spezielle Namenszusätze haben (vom Allgemeinen ins Spezielle).
 - Die ID ist eine Sonderbeschriftung, kursiv und hat eine Höhe von 0.025 inch.
+- Die Pinnummer ist 0.05 inch.
 
 ### Schaltplan-Editor
 - Masseinheiten sind imperial
