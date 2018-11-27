@@ -6,6 +6,7 @@ Bibliotheken und Einstellungen für KiCAD
 
 ## TODOs
 - R.Yageo.RC0805 vervollständigen: ab hier: (https://www.digikey.de/products/de/resistors/chip-resistor-surface-mount/52?FV=ffec1104%2Cfffc000d%2Cc0001%2C1c0002%2C400006%2C1f140000%2Cffe00034&quantity=0&ColumnSort=0&page=6&pageSize=25)
+- C.Kemet.MLCC.0805 vervollständigen: (https://www.reichelt.de/Vielschicht-SMD-G0805/2/index.html?ACTION=2&LA=2&GROUPID=8048;SID=94W4zLOawQAUAAAOM2boAb1d965e880a477218588e34a86eb72e1)
 
 ## Reference designators
 Es werden die Bezeichner aus der englischen Wikipedia verwendet (https://en.wikipedia.org/wiki/Reference_designator).
@@ -57,10 +58,11 @@ Es werden die Bezeichner aus der englischen Wikipedia verwendet (https://en.wiki
 ## Einstellungen
 ### Symbol-Editor
 - Masseinheiten sind imperial
-- Raster ist 0.1 inch. Pins und Texte werden in diesem Raster abgelegt. Symbolzeichnungen können ein feineres Raster verwenden.
+- Raster ist 0.1 inch. Pins und Texte werden in diesem Raster abgelegt. **Ausnahme:** Symbolzeichnungen und Nebenbeschriftungen können ein feineres Raster verwenden.
 - Hauptbeschriftungen sind 0.07 inch
 - Nebenbeschriftungen sind 0.04 inch
 - Datenblätter befinden sich im gleichen Verzeichnis wie die Symbolbibliotheken. Der Name entspricht der Symbolbibliothek und kann durch einen Punkt getrennt noch spezielle Namenszusätze haben (vom Allgemeinen ins Spezielle).
+- Die ID ist eine Sonderbeschriftung, kursiv und hat eine Höhe von 0.025 inch.
 
 ### Schaltplan-Editor
 - Masseinheiten sind imperial
