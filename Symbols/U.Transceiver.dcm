@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MC33897CTEF.R2
+D Single Wire CAN Transceiver
+F U.Transceiver.MC33897.pdf
+$ENDCMP
+#
+#End Doc Library
