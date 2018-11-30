@@ -5,4 +5,10 @@ D Single Wire CAN Transceiver
 F U.Transceiver.MC33897.pdf
 $ENDCMP
 #
+$CMP MCP2025-500EP
+D LIN Transceiver with Voltage Regulator
+K LIN
+F U.Transceiver.MCP2025.pdf
+$ENDCMP
+#
 #End Doc Library
