@@ -60,11 +60,12 @@ Es werden die Bezeichner aus der englischen Wikipedia verwendet (https://en.wiki
 ### Symbol-Editor
 - Masseinheiten sind imperial.
 - Raster ist 0.1 inch. Pins und Texte werden in diesem Raster abgelegt. **Ausnahme:** Symbolzeichnungen und Nebenbeschriftungen können ein feineres Raster verwenden.
-- Hauptbeschriftungen sind 70 mil.
+- Hauptbeschriftungen sind 50 mil.
 - Nebenbeschriftungen sind 40 mil.
 - Datenblätter befinden sich im gleichen Verzeichnis wie die Symbolbibliotheken. Der Name entspricht der Symbolbibliothek und kann durch einen Punkt getrennt noch spezielle Namenszusätze haben (vom Allgemeinen ins Spezielle).
 - Die ID ist eine Sonderbeschriftung, kursiv und hat eine Höhe von 25 mil.
 - Die Pinnummer ist 50 mil groß.
+- Der Pinname ist 50 mil groß. Bei größeren Namen überdecken sich Überstriche und Unterstriche.
 
 ### Schaltplan-Editor
 - Masseinheiten sind imperial
