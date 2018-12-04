@@ -5,7 +5,6 @@ Bibliotheken und Einstellungen für KiCAD
 [TOC]
 
 ## TODOs
-- R.Yageo.RC0805 vervollständigen ab 100k: (https://www.digikey.de/products/de/resistors/chip-resistor-surface-mount/52?FV=ffec1104%2Cfffc000d%2Cc0001%2C1c0002%2C400006%2C1f140000%2Cffe00034&quantity=0&ColumnSort=2085&page=22&pageSize=25)
 - R.Yageo.MF0 vervollständigen: (https://www.digikey.de/products/de/resistors/through-hole-resistors/53?FV=fffc000d%2C800bd%2Cc0001%2C400001%2C1f140000%2Cffe00035&quantity=0&ColumnSort=2085&page=1&pageSize=25)
 - C.Kemet.MLCC.0805 vervollständigen: (https://www.reichelt.de/Vielschicht-SMD-G0805/2/index.html?ACTION=2&LA=2&GROUPID=8048;SID=94W4zLOawQAUAAAOM2boAb1d965e880a477218588e34a86eb72e1)
 

@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 0R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 100R
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
@@ -18,6 +24,12 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 102k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 105R
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
@@ -31,6 +43,18 @@ F R.Yaego.RC0805.pdf
 $ENDCMP
 #
 $CMP 107R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 107k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 10M
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -84,7 +108,19 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 110k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 113R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 113k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -96,7 +132,19 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 115k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 118R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 118k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -156,6 +204,12 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 120k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 121R
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
@@ -174,7 +228,19 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 124k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 127R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 127k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -234,13 +300,31 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 130k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 133R
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 133k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 137R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 137k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -288,13 +372,31 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 140k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 143R
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 143k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 147R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 147k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -342,13 +444,31 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 150k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 154R
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 154k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 158R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 158k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -396,7 +516,19 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 160k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 162R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 162k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -408,7 +540,19 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 165k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 169R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 169k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -468,6 +612,12 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 174k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 178R
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
@@ -510,6 +660,12 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 180k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 182R
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
@@ -523,6 +679,12 @@ F R.Yaego.RC0805.pdf
 $ENDCMP
 #
 $CMP 187R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 187k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -570,7 +732,19 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 191k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 196R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 196k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -601,6 +775,186 @@ F R.Yaego.RC0805.pdf
 $ENDCMP
 #
 $CMP 1M
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 1M02
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 1M05
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 1M07
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 1M1
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 1M13
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 1M15
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 1M18
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 1M2
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 1M21
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 1M24
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 1M27
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 1M3
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 1M33
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 1M37
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 1M4
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 1M43
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 1M47
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 1M5
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 1M54
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 1M58
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 1M6
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 1M62
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 1M65
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 1M69
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 1M74
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 1M78
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 1M8
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 1M82
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 1M91
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 1M96
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -954,6 +1308,12 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 205k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 20R
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
@@ -984,7 +1344,19 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 210k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 215R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 215k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -1020,13 +1392,31 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 220k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 221R
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 221k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 226R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 226k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -1074,7 +1464,19 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 232k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 237R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 237k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -1110,13 +1512,31 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 240k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 243R
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 243k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 249R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 249k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -1164,6 +1584,12 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 255k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 25R5
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
@@ -1182,7 +1608,19 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 261k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 267R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 267k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -1218,7 +1656,19 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 270k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 274R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 274k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -1302,6 +1752,12 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 294k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 29R4
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
@@ -1320,13 +1776,91 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 2M05
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 2M1
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 2M15
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 2M2
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 2M21
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 2M26
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 2M32
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 2M37
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 2M43
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 2M49
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 2M61
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 2M67
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 2M74
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 2M8
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 2M94
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -1572,7 +2106,19 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 301k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 309R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 309k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -1620,6 +2166,12 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 316k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 31R6
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
@@ -1633,6 +2185,12 @@ F R.Yaego.RC0805.pdf
 $ENDCMP
 #
 $CMP 324R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 324k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -1656,7 +2214,19 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 330k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 332R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 332k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -1692,7 +2262,19 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 340k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 348R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 348k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -1728,6 +2310,12 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 357k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 35R7
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
@@ -1746,7 +2334,19 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 360k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 365R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 365k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -1782,6 +2382,12 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 374k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 37R4
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
@@ -1795,6 +2401,12 @@ F R.Yaego.RC0805.pdf
 $ENDCMP
 #
 $CMP 383R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 383k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -1818,7 +2430,19 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 390k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 392R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 392k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -1843,6 +2467,48 @@ F R.Yaego.RC0805.pdf
 $ENDCMP
 #
 $CMP 39k2
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 3M01
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 3M16
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 3M3
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 3M32
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 3M57
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 3M62
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 3M65
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -2022,6 +2688,12 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 402k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 40R2
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
@@ -2035,6 +2707,12 @@ F R.Yaego.RC0805.pdf
 $ENDCMP
 #
 $CMP 412R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 412k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -2058,6 +2736,12 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 422k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 42R2
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
@@ -2076,7 +2760,19 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 430k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 432R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 432k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -2112,6 +2808,12 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 442k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 44R2
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
@@ -2125,6 +2827,12 @@ F R.Yaego.RC0805.pdf
 $ENDCMP
 #
 $CMP 453R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 453k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -2148,6 +2856,12 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 464k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 46R4
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
@@ -2166,7 +2880,19 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 470k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 475R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 475k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -2197,6 +2923,12 @@ F R.Yaego.RC0805.pdf
 $ENDCMP
 #
 $CMP 487R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 487k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -2233,6 +2965,48 @@ F R.Yaego.RC0805.pdf
 $ENDCMP
 #
 $CMP 49k9
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 4M02
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 4M12
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 4M32
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 4M64
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 4M7
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 4M75
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 4M99
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -2394,6 +3168,12 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 511k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 51R
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
@@ -2419,6 +3199,12 @@ F R.Yaego.RC0805.pdf
 $ENDCMP
 #
 $CMP 523R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 523k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -2502,6 +3288,12 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 562k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 56R
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
@@ -2532,6 +3324,12 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 576k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 57R6
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
@@ -2550,6 +3348,12 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 590k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 59R
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
@@ -2562,7 +3366,31 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 5M11
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 5M36
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 5M62
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 5M76
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 5M9
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -2676,6 +3504,12 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 604k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 60R4
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
@@ -2689,6 +3523,12 @@ F R.Yaego.RC0805.pdf
 $ENDCMP
 #
 $CMP 619R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 619k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -2712,6 +3552,12 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 620k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 62R
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
@@ -2725,6 +3571,12 @@ F R.Yaego.RC0805.pdf
 $ENDCMP
 #
 $CMP 634R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 634k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -2748,6 +3600,12 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 649k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 64R9
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
@@ -2761,6 +3619,12 @@ F R.Yaego.RC0805.pdf
 $ENDCMP
 #
 $CMP 665R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 665k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -2784,7 +3648,19 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 680k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 681R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 681k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -2826,6 +3702,12 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 698k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 69R8
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
@@ -2833,6 +3715,42 @@ F R.Yaego.RC0805.pdf
 $ENDCMP
 #
 $CMP 69k8
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 6M04
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 6M19
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 6M34
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 6M49
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 6M65
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 6M81
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -2952,6 +3870,12 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 715k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 71R5
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
@@ -2970,6 +3894,12 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 732k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 73k2
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
@@ -2977,6 +3907,12 @@ F R.Yaego.RC0805.pdf
 $ENDCMP
 #
 $CMP 750R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 750k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -3000,6 +3936,12 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 768k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 76R8
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
@@ -3018,6 +3960,12 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 787k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 78R7
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
@@ -3025,6 +3973,18 @@ F R.Yaego.RC0805.pdf
 $ENDCMP
 #
 $CMP 78k7
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 7M32
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 7M5
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -3084,6 +4044,12 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 806k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 80R6
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
@@ -3102,7 +4068,19 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 820k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 825R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 825k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -3186,6 +4164,12 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 887k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 88R7
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
@@ -3193,6 +4177,18 @@ F R.Yaego.RC0805.pdf
 $ENDCMP
 #
 $CMP 88k7
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 8M06
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 8M66
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -3264,6 +4260,12 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 909k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 90R9
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
@@ -3277,6 +4279,12 @@ F R.Yaego.RC0805.pdf
 $ENDCMP
 #
 $CMP 910R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 910k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -3300,6 +4308,12 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 931k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 93R1
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
@@ -3313,6 +4327,12 @@ F R.Yaego.RC0805.pdf
 $ENDCMP
 #
 $CMP 953R
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 953k
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
@@ -3336,6 +4356,12 @@ K R
 F R.Yaego.RC0805.pdf
 $ENDCMP
 #
+$CMP 976k
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
 $CMP 97R6
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
@@ -3343,6 +4369,12 @@ F R.Yaego.RC0805.pdf
 $ENDCMP
 #
 $CMP 97k6
+D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
+K R
+F R.Yaego.RC0805.pdf
+$ENDCMP
+#
+$CMP 9M09
 D SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt
 K R
 F R.Yaego.RC0805.pdf
