@@ -1,6 +1,14 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 24LC1025-I.P
+D 1024K I2C™ CMOS Serial EEPROM
+K EEPROM
+F U.Memory.24LC1025.pdf
+$ENDCMP
+#
 $CMP AT24CM02SSHM
+D I2C-Compatible (2-wire) Serial EEPROM 2-Mbit (262,144 x 8)
+K EEPROM
 F U.Memory.AT24CM02.pdf
 $ENDCMP
 #
