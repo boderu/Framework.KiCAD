@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP MIC29151-5.0WT
+D High-Current Low Dropout Regulator
+F U.VoltageRegulators.MIC2915X-30X-50X-75X.pdf
+$ENDCMP
+#
 $CMP MIC29151-5.0WU
 D High-Current Low Dropout Regulator
 F U.VoltageRegulators.MIC2915X-30X-50X-75X.pdf
