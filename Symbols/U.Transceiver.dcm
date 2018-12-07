@@ -11,7 +11,7 @@ K LIN
 F U.Transceiver.MCP2025.pdf
 $ENDCMP
 #
-$CMP MCP2561-E.P
+$CMP MCP2561-EP
 D High-Speed CAN Transceiver
 K CAN
 F U.Transceiver.MCP2561_2.pdf
