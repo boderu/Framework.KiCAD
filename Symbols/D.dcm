@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BAT85
+D 30V 200mA Schottky diode, DO-35
+K diode Schottky
+F D.BAT85S.pdf
+$ENDCMP
+#
+#End Doc Library
