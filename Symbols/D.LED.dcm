@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLLG4400
+D Low Current (2mA) LED 3 mm Tinted Diffused Package
+K LED
+$ENDCMP
+#
+$CMP TLLR4400
+D Low Current (2mA) LED 3 mm Tinted Diffused Package
+K LED
+$ENDCMP
+#
+$CMP TLLY4400
+D Low Current (2mA) LED 3 mm Tinted Diffused Package
+K LED
+$ENDCMP
+#
+#End Doc Library
