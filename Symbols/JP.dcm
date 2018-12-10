@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Bergstik-II_2_Open
+D Jumper, 2-pole, open
+K Jumper SPST
+F JP.Bergstik-II-Header.68000.pdf
+$ENDCMP
+#
+#End Doc Library
