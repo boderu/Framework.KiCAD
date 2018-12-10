@@ -5,4 +5,9 @@ D Vielschicht-Keramik-Kondensator
 K C
 $ENDCMP
 #
+$CMP 4n7
+D Vielschicht-Keramik-Kondensator
+K C
+$ENDCMP
+#
 #End Doc Library
