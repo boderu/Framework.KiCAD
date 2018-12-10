@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Male.9p.Mounting
+D 9-pin male D-SUB connector, Mounting Hole
+K connector male D-SUB
+F J.D-Sub.Harting.0968163X81X_100539977DRW001B.pdf
+$ENDCMP
+#
+#End Doc Library
