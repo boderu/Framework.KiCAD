@@ -6,4 +6,40 @@ K diode Schottky
 F D.BAT85S.pdf
 $ENDCMP
 #
+$CMP MUR405
+D SWITCHMODE Power Rectifiers
+K diode rectifier
+F D.MUR405_410_415_420_440_460.pdf
+$ENDCMP
+#
+$CMP MUR410
+D SWITCHMODE Power Rectifiers
+K diode rectifier
+F D.MUR405_410_415_420_440_460.pdf
+$ENDCMP
+#
+$CMP MUR415
+D SWITCHMODE Power Rectifiers
+K diode rectifier
+F D.MUR405_410_415_420_440_460.pdf
+$ENDCMP
+#
+$CMP MUR420
+D SWITCHMODE Power Rectifiers
+K diode rectifier
+F D.MUR405_410_415_420_440_460.pdf
+$ENDCMP
+#
+$CMP MUR440
+D SWITCHMODE Power Rectifiers
+K diode rectifier
+F D.MUR405_410_415_420_440_460.pdf
+$ENDCMP
+#
+$CMP MUR460
+D SWITCHMODE Power Rectifiers
+K diode rectifier
+F D.MUR405_410_415_420_440_460.pdf
+$ENDCMP
+#
 #End Doc Library
