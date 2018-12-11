@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# MSTBVA-3pol
+#
+DEF MSTBVA-3pol J 0 40 Y N 1 F N
+F0 "J" 0 -200 50 H V C CNN
+F1 "MSTBVA-3pol" 200 100 50 H V L CNN
+F2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_3-G-5,08_1x03_P5.08mm_Vertical" 0 200 50 H I C CNN
+F3 "J.PhoenixContact.MSTBVA_2-5_3-G_5-08.1755749.pdf" 0 300 50 H I C CNN
+F4 "HDR.3.V-5.08" 200 0 50 H V L CNN "Package"
+F5 "Usage" 200 -100 50 H V L CNN "Usage"
+F6 "1755749" 100 0 25 V V C CNN "ID"
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -150 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
