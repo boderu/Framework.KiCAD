@@ -1,6 +1,12 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP Male.9p.Mounting
+$CMP DB9.Female.Mounting
+D D-Sub STD 9P FEM angled board locks
+K connector female D-SUB
+F J.D-Sub.Harting.0968153X61X_100539510DRW001B.pdf
+$ENDCMP
+#
+$CMP DB9.Male.Mounting
 D 9-pin male D-SUB connector, Mounting Hole
 K connector male D-SUB
 F J.D-Sub.Harting.0968163X81X_100539977DRW001B.pdf

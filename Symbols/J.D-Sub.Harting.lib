@@ -1,11 +1,57 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Male.9p.Mounting
+# DB9.Female.Mounting
 #
-DEF Male.9p.Mounting J 0 40 Y N 1 F N
+DEF DB9.Female.Mounting J 0 40 Y N 1 F N
 F0 "J" 200 200 50 H V L CNN
-F1 "Male.9p.Mounting" 200 100 50 H V L CNN
+F1 "DB9.Female.Mounting" 200 100 50 H V L CNN
+F2 "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm" 0 600 50 H I C CNN
+F3 "J.D-Sub.Harting.0968153X61X_100539510DRW001B.pdf" 0 700 50 H I C CNN
+F4 "H:2.77x2.84-9.9" 200 0 50 H V L CNN "Package"
+F5 "Usage" 200 -100 50 H V L CNN "Usage"
+F6 "0968153X61X" 100 0 25 V V C CNN "ID"
+$FPLIST
+ DSUB*Female*
+$ENDFPLIST
+DRAW
+C -70 -400 30 0 1 0 N
+C -70 -200 30 0 1 0 N
+C -70 0 30 0 1 0 N
+C -70 200 30 0 1 0 N
+C -70 400 30 0 1 0 N
+C 50 -300 30 0 1 0 N
+C 50 -100 30 0 1 0 N
+C 50 100 30 0 1 0 N
+C 50 300 30 0 1 0 N
+P 2 0 1 0 -150 -400 -100 -400 N
+P 2 0 1 0 -150 -300 20 -300 N
+P 2 0 1 0 -150 -200 -100 -200 N
+P 2 0 1 0 -150 -100 20 -100 N
+P 2 0 1 0 -150 0 -100 0 N
+P 2 0 1 0 -150 100 20 100 N
+P 2 0 1 0 -150 200 -100 200 N
+P 2 0 1 0 -150 300 20 300 N
+P 2 0 1 0 -150 400 -100 400 N
+P 5 0 1 10 -150 525 -150 -525 150 -375 150 375 -150 525 f
+X PAD 0 0 -600 150 U 50 50 1 1 P
+X 1 1 -300 400 150 R 50 50 1 1 P
+X 2 2 -300 200 150 R 50 50 1 1 P
+X 3 3 -300 0 150 R 50 50 1 1 P
+X 4 4 -300 -200 150 R 50 50 1 1 P
+X 5 5 -300 -400 150 R 50 50 1 1 P
+X 6 6 -300 300 150 R 50 50 1 1 P
+X 7 7 -300 100 150 R 50 50 1 1 P
+X 8 8 -300 -100 150 R 50 50 1 1 P
+X 9 9 -300 -300 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# DB9.Male.Mounting
+#
+DEF DB9.Male.Mounting J 0 40 Y N 1 F N
+F0 "J" 200 200 50 H V L CNN
+F1 "DB9.Male.Mounting" 200 100 50 H V L CNN
 F2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm" 0 600 50 H I C CNN
 F3 "J.D-Sub.Harting.0968163X81X_100539977DRW001B.pdf" 0 700 50 H I C CNN
 F4 "H:2.77x2.84-9.9" 200 0 50 H V L CNN "Package"
