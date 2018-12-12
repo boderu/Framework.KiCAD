@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP MAX3232
+D RS232 Transceiver
+K RS232
+F U.Transceiver.MAX3222-MAX3241.pdf
+$ENDCMP
+#
 $CMP MC33897CTEF.R2
 D Single Wire CAN Transceiver
 F U.Transceiver.MC33897.pdf
