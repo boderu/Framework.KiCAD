@@ -5,7 +5,22 @@ D Vielschicht-Keramik-Kondensator
 K C
 $ENDCMP
 #
+$CMP 15p
+D Vielschicht-Keramik-Kondensator
+K C
+$ENDCMP
+#
 $CMP 220p
+D Vielschicht-Keramik-Kondensator
+K C
+$ENDCMP
+#
+$CMP 22p
+D Vielschicht-Keramik-Kondensator
+K C
+$ENDCMP
+#
+$CMP 27p
 D Vielschicht-Keramik-Kondensator
 K C
 $ENDCMP
