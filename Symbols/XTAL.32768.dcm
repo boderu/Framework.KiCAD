@@ -12,4 +12,10 @@ K Crystal
 F XTAL.32768.CC7V-T1A.pdf
 $ENDCMP
 #
+$CMP CTF6-A2C5.12P5
+D Tuning Fork Crystal 32768 Hz
+K Crystal
+F XTAL.32768.ctf6-ctf8-1.pdf
+$ENDCMP
+#
 #End Doc Library
