@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RACON8-100502
+D RACON 8 - Kurzhubtaster
+K switch normally-open pushbutton push-button
+F SW.RACON.pdf
+$ENDCMP
+#
+#End Doc Library
