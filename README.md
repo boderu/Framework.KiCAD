@@ -84,3 +84,29 @@ Es werden die Bezeichner aus der englischen Wikipedia verwendet (https://en.wiki
 	- Datasheet (40 mil, nicht sichtbar)
 	- Package (70 mil, verkürzte Form des Footprint)
 	- ID (25 mil, kursiv, Bauteilnummer - meist eine Herstellerbezeichnung)
+	
+### Layer Setup
+#### Zwei Lagen:
+- Board Thickness: 1.6 mm
+
+##### Global Design Rules
+- Minimum Track Width: 0.1524 mm / 6 mil
+- Minimum Via Diameter: 0.6096 mm / 24 mil
+- Minimum Via Drill: 0.3048 mm / 12 mil
+
+##### Net Classes
+- Default
+	- Clearance: 0.1524 mm / 6 mil
+	- Track Width: 0.4064 mm / 16 mil
+	- Via Dia: 1.016 mm / 40 mil
+	- Via Drill: 0.6 mm / 23.62204724 mil
+
+##### Custom Track Width
+- 8 mil
+- 12 mil
+- 16 mil
+- 24 mil
+- 36 mil
+- 48 mil
+- 72 mil
+- 144 mil
