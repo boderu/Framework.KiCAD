@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP23017
+D 16-Bit I/O Expander with Serial Interface
+K IO
+F U.IO.MCP23017.pdf
+$ENDCMP
+#
+#End Doc Library
