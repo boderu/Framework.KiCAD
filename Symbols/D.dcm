@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 1N4148
+D Small Signal Fast Switching Diodes, DO-35
+K diode
+F D.1N4148.pdf
+$ENDCMP
+#
 $CMP BAT85
 D 30V 200mA Schottky diode, DO-35
 K diode Schottky
