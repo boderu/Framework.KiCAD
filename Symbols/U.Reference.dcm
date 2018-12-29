@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP1541-I-TO
+D 4.096V Voltage Reference
+K Voltage Reference
+F U.Reference.MCP1541.pdf
+$ENDCMP
+#
+#End Doc Library
