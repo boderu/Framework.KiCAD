@@ -1,0 +1,508 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 100R
+#
+DEF 100R RV 0 40 Y N 1 F N
+F0 "RV" -200 200 50 H V R CNN
+F1 "100R" -200 100 50 H V R CNN
+F2 "Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical" -500 0 50 V I C CNN
+F3 "RV.Bourns.3386.pdf" -600 0 50 V I C CNN
+F4 "3386P" -200 0 50 H V R CNN "Package"
+F5 "0W5" -200 -100 50 H V R CNN "Power"
+F6 "10%" -200 -200 50 H V R CNN "Tolerance"
+F7 "3386P-1-101LF" -100 0 25 V V C CNN "ID"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+S 40 100 -40 -100 0 1 0 f
+P 2 0 1 6 60 30 60 -30 N
+P 2 0 1 6 100 0 60 0 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 200 0 100 L 50 50 1 1 P
+X 3 3 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 100k
+#
+DEF 100k RV 0 40 Y N 1 F N
+F0 "RV" -200 200 50 H V R CNN
+F1 "100k" -200 100 50 H V R CNN
+F2 "Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical" -500 0 50 V I C CNN
+F3 "RV.Bourns.3386.pdf" -600 0 50 V I C CNN
+F4 "3386P" -200 0 50 H V R CNN "Package"
+F5 "0W5" -200 -100 50 H V R CNN "Power"
+F6 "10%" -200 -200 50 H V R CNN "Tolerance"
+F7 "3386P-1-104LF" -100 0 25 V V C CNN "ID"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+S 40 100 -40 -100 0 1 0 f
+P 2 0 1 6 60 30 60 -30 N
+P 2 0 1 6 100 0 60 0 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 200 0 100 L 50 50 1 1 P
+X 3 3 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10R
+#
+DEF 10R RV 0 40 Y N 1 F N
+F0 "RV" -200 200 50 H V R CNN
+F1 "10R" -200 100 50 H V R CNN
+F2 "Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical" -500 0 50 V I C CNN
+F3 "RV.Bourns.3386.pdf" -600 0 50 V I C CNN
+F4 "3386P" -200 0 50 H V R CNN "Package"
+F5 "0W5" -200 -100 50 H V R CNN "Power"
+F6 "10%" -200 -200 50 H V R CNN "Tolerance"
+F7 "3386P-1-100LF" -100 0 25 V V C CNN "ID"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+S 40 100 -40 -100 0 1 0 f
+P 2 0 1 6 60 30 60 -30 N
+P 2 0 1 6 100 0 60 0 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 200 0 100 L 50 50 1 1 P
+X 3 3 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10k
+#
+DEF 10k RV 0 40 Y N 1 F N
+F0 "RV" -200 200 50 H V R CNN
+F1 "10k" -200 100 50 H V R CNN
+F2 "Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical" -500 0 50 V I C CNN
+F3 "RV.Bourns.3386.pdf" -600 0 50 V I C CNN
+F4 "3386P" -200 0 50 H V R CNN "Package"
+F5 "0W5" -200 -100 50 H V R CNN "Power"
+F6 "10%" -200 -200 50 H V R CNN "Tolerance"
+F7 "3386P-1-103LF" -100 0 25 V V C CNN "ID"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+S 40 100 -40 -100 0 1 0 f
+P 2 0 1 6 60 30 60 -30 N
+P 2 0 1 6 100 0 60 0 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 200 0 100 L 50 50 1 1 P
+X 3 3 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1M
+#
+DEF 1M RV 0 40 Y N 1 F N
+F0 "RV" -200 200 50 H V R CNN
+F1 "1M" -200 100 50 H V R CNN
+F2 "Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical" -500 0 50 V I C CNN
+F3 "RV.Bourns.3386.pdf" -600 0 50 V I C CNN
+F4 "3386P" -200 0 50 H V R CNN "Package"
+F5 "0W5" -200 -100 50 H V R CNN "Power"
+F6 "10%" -200 -200 50 H V R CNN "Tolerance"
+F7 "3386P-1-105LF" -100 0 25 V V C CNN "ID"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+S 40 100 -40 -100 0 1 0 f
+P 2 0 1 6 60 30 60 -30 N
+P 2 0 1 6 100 0 60 0 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 200 0 100 L 50 50 1 1 P
+X 3 3 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1k
+#
+DEF 1k RV 0 40 Y N 1 F N
+F0 "RV" -200 200 50 H V R CNN
+F1 "1k" -200 100 50 H V R CNN
+F2 "Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical" -500 0 50 V I C CNN
+F3 "RV.Bourns.3386.pdf" -600 0 50 V I C CNN
+F4 "3386P" -200 0 50 H V R CNN "Package"
+F5 "0W5" -200 -100 50 H V R CNN "Power"
+F6 "10%" -200 -200 50 H V R CNN "Tolerance"
+F7 "3386P-1-102LF" -100 0 25 V V C CNN "ID"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+S 40 100 -40 -100 0 1 0 f
+P 2 0 1 6 60 30 60 -30 N
+P 2 0 1 6 100 0 60 0 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 200 0 100 L 50 50 1 1 P
+X 3 3 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 200R
+#
+DEF 200R RV 0 40 Y N 1 F N
+F0 "RV" -200 200 50 H V R CNN
+F1 "200R" -200 100 50 H V R CNN
+F2 "Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical" -500 0 50 V I C CNN
+F3 "RV.Bourns.3386.pdf" -600 0 50 V I C CNN
+F4 "3386P" -200 0 50 H V R CNN "Package"
+F5 "0W5" -200 -100 50 H V R CNN "Power"
+F6 "10%" -200 -200 50 H V R CNN "Tolerance"
+F7 "3386P-1-201LF" -100 0 25 V V C CNN "ID"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+S 40 100 -40 -100 0 1 0 f
+P 2 0 1 6 60 30 60 -30 N
+P 2 0 1 6 100 0 60 0 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 200 0 100 L 50 50 1 1 P
+X 3 3 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 200k
+#
+DEF 200k RV 0 40 Y N 1 F N
+F0 "RV" -200 200 50 H V R CNN
+F1 "200k" -200 100 50 H V R CNN
+F2 "Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical" -500 0 50 V I C CNN
+F3 "RV.Bourns.3386.pdf" -600 0 50 V I C CNN
+F4 "3386P" -200 0 50 H V R CNN "Package"
+F5 "0W5" -200 -100 50 H V R CNN "Power"
+F6 "10%" -200 -200 50 H V R CNN "Tolerance"
+F7 "3386P-1-204LF" -100 0 25 V V C CNN "ID"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+S 40 100 -40 -100 0 1 0 f
+P 2 0 1 6 60 30 60 -30 N
+P 2 0 1 6 100 0 60 0 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 200 0 100 L 50 50 1 1 P
+X 3 3 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 20R
+#
+DEF 20R RV 0 40 Y N 1 F N
+F0 "RV" -200 200 50 H V R CNN
+F1 "20R" -200 100 50 H V R CNN
+F2 "Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical" -500 0 50 V I C CNN
+F3 "RV.Bourns.3386.pdf" -600 0 50 V I C CNN
+F4 "3386P" -200 0 50 H V R CNN "Package"
+F5 "0W5" -200 -100 50 H V R CNN "Power"
+F6 "10%" -200 -200 50 H V R CNN "Tolerance"
+F7 "3386P-1-200LF" -100 0 25 V V C CNN "ID"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+S 40 100 -40 -100 0 1 0 f
+P 2 0 1 6 60 30 60 -30 N
+P 2 0 1 6 100 0 60 0 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 200 0 100 L 50 50 1 1 P
+X 3 3 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 20k
+#
+DEF 20k RV 0 40 Y N 1 F N
+F0 "RV" -200 200 50 H V R CNN
+F1 "20k" -200 100 50 H V R CNN
+F2 "Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical" -500 0 50 V I C CNN
+F3 "RV.Bourns.3386.pdf" -600 0 50 V I C CNN
+F4 "3386P" -200 0 50 H V R CNN "Package"
+F5 "0W5" -200 -100 50 H V R CNN "Power"
+F6 "10%" -200 -200 50 H V R CNN "Tolerance"
+F7 "3386P-1-203LF" -100 0 25 V V C CNN "ID"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+S 40 100 -40 -100 0 1 0 f
+P 2 0 1 6 60 30 60 -30 N
+P 2 0 1 6 100 0 60 0 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 200 0 100 L 50 50 1 1 P
+X 3 3 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 22k
+#
+DEF 22k RV 0 40 Y N 1 F N
+F0 "RV" -200 200 50 H V R CNN
+F1 "22k" -200 100 50 H V R CNN
+F2 "Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical" -500 0 50 V I C CNN
+F3 "RV.Bourns.3386.pdf" -600 0 50 V I C CNN
+F4 "3386P" -200 0 50 H V R CNN "Package"
+F5 "0W5" -200 -100 50 H V R CNN "Power"
+F6 "10%" -200 -200 50 H V R CNN "Tolerance"
+F7 "3386P-1-223LF" -100 0 25 V V C CNN "ID"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+S 40 100 -40 -100 0 1 0 f
+P 2 0 1 6 60 30 60 -30 N
+P 2 0 1 6 100 0 60 0 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 200 0 100 L 50 50 1 1 P
+X 3 3 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 250k
+#
+DEF 250k RV 0 40 Y N 1 F N
+F0 "RV" -200 200 50 H V R CNN
+F1 "250k" -200 100 50 H V R CNN
+F2 "Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical" -500 0 50 V I C CNN
+F3 "RV.Bourns.3386.pdf" -600 0 50 V I C CNN
+F4 "3386P" -200 0 50 H V R CNN "Package"
+F5 "0W5" -200 -100 50 H V R CNN "Power"
+F6 "10%" -200 -200 50 H V R CNN "Tolerance"
+F7 "3386P-1-254LF" -100 0 25 V V C CNN "ID"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+S 40 100 -40 -100 0 1 0 f
+P 2 0 1 6 60 30 60 -30 N
+P 2 0 1 6 100 0 60 0 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 200 0 100 L 50 50 1 1 P
+X 3 3 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 25k
+#
+DEF 25k RV 0 40 Y N 1 F N
+F0 "RV" -200 200 50 H V R CNN
+F1 "25k" -200 100 50 H V R CNN
+F2 "Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical" -500 0 50 V I C CNN
+F3 "RV.Bourns.3386.pdf" -600 0 50 V I C CNN
+F4 "3386P" -200 0 50 H V R CNN "Package"
+F5 "0W5" -200 -100 50 H V R CNN "Power"
+F6 "10%" -200 -200 50 H V R CNN "Tolerance"
+F7 "3386P-1-253LF" -100 0 25 V V C CNN "ID"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+S 40 100 -40 -100 0 1 0 f
+P 2 0 1 6 60 30 60 -30 N
+P 2 0 1 6 100 0 60 0 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 200 0 100 L 50 50 1 1 P
+X 3 3 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 2M
+#
+DEF 2M RV 0 40 Y N 1 F N
+F0 "RV" -200 200 50 H V R CNN
+F1 "2M" -200 100 50 H V R CNN
+F2 "Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical" -500 0 50 V I C CNN
+F3 "RV.Bourns.3386.pdf" -600 0 50 V I C CNN
+F4 "3386P" -200 0 50 H V R CNN "Package"
+F5 "0W5" -200 -100 50 H V R CNN "Power"
+F6 "10%" -200 -200 50 H V R CNN "Tolerance"
+F7 "3386P-1-205LF" -100 0 25 V V C CNN "ID"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+S 40 100 -40 -100 0 1 0 f
+P 2 0 1 6 60 30 60 -30 N
+P 2 0 1 6 100 0 60 0 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 200 0 100 L 50 50 1 1 P
+X 3 3 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 2k
+#
+DEF 2k RV 0 40 Y N 1 F N
+F0 "RV" -200 200 50 H V R CNN
+F1 "2k" -200 100 50 H V R CNN
+F2 "Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical" -500 0 50 V I C CNN
+F3 "RV.Bourns.3386.pdf" -600 0 50 V I C CNN
+F4 "3386P" -200 0 50 H V R CNN "Package"
+F5 "0W5" -200 -100 50 H V R CNN "Power"
+F6 "10%" -200 -200 50 H V R CNN "Tolerance"
+F7 "3386P-1-202LF" -100 0 25 V V C CNN "ID"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+S 40 100 -40 -100 0 1 0 f
+P 2 0 1 6 60 30 60 -30 N
+P 2 0 1 6 100 0 60 0 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 200 0 100 L 50 50 1 1 P
+X 3 3 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 4k7
+#
+DEF 4k7 RV 0 40 Y N 1 F N
+F0 "RV" -200 200 50 H V R CNN
+F1 "4k7" -200 100 50 H V R CNN
+F2 "Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical" -500 0 50 V I C CNN
+F3 "RV.Bourns.3386.pdf" -600 0 50 V I C CNN
+F4 "3386P" -200 0 50 H V R CNN "Package"
+F5 "0W5" -200 -100 50 H V R CNN "Power"
+F6 "10%" -200 -200 50 H V R CNN "Tolerance"
+F7 "3386P-1-472LF" -100 0 25 V V C CNN "ID"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+S 40 100 -40 -100 0 1 0 f
+P 2 0 1 6 60 30 60 -30 N
+P 2 0 1 6 100 0 60 0 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 200 0 100 L 50 50 1 1 P
+X 3 3 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 500R
+#
+DEF 500R RV 0 40 Y N 1 F N
+F0 "RV" -200 200 50 H V R CNN
+F1 "500R" -200 100 50 H V R CNN
+F2 "Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical" -500 0 50 V I C CNN
+F3 "RV.Bourns.3386.pdf" -600 0 50 V I C CNN
+F4 "3386P" -200 0 50 H V R CNN "Package"
+F5 "0W5" -200 -100 50 H V R CNN "Power"
+F6 "10%" -200 -200 50 H V R CNN "Tolerance"
+F7 "3386P-1-501LF" -100 0 25 V V C CNN "ID"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+S 40 100 -40 -100 0 1 0 f
+P 2 0 1 6 60 30 60 -30 N
+P 2 0 1 6 100 0 60 0 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 200 0 100 L 50 50 1 1 P
+X 3 3 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 500k
+#
+DEF 500k RV 0 40 Y N 1 F N
+F0 "RV" -200 200 50 H V R CNN
+F1 "500k" -200 100 50 H V R CNN
+F2 "Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical" -500 0 50 V I C CNN
+F3 "RV.Bourns.3386.pdf" -600 0 50 V I C CNN
+F4 "3386P" -200 0 50 H V R CNN "Package"
+F5 "0W5" -200 -100 50 H V R CNN "Power"
+F6 "10%" -200 -200 50 H V R CNN "Tolerance"
+F7 "3386P-1-504LF" -100 0 25 V V C CNN "ID"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+S 40 100 -40 -100 0 1 0 f
+P 2 0 1 6 60 30 60 -30 N
+P 2 0 1 6 100 0 60 0 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 200 0 100 L 50 50 1 1 P
+X 3 3 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 50R
+#
+DEF 50R RV 0 40 Y N 1 F N
+F0 "RV" -200 200 50 H V R CNN
+F1 "50R" -200 100 50 H V R CNN
+F2 "Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical" -500 0 50 V I C CNN
+F3 "RV.Bourns.3386.pdf" -600 0 50 V I C CNN
+F4 "3386P" -200 0 50 H V R CNN "Package"
+F5 "0W5" -200 -100 50 H V R CNN "Power"
+F6 "10%" -200 -200 50 H V R CNN "Tolerance"
+F7 "3386P-1-500LF" -100 0 25 V V C CNN "ID"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+S 40 100 -40 -100 0 1 0 f
+P 2 0 1 6 60 30 60 -30 N
+P 2 0 1 6 100 0 60 0 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 200 0 100 L 50 50 1 1 P
+X 3 3 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 50k
+#
+DEF 50k RV 0 40 Y N 1 F N
+F0 "RV" -200 200 50 H V R CNN
+F1 "50k" -200 100 50 H V R CNN
+F2 "Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical" -500 0 50 V I C CNN
+F3 "RV.Bourns.3386.pdf" -600 0 50 V I C CNN
+F4 "3386P" -200 0 50 H V R CNN "Package"
+F5 "0W5" -200 -100 50 H V R CNN "Power"
+F6 "10%" -200 -200 50 H V R CNN "Tolerance"
+F7 "3386P-1-503LF" -100 0 25 V V C CNN "ID"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+S 40 100 -40 -100 0 1 0 f
+P 2 0 1 6 60 30 60 -30 N
+P 2 0 1 6 100 0 60 0 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 200 0 100 L 50 50 1 1 P
+X 3 3 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 5k
+#
+DEF 5k RV 0 40 Y N 1 F N
+F0 "RV" -200 200 50 H V R CNN
+F1 "5k" -200 100 50 H V R CNN
+F2 "Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical" -500 0 50 V I C CNN
+F3 "RV.Bourns.3386.pdf" -600 0 50 V I C CNN
+F4 "3386P" -200 0 50 H V R CNN "Package"
+F5 "0W5" -200 -100 50 H V R CNN "Power"
+F6 "10%" -200 -200 50 H V R CNN "Tolerance"
+F7 "3386P-1-502LF" -100 0 25 V V C CNN "ID"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+S 40 100 -40 -100 0 1 0 f
+P 2 0 1 6 60 30 60 -30 N
+P 2 0 1 6 100 0 60 0 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 200 0 100 L 50 50 1 1 P
+X 3 3 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
