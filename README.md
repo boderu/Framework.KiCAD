@@ -5,8 +5,7 @@ Bibliotheken und Einstellungen für KiCAD
 [TOC]
 
 ## TODOs
-- R.Yageo.MF0 vervollständigen: (https://www.digikey.de/products/de/resistors/through-hole-resistors/53?FV=fffc000d%2C800bd%2Cc0001%2C400001%2C1f140000%2Cffe00035&quantity=0&ColumnSort=2085&page=1&pageSize=25)
-- C.Kemet.MLCC.0805 vervollständigen: (https://www.reichelt.de/Vielschicht-SMD-G0805/2/index.html?ACTION=2&LA=2&GROUPID=8048;SID=94W4zLOawQAUAAAOM2boAb1d965e880a477218588e34a86eb72e1)
+- vervollständigen: (https://www.digikey.de/products/de/capacitors/tantalum-capacitors/59?k=scs&pkeyword=&sv=0&sf=1&FV=fffc01de%2Cc0003%2C1140050%2Cffe0003b%2C1c0003&quantity=&ColumnSort=2049&page=1&stock=1&rohs=1&pageSize=250)
 
 ## Reference designators
 Es werden die Bezeichner aus der englischen Wikipedia verwendet (https://en.wikipedia.org/wiki/Reference_designator).

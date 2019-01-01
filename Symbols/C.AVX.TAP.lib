@@ -1,0 +1,1356 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 0µ15[0]
+#
+DEF 0µ15[0] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "0µ15[0]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "A" 100 0 50 H V L CNN "Package"
+F5 "35V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP154K035SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0µ15[1]
+#
+DEF 0µ15[1] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "0µ15[1]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "A" 100 0 50 H V L CNN "Package"
+F5 "50V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP154K050SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0µ1[0]
+#
+DEF 0µ1[0] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "0µ1[0]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "A" 100 0 50 H V L CNN "Package"
+F5 "35V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP104K035SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0µ1[1]
+#
+DEF 0µ1[1] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "0µ1[1]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "A" 100 0 50 H V L CNN "Package"
+F5 "50V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP104K050SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0µ22[0]
+#
+DEF 0µ22[0] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "0µ22[0]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "A" 100 0 50 H V L CNN "Package"
+F5 "35V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP224K035SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0µ22[1]
+#
+DEF 0µ22[1] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "0µ22[1]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "A" 100 0 50 H V L CNN "Package"
+F5 "50V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP224K050SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0µ33[0]
+#
+DEF 0µ33[0] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "0µ33[0]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "A" 100 0 50 H V L CNN "Package"
+F5 "35V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP334K035SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0µ33[1]
+#
+DEF 0µ33[1] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "0µ33[1]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "A" 100 0 50 H V L CNN "Package"
+F5 "50V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP334K050SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0µ47[0]
+#
+DEF 0µ47[0] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "0µ47[0]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "A" 100 0 50 H V L CNN "Package"
+F5 "35V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP474K035SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0µ47[1]
+#
+DEF 0µ47[1] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "0µ47[1]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "A" 100 0 50 H V L CNN "Package"
+F5 "50V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP474K050SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0µ68[0]
+#
+DEF 0µ68[0] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "0µ68[0]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "A" 100 0 50 H V L CNN "Package"
+F5 "35V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP684K035SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0µ68[1]
+#
+DEF 0µ68[1] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "0µ68[1]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "B" 100 0 50 H V L CNN "Package"
+F5 "50V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP684K050SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10µ[0]
+#
+DEF 10µ[0] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "10µ[0]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "" -400 0 40 V I C CNN
+F4 "B" 100 0 50 H V L CNN "Package"
+F5 "6V3" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP106K006SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10µ[1]
+#
+DEF 10µ[1] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "10µ[1]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm" -300 0 40 V I C CNN
+F3 "" -400 0 40 V I C CNN
+F4 "C" 100 0 50 H V L CNN "Package"
+F5 "10V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP106K010SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10µ[2]
+#
+DEF 10µ[2] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "10µ[2]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm" -300 0 40 V I C CNN
+F3 "" -400 0 40 V I C CNN
+F4 "D" 100 0 50 H V L CNN "Package"
+F5 "16V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP106K016SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10µ[3]
+#
+DEF 10µ[3] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "10µ[3]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D5.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "" -400 0 40 V I C CNN
+F4 "E" 100 0 50 H V L CNN "Package"
+F5 "20V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP106K020SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10µ[4]
+#
+DEF 10µ[4] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "10µ[4]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D5.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "" -400 0 40 V I C CNN
+F4 "E" 100 0 50 H V L CNN "Package"
+F5 "25V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP106K025SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10µ[5]
+#
+DEF 10µ[5] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "10µ[5]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D6.0mm_P2.50mm" -300 0 40 V I C CNN
+F3 "" -400 0 40 V I C CNN
+F4 "F" 100 0 50 H V L CNN "Package"
+F5 "35V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP106K035SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10µ[6]
+#
+DEF 10µ[6] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "10µ[6]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D8.0mm_P2.50mm" -300 0 40 V I C CNN
+F3 "" -400 0 40 V I C CNN
+F4 "J" 100 0 50 H V L CNN "Package"
+F5 "50V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP106K050SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1µ5[0]
+#
+DEF 1µ5[0] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "1µ5[0]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "A" 100 0 50 H V L CNN "Package"
+F5 "16V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP155K016SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1µ5[1]
+#
+DEF 1µ5[1] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "1µ5[1]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "A" 100 0 50 H V L CNN "Package"
+F5 "25V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP155K025SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1µ5[2]
+#
+DEF 1µ5[2] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "1µ5[2]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "A" 100 0 50 H V L CNN "Package"
+F5 "35V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP155K035SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1µ5[3]
+#
+DEF 1µ5[3] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "1µ5[3]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "D" 100 0 50 H V L CNN "Package"
+F5 "50V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP155K050SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1µ[0]
+#
+DEF 1µ[0] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "1µ[0]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "A" 100 0 50 H V L CNN "Package"
+F5 "20V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP105K020SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1µ[1]
+#
+DEF 1µ[1] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "1µ[1]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "A" 100 0 50 H V L CNN "Package"
+F5 "25V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP105K025SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1µ[2]
+#
+DEF 1µ[2] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "1µ[2]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "A" 100 0 50 H V L CNN "Package"
+F5 "35V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP105K035SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1µ[3]
+#
+DEF 1µ[3] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "1µ[3]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "C" 100 0 50 H V L CNN "Package"
+F5 "50V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP105K050SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 2µ2[0]
+#
+DEF 2µ2[0] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "2µ2[0]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "A" 100 0 50 H V L CNN "Package"
+F5 "10V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP225K010SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 2µ2[1]
+#
+DEF 2µ2[1] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "2µ2[1]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "A" 100 0 50 H V L CNN "Package"
+F5 "16V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP225K016SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 2µ2[2]
+#
+DEF 2µ2[2] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "2µ2[2]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "A" 100 0 50 H V L CNN "Package"
+F5 "20V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP225K020SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 2µ2[3]
+#
+DEF 2µ2[3] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "2µ2[3]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "A" 100 0 50 H V L CNN "Package"
+F5 "25V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP225K025SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 2µ2[4]
+#
+DEF 2µ2[4] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "2µ2[4]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "B" 100 0 50 H V L CNN "Package"
+F5 "35V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP225K035SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 2µ2[5]
+#
+DEF 2µ2[5] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "2µ2[5]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D5.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "E" 100 0 50 H V L CNN "Package"
+F5 "50V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP225K050SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 3µ3[0]
+#
+DEF 3µ3[0] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "3µ3[0]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "A" 100 0 50 H V L CNN "Package"
+F5 "10V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP335K010SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 3µ3[1]
+#
+DEF 3µ3[1] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "3µ3[1]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "A" 100 0 50 H V L CNN "Package"
+F5 "16V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP335K016SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 3µ3[2]
+#
+DEF 3µ3[2] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "3µ3[2]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "B" 100 0 50 H V L CNN "Package"
+F5 "20V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP335K020SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 3µ3[3]
+#
+DEF 3µ3[3] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "3µ3[3]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "B" 100 0 50 H V L CNN "Package"
+F5 "25V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP335K025SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 3µ3[4]
+#
+DEF 3µ3[4] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "3µ3[4]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "C" 100 0 50 H V L CNN "Package"
+F5 "35V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP335K035SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 3µ3[5]
+#
+DEF 3µ3[5] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "3µ3[5]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D6.0mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "F" 100 0 50 H V L CNN "Package"
+F5 "50V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP335K050SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 4µ7[0]
+#
+DEF 4µ7[0] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "4µ7[0]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "A" 100 0 50 H V L CNN "Package"
+F5 "6V3" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP475K006SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 4µ7[1]
+#
+DEF 4µ7[1] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "4µ7[1]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "A" 100 0 50 H V L CNN "Package"
+F5 "10V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP475K010SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 4µ7[2]
+#
+DEF 4µ7[2] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "4µ7[2]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "B" 100 0 50 H V L CNN "Package"
+F5 "16V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP475K016SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 4µ7[3]
+#
+DEF 4µ7[3] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "4µ7[3]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "C" 100 0 50 H V L CNN "Package"
+F5 "20V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP475K020SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 4µ7[4]
+#
+DEF 4µ7[4] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "4µ7[4]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "C" 100 0 50 H V L CNN "Package"
+F5 "25V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP475K025SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 4µ7[5]
+#
+DEF 4µ7[5] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "4µ7[5]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D5.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "E" 100 0 50 H V L CNN "Package"
+F5 "35V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP475K035SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 4µ7[6]
+#
+DEF 4µ7[6] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "4µ7[6]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D7.0mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "G" 100 0 50 H V L CNN "Package"
+F5 "50V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP475K050SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 6µ8[0]
+#
+DEF 6µ8[0] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "6µ8[0]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "A" 100 0 50 H V L CNN "Package"
+F5 "6V3" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP685K006SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 6µ8[1]
+#
+DEF 6µ8[1] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "6µ8[1]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" -300 0 40 V I C CNN
+F3 "C.AVX.TAP.pdf" -400 0 40 V I C CNN
+F4 "B" 100 0 50 H V L CNN "Package"
+F5 "10V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP685K010SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 6µ8[2]
+#
+DEF 6µ8[2] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "6µ8[2]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm" -300 0 40 V I C CNN
+F3 "" -400 0 40 V I C CNN
+F4 "C" 100 0 50 H V L CNN "Package"
+F5 "16V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP685K016SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 6µ8[3]
+#
+DEF 6µ8[3] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "6µ8[3]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm" -300 0 40 V I C CNN
+F3 "" -400 0 40 V I C CNN
+F4 "D" 100 0 50 H V L CNN "Package"
+F5 "25V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP685K025SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 6µ8[4]
+#
+DEF 6µ8[4] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "6µ8[4]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D6.0mm_P2.50mm" -300 0 40 V I C CNN
+F3 "" -400 0 40 V I C CNN
+F4 "F" 100 0 50 H V L CNN "Package"
+F5 "35V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP685K035SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 6µ8[5]
+#
+DEF 6µ8[5] C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "6µ8[5]" 100 100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_Tantal_D7.0mm_P2.50mm" -300 0 40 V I C CNN
+F3 "" -400 0 40 V I C CNN
+F4 "H" 100 0 50 H V L CNN "Package"
+F5 "50V" 100 -100 50 H V L CNN "Voltage"
+F6 "10%" 100 -200 50 H V L CNN "Tolerance"
+F7 "Tantal" 100 -300 50 H V L CNN "Dielectric"
+F8 "TAP685K050SCS" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *CP?Radial?Tantal*
+$ENDFPLIST
+DRAW
+T 0 -50 75 50 0 0 0 + Normal 0 C C
+S -80 -10 80 -30 0 1 6 F
+S -80 10 80 30 0 1 6 f
+P 2 0 1 6 0 -100 0 -30 N
+P 2 0 1 6 0 30 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
