@@ -1,0 +1,8 @@
+(module Dummy (layer F.Cu) (tedit 5C2CC0B9)
+  (fp_text reference REF** (at 0 0.508) (layer F.SilkS)
+    (effects (font (size 1.016 1.016) (thickness 0.1524)))
+  )
+  (fp_text value Dummy (at 0 -1.27) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+)

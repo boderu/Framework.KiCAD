@@ -25,6 +25,11 @@ D Vielschicht-Keramik-Kondensator
 K C
 $ENDCMP
 #
+$CMP 6p
+D Vielschicht-Keramik-Kondensator
+K C
+$ENDCMP
+#
 $CMP FixMe
 D Vielschicht-Keramik-Kondensator
 K C

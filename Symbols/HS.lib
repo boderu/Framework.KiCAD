@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Aavid-Channel-5510
+#
+DEF Aavid-Channel-5510 HS 0 40 Y Y 1 F N
+F0 "HS" 0 200 50 H V C CNN
+F1 "Aavid-Channel-5510" 0 -100 50 H V C CNN
+F2 "BTech.Heatsinks:Aavid.Channel5510" 0 -200 50 H I C CNN
+F3 "" 12 0 50 H I C CNN
+F4 "551002B00000G" 0 -25 25 H V C CNN "ID"
+DRAW
+P 10 0 1 8 -13 50 -38 50 -38 150 -63 150 -63 50 -88 50 -88 150 -113 150 -113 0 -38 0 f
+P 13 0 1 8 -13 50 -13 150 12 150 12 50 37 50 37 150 62 150 62 50 87 50 87 150 112 150 112 0 -38 0 f
+ENDDRAW
+ENDDEF
+#
+# Aavid-MountingKit-TO220
+#
+DEF Aavid-MountingKit-TO220 HS 0 40 Y Y 1 F N
+F0 "HS" 0 -200 50 H V C CNN
+F1 "Aavid-MountingKit-TO220" 0 -300 50 H V C CNN
+F2 "BTech.Misc:Dummy" 0 200 50 H I C CNN
+F3 "HS.Aavid.Channel-5510.pdf" 0 300 50 H I C CNN
+F4 "4880G" 0 0 25 H V C CNN "ID"
+DRAW
+S -100 100 100 -100 0 1 8 N
+ENDDRAW
+ENDDEF
+#
+#End Library

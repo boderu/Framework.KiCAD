@@ -126,6 +126,31 @@ X ~ 2 0 -200 100 U 70 70 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 6p
+#
+DEF 6p C 0 40 N N 1 F N
+F0 "C" 100 200 50 H V L CNN
+F1 "6p" 100 100 50 H V L CNN
+F2 "BTech.Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.08mm" -300 0 40 V I C CNN
+F3 "" -400 0 40 V I C CNN
+F4 "RM5.08" 100 0 50 H V L CNN "Package"
+F5 "50V" 100 -100 50 H V L CNN "Voltage"
+F6 "5%" 100 -200 50 H V L CNN "Tolerance"
+F7 "NP0" 100 -300 50 H V L CNN "Dielectric"
+F8 "NP0-5.6p" -150 0 25 V V C CIN "ID"
+$FPLIST
+ *Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 25 -75 -25 75 -25 N
+P 2 0 1 25 -75 25 75 25 N
+P 2 0 1 6 0 -100 0 -25 N
+P 2 0 1 6 0 25 0 100 N
+X ~ 1 0 200 100 D 70 70 1 1 P
+X ~ 2 0 -200 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
 # FixMe
 #
 DEF FixMe C 0 40 N N 1 F N
