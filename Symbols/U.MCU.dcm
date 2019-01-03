@@ -6,6 +6,12 @@ K ATmega
 F U.MCU.ATmega1284P.pdf
 $ENDCMP
 #
+$CMP ATmega644PA-PU
+D High Performance, Low Power Atmel®AVR® 8-Bit Microcontroller
+K ATmega
+F U.MCU.ATmega1284P.pdf
+$ENDCMP
+#
 $CMP ATtiny412-SSFR
 D AVR® Microcontroller with Core Independent Peripherals and picoPower® technology
 K ATtiny412
