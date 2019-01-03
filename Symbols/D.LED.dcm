@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP MV5439A
+D T-1 (3mm) Bi-Color Indicator Lamp
+K LED
+F D.LED.WP115WEGW.pdf
+$ENDCMP
+#
 $CMP TLLG4400
 D Low Current (2mA) LED 3 mm Tinted Diffused Package
 K LED
