@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BC63916
+D NPN transistor, emitter/collector/base
+K transistor NPN
+F Q.BC63916.pdf
+$ENDCMP
+#
+#End Doc Library
