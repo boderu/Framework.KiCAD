@@ -6,4 +6,10 @@ K connector
 F J.BoxHeader.2-54.302-SXX1.pdf
 $ENDCMP
 #
+$CMP Wuerth-2x3
+D CONN HEADER VERT 10POS GOLD
+K connector
+F J.BoxHeader.2-54.302-SXX1.pdf
+$ENDCMP
+#
 #End Doc Library

@@ -1,0 +1,44 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 47µ
+#
+DEF 47µ L 0 40 N N 1 F N
+F0 "L" 0 -100 50 H V C CNN
+F1 "47µ" 0 -200 50 H V C CNN
+F2 "Inductor_THT:L_Radial_D7.0mm_P3.00mm" 0 200 50 H I C CNN
+F3 "L.Abracon.AIUR-16.pdf" 0 300 50 H I C CNN
+F4 "D7.0-RM3" 0 -300 50 H V C CNN "Package"
+F5 "10%" 0 -400 50 H V C CNN "Tolerance"
+F6 "800mA" 0 -500 50 H V C CNN "Current"
+F7 "0R12" 0 -600 50 H V C CNN "DCR"
+F8 "AIUR-16-470K" 0 100 25 H V C CNN "ID"
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A -75 0 25 1 -1801 0 1 0 N -50 0 -100 0
+A -25 0 25 1 -1801 0 1 0 N 0 0 -50 0
+A 25 0 25 1 -1801 0 1 0 N 50 0 0 0
+A 75 0 25 1 -1801 0 1 0 N 100 0 50 0
+P 2 0 1 0 -110 60 -90 60 N
+P 2 0 1 0 -90 40 -110 40 N
+P 2 0 1 0 -70 60 -50 60 N
+P 2 0 1 0 -50 40 -70 40 N
+P 2 0 1 0 -30 60 -10 60 N
+P 2 0 1 0 -10 40 -30 40 N
+P 2 0 1 0 10 60 30 60 N
+P 2 0 1 0 30 40 10 40 N
+P 2 0 1 0 50 60 70 60 N
+P 2 0 1 0 70 40 50 40 N
+P 2 0 1 0 90 60 110 60 N
+P 2 0 1 0 110 40 90 40 N
+X 1 1 -200 0 100 R 50 50 1 1 P
+X 2 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

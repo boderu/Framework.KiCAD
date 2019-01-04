@@ -12,6 +12,12 @@ K diode Schottky
 F D.BAT85S.pdf
 $ENDCMP
 #
+$CMP MBR350
+D SCHOTTKY BARRIER RECTIFIER
+K diode Schottky
+F D.BAT85S.pdf
+$ENDCMP
+#
 $CMP MUR405
 D SWITCHMODE Power Rectifiers
 K diode rectifier
