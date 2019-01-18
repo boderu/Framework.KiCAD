@@ -6,4 +6,10 @@ K inductor choke coil reactor magnetic
 F ~
 $ENDCMP
 #
+$CMP 68µ
+D Inductor with ferrite core
+K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
 #End Doc Library
