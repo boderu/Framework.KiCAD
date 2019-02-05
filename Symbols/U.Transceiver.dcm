@@ -17,6 +17,12 @@ K LIN
 F U.Transceiver.MCP2025.pdf
 $ENDCMP
 #
+$CMP MCP2025-500ESN
+D LIN Transceiver with Voltage Regulator
+K LIN
+F U.Transceiver.MCP2025.pdf
+$ENDCMP
+#
 $CMP MCP2561-EP
 D High-Speed CAN Transceiver
 K CAN
