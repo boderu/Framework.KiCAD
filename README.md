@@ -92,13 +92,18 @@ Es werden die Bezeichner aus der englischen Wikipedia verwendet (https://en.wiki
 - Minimum Track Width: 0.1524 mm / 6 mil
 - Minimum Via Diameter: 0.6096 mm / 24 mil
 - Minimum Via Drill: 0.3048 mm / 12 mil
+- Minimum µVia Diameter: 8 mil (tbd)
+- Minimum µVia Drill: 4 mil (tbd)
+- Minimum hole to hole: 0.3048 mm / 12 mil (tbd)
 
 ##### Net Classes
 - Default
 	- Clearance: 0.1524 mm / 6 mil
 	- Track Width: 0.4064 mm / 16 mil
-	- Via Dia: 1.016 mm / 40 mil
-	- Via Drill: 0.6 mm / 23.62204724 mil
+	- Via Size/Dia: 1.016 mm / 40 mil
+	- Via Drill: 0.6 mm / 15.24 mil
+	- µVia Size/Dia: (tbd)
+	- µVia Drill: (tbd)
 
 ##### Custom Track Width
 - 8 mil
@@ -106,6 +111,17 @@ Es werden die Bezeichner aus der englischen Wikipedia verwendet (https://en.wiki
 - 16 mil
 - 24 mil
 - 36 mil
-- 48 mil
-- 72 mil
-- 144 mil
+- 50 mil
+- 75 mil
+- 100 mil
+- 150 mil
+- 200 mil
+
+##### Custom Vias Size/Drill
+- 40/15.24 mil
+
+#### Solder Mask
+- Solder mask clearance: 3 mil
+- Solder mask minimum wisth: 4 mil
+- Solder paste clearance: -0 mil
+- Solder paste ratio clearance: -0%
