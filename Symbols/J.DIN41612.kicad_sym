@@ -16,7 +16,7 @@
       (effects (font (size 1.778 1.778)))
     )
     (property "ID" "EPT 109-40064" (id 5) (at 0 -68.58 0)
-      (effects (font (size 0.635 0.635)))
+      (effects (font (size 0.635 0.635) italic))
     )
     (symbol "DIN41612.F.3x16.Male.Horizontal.THT_0_1"
       (polyline
