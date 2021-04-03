@@ -1,4 +1,122 @@
 (kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
+  (symbol "D.LED:E682KRKGWT" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "D" (id 0) (at 5.08 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "E682KRKGWT" (id 1) (at 5.08 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW" (id 2) (at -5.08 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2011-0354/LTST-E682KRKGWT.pdf" (id 3) (at -7.62 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package" "PLCC4" (id 4) (at 5.08 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "ID" "LIST-E682KRKGWT" (id 5) (at 2.54 0 90)
+      (effects (font (size 0.635 0.635)))
+    )
+    (property "Usage" "Usage" (id 6) (at 5.08 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "ki_keywords" "LED" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "LED GREEN/RED DIFFUSED" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "LED*3.0mm*" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "E682KRKGWT_0_1"
+      (polyline
+        (pts
+          (xy -3.175 1.651)
+          (xy -3.175 1.143)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 -1.27)
+          (xy 1.27 -1.27)
+        )
+        (stroke (width 0.1524)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.651 0.127)
+          (xy -3.175 1.651)
+          (xy -2.667 1.651)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.651 -1.143)
+          (xy -3.175 0.381)
+          (xy -2.667 0.381)
+          (xy -3.175 0.381)
+          (xy -3.175 -0.127)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 1.27)
+          (xy 0 -1.27)
+          (xy 1.27 1.27)
+        )
+        (stroke (width 0)) (fill (type outline))
+      )
+    )
+    (symbol "E682KRKGWT_1_0"
+      (text "RD" (at 1.27 3.81 900)
+        (effects (font (size 1.27 1.27)))
+      )
+    )
+    (symbol "E682KRKGWT_1_1"
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "Rd-C" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "Rd-A" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "E682KRKGWT_2_0"
+      (text "GN" (at 1.27 3.81 900)
+        (effects (font (size 1.27 1.27)))
+      )
+    )
+    (symbol "E682KRKGWT_2_1"
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "Gn-C" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "Gn-A" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
   (symbol "D.LED:MV5439A" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 0 -5.08 0)
       (effects (font (size 1.27 1.27)))
@@ -106,22 +224,6 @@
       )
       (polyline
         (pts
-          (xy -1.27 1.27)
-          (xy -3.81 0)
-          (xy -1.27 -1.27)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy 1.27 1.27)
-          (xy 3.81 0)
-          (xy 1.27 -1.27)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy 2.667 1.651)
           (xy 4.191 3.175)
           (xy 4.191 2.667)
@@ -147,6 +249,22 @@
           (xy 2.413 3.175)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 1.27)
+          (xy -3.81 0)
+          (xy -1.27 -1.27)
+        )
+        (stroke (width 0)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 1.27 1.27)
+          (xy 3.81 0)
+          (xy 1.27 -1.27)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "MV5439A_1_1"
@@ -236,6 +354,13 @@
       (polyline
         (pts
           (xy 0 0)
+          (xy 0 -2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
           (xy 1.27 0)
         )
         (stroke (width 0)) (fill (type none))
@@ -263,14 +388,6 @@
       )
       (polyline
         (pts
-          (xy -3.81 1.27)
-          (xy -1.27 0)
-          (xy -3.81 -1.27)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy -2.667 1.651)
           (xy -4.191 3.175)
           (xy -4.191 2.667)
@@ -284,14 +401,6 @@
           (xy 4.191 2.667)
         )
         (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.81 1.27)
-          (xy 1.27 0)
-          (xy 3.81 -1.27)
-        )
-        (stroke (width 0)) (fill (type outline))
       )
       (polyline
         (pts
@@ -315,38 +424,47 @@
       )
       (polyline
         (pts
-          (xy 0 0)
-          (xy 0 -2.54)
+          (xy -3.81 1.27)
+          (xy -1.27 0)
+          (xy -3.81 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 3.81 1.27)
+          (xy 1.27 0)
+          (xy 3.81 -1.27)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "Mentor.2814.2832_1_1"
-      (pin passive line (at -10.16 0 0) (length 2.54)
-        (name "BOT.A.RD" (effects (font (size 1.27 1.27))))
-        (number "B3" (effects (font (size 1.27 1.27))))
+      (pin passive line (at 10.16 0 180) (length 2.54)
+        (name "BOT.A.GN" (effects (font (size 1.27 1.27))))
+        (number "B1" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at 0 -5.08 90) (length 2.54)
         (name "BOT.C" (effects (font (size 1.27 1.27))))
         (number "B2" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 10.16 0 180) (length 2.54)
-        (name "BOT.A.GN" (effects (font (size 1.27 1.27))))
-        (number "B1" (effects (font (size 1.27 1.27))))
+      (pin passive line (at -10.16 0 0) (length 2.54)
+        (name "BOT.A.RD" (effects (font (size 1.27 1.27))))
+        (number "B3" (effects (font (size 1.27 1.27))))
       )
     )
     (symbol "Mentor.2814.2832_2_1"
-      (pin passive line (at -10.16 0 0) (length 2.54)
-        (name "TOP.A.RD" (effects (font (size 1.27 1.27))))
-        (number "T3" (effects (font (size 1.27 1.27))))
+      (pin passive line (at 10.16 0 180) (length 2.54)
+        (name "TOP.A.GN" (effects (font (size 1.27 1.27))))
+        (number "T1" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at 0 -5.08 90) (length 2.54)
         (name "TOP.C" (effects (font (size 1.27 1.27))))
         (number "T2" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 10.16 0 180) (length 2.54)
-        (name "TOP.A.GN" (effects (font (size 1.27 1.27))))
-        (number "T1" (effects (font (size 1.27 1.27))))
+      (pin passive line (at -10.16 0 0) (length 2.54)
+        (name "TOP.A.RD" (effects (font (size 1.27 1.27))))
+        (number "T3" (effects (font (size 1.27 1.27))))
       )
     )
   )
@@ -420,14 +538,6 @@
       )
       (polyline
         (pts
-          (xy -1.27 1.27)
-          (xy 0 -1.27)
-          (xy 1.27 1.27)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy -1.651 -1.143)
           (xy -3.175 0.381)
           (xy -2.667 0.381)
@@ -435,6 +545,14 @@
           (xy -3.175 -0.127)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 1.27)
+          (xy 0 -1.27)
+          (xy 1.27 1.27)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "TLLG4400_1_1"
@@ -518,14 +636,6 @@
       )
       (polyline
         (pts
-          (xy -1.27 1.27)
-          (xy 0 -1.27)
-          (xy 1.27 1.27)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy -1.651 -1.143)
           (xy -3.175 0.381)
           (xy -2.667 0.381)
@@ -533,6 +643,14 @@
           (xy -3.175 -0.127)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 1.27)
+          (xy 0 -1.27)
+          (xy 1.27 1.27)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "TLLR4400_1_1"
@@ -616,14 +734,6 @@
       )
       (polyline
         (pts
-          (xy -1.27 1.27)
-          (xy 0 -1.27)
-          (xy 1.27 1.27)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy -1.651 -1.143)
           (xy -3.175 0.381)
           (xy -2.667 0.381)
@@ -631,6 +741,14 @@
           (xy -3.175 -0.127)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 1.27)
+          (xy 0 -1.27)
+          (xy 1.27 1.27)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "TLLY4400_1_1"
@@ -743,14 +861,6 @@
       )
       (polyline
         (pts
-          (xy -3.81 1.27)
-          (xy -1.27 0)
-          (xy -3.81 -1.27)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
           (xy -2.667 1.651)
           (xy -4.191 3.175)
           (xy -4.191 2.667)
@@ -764,14 +874,6 @@
           (xy 4.191 2.667)
         )
         (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.81 1.27)
-          (xy 1.27 0)
-          (xy 3.81 -1.27)
-        )
-        (stroke (width 0)) (fill (type outline))
       )
       (polyline
         (pts
@@ -792,6 +894,22 @@
           (xy 2.413 3.175)
         )
         (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.81 1.27)
+          (xy -1.27 0)
+          (xy -3.81 -1.27)
+        )
+        (stroke (width 0)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 3.81 1.27)
+          (xy 1.27 0)
+          (xy 3.81 -1.27)
+        )
+        (stroke (width 0)) (fill (type outline))
       )
     )
     (symbol "WP115WEGW_1_1"
