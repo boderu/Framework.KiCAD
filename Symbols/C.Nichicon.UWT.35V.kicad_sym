@@ -24,7 +24,7 @@
     (property "Dielectric" "AlElec" (id 7) (at 2.54 -7.62 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "ID" "UWT1V101MCL1GB" (id 8) (at -3.81 0 90)
+    (property "ID" "UWT1V101MCL1G5S" (id 8) (at -3.81 0 90)
       (effects (font (size 0.635 0.635) italic))
     )
     (property "ki_keywords" "C" (id 9) (at 0 0 0)
