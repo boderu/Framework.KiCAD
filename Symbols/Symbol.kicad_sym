@@ -12,6 +12,15 @@
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "KiCAD-DesignedWith-Logo2.5mm.SilkScreen_0_1"
+      (polyline
+        (pts
+          (xy -2.54 -5.08)
+          (xy 2.54 -5.08)
+        )
+        (stroke (width 1.27)) (fill (type none))
+      )
+    )
   )
   (symbol "Symbol:KiCAD-Logo2.5mm.SilkScreen" (in_bom yes) (on_board yes)
     (property "Reference" "MP" (id 0) (at 0 0 0)
@@ -25,6 +34,15 @@
     )
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "KiCAD-Logo2.5mm.SilkScreen_0_1"
+      (polyline
+        (pts
+          (xy -2.54 -5.08)
+          (xy 2.54 -5.08)
+        )
+        (stroke (width 1.27)) (fill (type none))
+      )
     )
   )
 )
