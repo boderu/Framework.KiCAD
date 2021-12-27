@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
   (symbol "100p" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "C" (id 0) (at 2.54 5.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -42,28 +42,32 @@
           (xy -1.905 -0.635)
           (xy 1.905 -0.635)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.905 0.635)
           (xy 1.905 0.635)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -2.54)
           (xy 0 -0.635)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0.635)
           (xy 0 2.54)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "100p_1_1"
@@ -120,28 +124,32 @@
           (xy -1.905 -0.635)
           (xy 1.905 -0.635)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.905 0.635)
           (xy 1.905 0.635)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -2.54)
           (xy 0 -0.635)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0.635)
           (xy 0 2.54)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "15p_1_1"
@@ -198,28 +206,32 @@
           (xy -1.905 -0.635)
           (xy 1.905 -0.635)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.905 0.635)
           (xy 1.905 0.635)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -2.54)
           (xy 0 -0.635)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0.635)
           (xy 0 2.54)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "220p_1_1"
@@ -276,28 +288,32 @@
           (xy -1.905 -0.635)
           (xy 1.905 -0.635)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.905 0.635)
           (xy 1.905 0.635)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -2.54)
           (xy 0 -0.635)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0.635)
           (xy 0 2.54)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "22p_1_1"
@@ -354,28 +370,32 @@
           (xy -1.905 -0.635)
           (xy 1.905 -0.635)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.905 0.635)
           (xy 1.905 0.635)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -2.54)
           (xy 0 -0.635)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0.635)
           (xy 0 2.54)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "27p_1_1"
@@ -432,28 +452,32 @@
           (xy -1.905 -0.635)
           (xy 1.905 -0.635)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.905 0.635)
           (xy 1.905 0.635)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -2.54)
           (xy 0 -0.635)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0.635)
           (xy 0 2.54)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "6p_1_1"
@@ -515,28 +539,32 @@
           (xy -1.905 -0.635)
           (xy 1.905 -0.635)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.905 0.635)
           (xy 1.905 0.635)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -2.54)
           (xy 0 -0.635)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0.635)
           (xy 0 2.54)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "FixMe_1_1"
