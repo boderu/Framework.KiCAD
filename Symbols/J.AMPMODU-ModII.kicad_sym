@@ -1,5 +1,5 @@
-(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
-  (symbol "J.AMPMODU-ModII:Header.Hor.2x5.9-103326-0-05" (pin_names hide) (in_bom yes) (on_board yes)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "Header.Hor.2x5.9-103326-0-05" (pin_names hide) (in_bom yes) (on_board yes)
     (property "Reference" "J" (id 0) (at 2.54 12.7 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -27,140 +27,160 @@
           (xy 1.27 -12.7)
           (xy 0 -12.7)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 -10.16)
           (xy 0 -10.16)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 -7.62)
           (xy 0 -7.62)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 -5.08)
           (xy 0 -5.08)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 -2.54)
           (xy 0 -2.54)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 0)
           (xy 0 0)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 2.54)
           (xy 0 2.54)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 5.08)
           (xy 0 5.08)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 7.62)
           (xy 0 7.62)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 10.16)
           (xy 0 10.16)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 -12.7)
           (xy 1.27 -12.7)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 -10.16)
           (xy 1.27 -10.16)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 -7.62)
           (xy 1.27 -7.62)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 -5.08)
           (xy 1.27 -5.08)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 -2.54)
           (xy 1.27 -2.54)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 0)
           (xy 1.27 0)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 2.54)
           (xy 1.27 2.54)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 5.08)
           (xy 1.27 5.08)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 7.62)
           (xy 1.27 7.62)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 10.16)
           (xy 1.27 10.16)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -169,7 +189,8 @@
           (xy 0 -13.97)
           (xy 5.08 -13.97)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "Header.Hor.2x5.9-103326-0-05_1_1"
@@ -215,14 +236,14 @@
       )
     )
   )
-  (symbol "J.AMPMODU-ModII:Header.Hor.2x8.9-103326-0-08" (pin_names hide) (in_bom yes) (on_board yes)
+  (symbol "Header.Hor.2x8.9-103326-0-08" (pin_names hide) (in_bom yes) (on_board yes)
     (property "Reference" "J" (id 0) (at 2.54 20.32 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Header.Hor.2x8.9-103326-0-08" (id 1) (at 10.16 0 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Horizontal" (id 2) (at 12.7 0 90)
+    (property "Footprint" "BTech.PinHeader.2-54mm:PinHeader_2x08_P2.54mm_Horizontal" (id 2) (at 12.7 0 90)
       (effects (font (size 1.016 1.016)) hide)
     )
     (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=103326&DocType=Customer+Drawing&DocLang=English" (id 3) (at 15.24 0 90)
@@ -243,224 +264,256 @@
           (xy 1.27 -20.32)
           (xy 0 -20.32)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 -17.78)
           (xy 0 -17.78)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 -15.24)
           (xy 0 -15.24)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 -12.7)
           (xy 0 -12.7)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 -10.16)
           (xy 0 -10.16)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 -7.62)
           (xy 0 -7.62)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 -5.08)
           (xy 0 -5.08)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 -2.54)
           (xy 0 -2.54)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 0)
           (xy 0 0)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 2.54)
           (xy 0 2.54)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 5.08)
           (xy 0 5.08)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 7.62)
           (xy 0 7.62)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 10.16)
           (xy 0 10.16)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 12.7)
           (xy 0 12.7)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 15.24)
           (xy 0 15.24)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 17.78)
           (xy 0 17.78)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 -20.32)
           (xy 1.27 -20.32)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 -17.78)
           (xy 1.27 -17.78)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 -15.24)
           (xy 1.27 -15.24)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 -12.7)
           (xy 1.27 -12.7)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 -10.16)
           (xy 1.27 -10.16)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 -7.62)
           (xy 1.27 -7.62)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 -5.08)
           (xy 1.27 -5.08)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 -2.54)
           (xy 1.27 -2.54)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 0)
           (xy 1.27 0)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 2.54)
           (xy 1.27 2.54)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 5.08)
           (xy 1.27 5.08)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 7.62)
           (xy 1.27 7.62)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 10.16)
           (xy 1.27 10.16)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 12.7)
           (xy 1.27 12.7)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 15.24)
           (xy 1.27 15.24)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 17.78)
           (xy 1.27 17.78)
         )
-        (stroke (width 0.635)) (fill (type none))
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -469,7 +522,8 @@
           (xy 0 -21.59)
           (xy 5.08 -21.59)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "Header.Hor.2x8.9-103326-0-08_1_1"
@@ -539,7 +593,7 @@
       )
     )
   )
-  (symbol "J.AMPMODU-ModII:Socket.Hor.2x5.6-5535512-4" (pin_names hide) (in_bom yes) (on_board yes)
+  (symbol "Socket.Hor.2x5.6-5535512-4" (pin_names hide) (in_bom yes) (on_board yes)
     (property "Reference" "J" (id 0) (at 2.54 12.7 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -567,70 +621,80 @@
           (xy 1.27 -12.7)
           (xy 0 -12.7)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 -10.16)
           (xy 0 -10.16)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 -7.62)
           (xy 0 -7.62)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 -5.08)
           (xy 0 -5.08)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 -2.54)
           (xy 0 -2.54)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 0)
           (xy 0 0)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 2.54)
           (xy 0 2.54)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 5.08)
           (xy 0 5.08)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 7.62)
           (xy 0 7.62)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 10.16)
           (xy 0 10.16)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -639,7 +703,8 @@
           (xy 0 -13.97)
           (xy 5.08 -13.97)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -654,7 +719,8 @@
           (xy 4.318 -13.462)
           (xy 5.08 -13.462)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -669,7 +735,8 @@
           (xy 4.318 -10.922)
           (xy 5.08 -10.922)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -684,7 +751,8 @@
           (xy 4.318 -8.382)
           (xy 5.08 -8.382)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -699,7 +767,8 @@
           (xy 4.318 -5.842)
           (xy 5.08 -5.842)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -714,7 +783,8 @@
           (xy 4.318 -3.302)
           (xy 5.08 -3.302)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -729,7 +799,8 @@
           (xy 4.318 -0.762)
           (xy 5.08 -0.762)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -744,7 +815,8 @@
           (xy 4.318 1.778)
           (xy 5.08 1.778)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -759,7 +831,8 @@
           (xy 4.318 4.318)
           (xy 5.08 4.318)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -774,7 +847,8 @@
           (xy 4.318 6.858)
           (xy 5.08 6.858)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -789,7 +863,8 @@
           (xy 4.318 9.398)
           (xy 5.08 9.398)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "Socket.Hor.2x5.6-5535512-4_1_1"
@@ -835,7 +910,7 @@
       )
     )
   )
-  (symbol "J.AMPMODU-ModII:Socket.Hor.2x8.1-5535512-8" (pin_names hide) (in_bom yes) (on_board yes)
+  (symbol "Socket.Hor.2x8.1-5535512-8" (pin_names hide) (in_bom yes) (on_board yes)
     (property "Reference" "J" (id 0) (at 2.54 20.32 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -863,112 +938,128 @@
           (xy 1.27 -20.32)
           (xy 0 -20.32)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 -17.78)
           (xy 0 -17.78)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 -15.24)
           (xy 0 -15.24)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 -12.7)
           (xy 0 -12.7)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 -10.16)
           (xy 0 -10.16)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 -7.62)
           (xy 0 -7.62)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 -5.08)
           (xy 0 -5.08)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 -2.54)
           (xy 0 -2.54)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 0)
           (xy 0 0)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 2.54)
           (xy 0 2.54)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 5.08)
           (xy 0 5.08)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 7.62)
           (xy 0 7.62)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 10.16)
           (xy 0 10.16)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 12.7)
           (xy 0 12.7)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 15.24)
           (xy 0 15.24)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 17.78)
           (xy 0 17.78)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -977,7 +1068,8 @@
           (xy 0 -21.59)
           (xy 5.08 -21.59)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -992,7 +1084,8 @@
           (xy 4.318 -21.082)
           (xy 5.08 -21.082)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1007,7 +1100,8 @@
           (xy 4.318 -18.542)
           (xy 5.08 -18.542)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1022,7 +1116,8 @@
           (xy 4.318 -16.002)
           (xy 5.08 -16.002)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1037,7 +1132,8 @@
           (xy 4.318 -13.462)
           (xy 5.08 -13.462)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1052,7 +1148,8 @@
           (xy 4.318 -10.922)
           (xy 5.08 -10.922)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1067,7 +1164,8 @@
           (xy 4.318 -8.382)
           (xy 5.08 -8.382)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1082,7 +1180,8 @@
           (xy 4.318 -5.842)
           (xy 5.08 -5.842)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1097,7 +1196,8 @@
           (xy 4.318 -3.302)
           (xy 5.08 -3.302)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1112,7 +1212,8 @@
           (xy 4.318 -0.762)
           (xy 5.08 -0.762)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1127,7 +1228,8 @@
           (xy 4.318 1.778)
           (xy 5.08 1.778)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1142,7 +1244,8 @@
           (xy 4.318 4.318)
           (xy 5.08 4.318)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1157,7 +1260,8 @@
           (xy 4.318 6.858)
           (xy 5.08 6.858)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1172,7 +1276,8 @@
           (xy 4.318 9.398)
           (xy 5.08 9.398)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1187,7 +1292,8 @@
           (xy 4.318 11.938)
           (xy 5.08 11.938)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1202,7 +1308,8 @@
           (xy 4.318 14.478)
           (xy 5.08 14.478)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1217,7 +1324,8 @@
           (xy 4.318 17.018)
           (xy 5.08 17.018)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "Socket.Hor.2x8.1-5535512-8_1_1"
