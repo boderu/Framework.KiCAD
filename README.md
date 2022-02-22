@@ -86,11 +86,11 @@ Es werden die Bezeichner aus der englischen Wikipedia verwendet (https://en.wiki
 ### Symbol-Editor
 
 - Alle Bauteile bekommen mindestens folgende Felder:
-  - Reference (70 mil)
-  - Value (70 mil)
+  - Reference (50 mil)
+  - Value (50 mil)
   - Footprint (40 mil, nicht sichtbar)
   - Datasheet (40 mil, nicht sichtbar)
-  - Package (70 mil, verkürzte Form des Footprint)
+  - Package (50 mil, verkürzte Form des Footprint)
   - ID (25 mil, kursiv, Bauteilnummer - meist eine Herstellerbezeichnung)
 - In den Layern F.Courtyard bzw. B.Courtyard mit Linien/Rechteck/Kreisen/Polygonen! die Sperrflächen für andere Bauteile einzeichnen
 - In den Layern F.Fab bzw. B.Fab die Bauteilumrisse zeichnen
