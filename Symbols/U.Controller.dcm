@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP MCP2515-EP
-D Standalone CAN-Controller
-K CAN
-F U.Controller.MCP2515.pdf
-$ENDCMP
-#
-#End Doc Library

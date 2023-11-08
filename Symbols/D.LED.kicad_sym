@@ -1,5 +1,5 @@
-(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
-  (symbol "D.LED:E682KRKGWT" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "E682KRKGWT" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 5.08 5.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -36,28 +36,32 @@
           (xy -3.175 1.651)
           (xy -3.175 1.143)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.27 -1.27)
           (xy 1.27 -1.27)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -2.54)
           (xy 0 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -65,7 +69,17 @@
           (xy -3.175 1.651)
           (xy -2.667 1.651)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 1.27)
+          (xy 0 -1.27)
+          (xy 1.27 1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
@@ -75,15 +89,8 @@
           (xy -3.175 0.381)
           (xy -3.175 -0.127)
         )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 1.27)
-          (xy 0 -1.27)
-          (xy 1.27 1.27)
-        )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "E682KRKGWT_1_0"
@@ -117,7 +124,7 @@
       )
     )
   )
-  (symbol "D.LED:MV5439A" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "MV5439A" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 0 -5.08 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -157,62 +164,69 @@
       )
     )
     (symbol "MV5439A_0_1"
-      (circle (center 0 0) (radius 0.254) (stroke (width 0)) (fill (type outline)))
       (polyline
         (pts
           (xy -5.08 0)
           (xy -3.81 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -4.191 3.175)
           (xy -3.683 3.175)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -3.81 1.27)
           (xy -3.81 -1.27)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.27 0)
           (xy 0 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 0)
           (xy 0 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 3.81 1.27)
           (xy 3.81 -1.27)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 4.191 3.175)
           (xy 3.683 3.175)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 0)
           (xy 3.81 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -220,7 +234,26 @@
           (xy -4.191 3.175)
           (xy -4.191 2.667)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 1.27)
+          (xy -3.81 0)
+          (xy -1.27 -1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 1.27 1.27)
+          (xy 3.81 0)
+          (xy 1.27 -1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
@@ -228,7 +261,8 @@
           (xy 4.191 3.175)
           (xy 4.191 2.667)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -238,7 +272,8 @@
           (xy -2.921 3.175)
           (xy -2.413 3.175)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -248,23 +283,12 @@
           (xy 2.921 3.175)
           (xy 2.413 3.175)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
-      (polyline
-        (pts
-          (xy -1.27 1.27)
-          (xy -3.81 0)
-          (xy -1.27 -1.27)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy 1.27 1.27)
-          (xy 3.81 0)
-          (xy 1.27 -1.27)
-        )
-        (stroke (width 0)) (fill (type outline))
+      (circle (center 0 0) (radius 0.254)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
     (symbol "MV5439A_1_1"
@@ -282,7 +306,7 @@
       )
     )
   )
-  (symbol "D.LED:Mentor.2814.2832" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "Mentor.2814.2832" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 0 12.7 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -322,69 +346,86 @@
       )
     )
     (symbol "Mentor.2814.2832_0_1"
-      (circle (center 0 0) (radius 0.254) (stroke (width 0)) (fill (type outline)))
       (polyline
         (pts
           (xy -4.191 3.175)
           (xy -3.683 3.175)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -3.81 0)
           (xy -7.62 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.27 1.27)
           (xy -1.27 -1.27)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy -1.27 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 -2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 1.27 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 1.27)
           (xy 1.27 -1.27)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 3.81 0)
           (xy 7.62 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 4.191 3.175)
           (xy 3.683 3.175)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.81 1.27)
+          (xy -1.27 0)
+          (xy -3.81 -1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
@@ -392,7 +433,8 @@
           (xy -4.191 3.175)
           (xy -4.191 2.667)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -400,7 +442,17 @@
           (xy 4.191 3.175)
           (xy 4.191 2.667)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.81 1.27)
+          (xy 1.27 0)
+          (xy 3.81 -1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
@@ -410,7 +462,8 @@
           (xy -2.921 3.175)
           (xy -2.413 3.175)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -420,23 +473,12 @@
           (xy 2.921 3.175)
           (xy 2.413 3.175)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
-      (polyline
-        (pts
-          (xy -3.81 1.27)
-          (xy -1.27 0)
-          (xy -3.81 -1.27)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy 3.81 1.27)
-          (xy 1.27 0)
-          (xy 3.81 -1.27)
-        )
-        (stroke (width 0)) (fill (type outline))
+      (circle (center 0 0) (radius 0.254)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
     (symbol "Mentor.2814.2832_1_1"
@@ -468,7 +510,7 @@
       )
     )
   )
-  (symbol "D.LED:TLLG4400" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "TLLG4400" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 2.54 5.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -505,28 +547,32 @@
           (xy -3.175 1.651)
           (xy -3.175 1.143)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.27 -1.27)
           (xy 1.27 -1.27)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -2.54)
           (xy 0 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -534,7 +580,17 @@
           (xy -3.175 1.651)
           (xy -2.667 1.651)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 1.27)
+          (xy 0 -1.27)
+          (xy 1.27 1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
@@ -544,15 +600,8 @@
           (xy -3.175 0.381)
           (xy -3.175 -0.127)
         )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 1.27)
-          (xy 0 -1.27)
-          (xy 1.27 1.27)
-        )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "TLLG4400_1_1"
@@ -566,7 +615,7 @@
       )
     )
   )
-  (symbol "D.LED:TLLR4400" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "TLLR4400" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 2.54 5.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -603,28 +652,32 @@
           (xy -3.175 1.651)
           (xy -3.175 1.143)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.27 -1.27)
           (xy 1.27 -1.27)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -2.54)
           (xy 0 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -632,7 +685,17 @@
           (xy -3.175 1.651)
           (xy -2.667 1.651)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 1.27)
+          (xy 0 -1.27)
+          (xy 1.27 1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
@@ -642,15 +705,8 @@
           (xy -3.175 0.381)
           (xy -3.175 -0.127)
         )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 1.27)
-          (xy 0 -1.27)
-          (xy 1.27 1.27)
-        )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "TLLR4400_1_1"
@@ -664,7 +720,7 @@
       )
     )
   )
-  (symbol "D.LED:TLLY4400" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "TLLY4400" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 2.54 5.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -701,28 +757,32 @@
           (xy -3.175 1.651)
           (xy -3.175 1.143)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.27 -1.27)
           (xy 1.27 -1.27)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -2.54)
           (xy 0 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -730,7 +790,17 @@
           (xy -3.175 1.651)
           (xy -2.667 1.651)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 1.27)
+          (xy 0 -1.27)
+          (xy 1.27 1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
@@ -740,15 +810,8 @@
           (xy -3.175 0.381)
           (xy -3.175 -0.127)
         )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 1.27)
-          (xy 0 -1.27)
-          (xy 1.27 1.27)
-        )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "TLLY4400_1_1"
@@ -762,7 +825,7 @@
       )
     )
   )
-  (symbol "D.LED:WP115WEGW" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "WP115WEGW" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 0 12.7 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -802,62 +865,78 @@
       )
     )
     (symbol "WP115WEGW_0_1"
-      (circle (center 0 0) (radius 0.254) (stroke (width 0)) (fill (type outline)))
       (polyline
         (pts
           (xy -4.191 3.175)
           (xy -3.683 3.175)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -3.81 0)
           (xy -5.08 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.27 1.27)
           (xy -1.27 -1.27)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy -1.27 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 1.27 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 1.27)
           (xy 1.27 -1.27)
         )
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 3.81 0)
           (xy 5.08 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 4.191 3.175)
           (xy 3.683 3.175)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.81 1.27)
+          (xy -1.27 0)
+          (xy -3.81 -1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
@@ -865,7 +944,8 @@
           (xy -4.191 3.175)
           (xy -4.191 2.667)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -873,7 +953,17 @@
           (xy 4.191 3.175)
           (xy 4.191 2.667)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.81 1.27)
+          (xy 1.27 0)
+          (xy 3.81 -1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
@@ -883,7 +973,8 @@
           (xy -2.921 3.175)
           (xy -2.413 3.175)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -893,23 +984,12 @@
           (xy 2.921 3.175)
           (xy 2.413 3.175)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
-      (polyline
-        (pts
-          (xy -3.81 1.27)
-          (xy -1.27 0)
-          (xy -3.81 -1.27)
-        )
-        (stroke (width 0)) (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy 3.81 1.27)
-          (xy 1.27 0)
-          (xy 3.81 -1.27)
-        )
-        (stroke (width 0)) (fill (type outline))
+      (circle (center 0 0) (radius 0.254)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
     (symbol "WP115WEGW_1_1"
@@ -924,6 +1004,426 @@
       (pin passive line (at 7.62 0 180) (length 2.54)
         (name "A-GN" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Würth.AS" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "D" (id 0) (at 5.08 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Würth.AS" (id 1) (at 5.08 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "LED_SMD:LED_0805_2012Metric" (id 2) (at -5.08 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.we-online.com/katalog/datasheet/150080AS75000_valid_from_2022-05-20.pdf" (id 3) (at -7.62 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 5.08 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Color" "Amber" (id 5) (at 5.08 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "ID" "150080AS75000" (id 6) (at 2.54 0 90)
+      (effects (font (size 0.635 0.635)))
+    )
+    (property "ki_keywords" "LED" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "LED AMBER CLEAR 0805 SMD" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "LED*3.0mm*" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Würth.AS_0_1"
+      (polyline
+        (pts
+          (xy -3.175 1.651)
+          (xy -3.175 1.143)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 -1.27)
+          (xy 1.27 -1.27)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.651 0.127)
+          (xy -3.175 1.651)
+          (xy -2.667 1.651)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 1.27)
+          (xy 0 -1.27)
+          (xy 1.27 1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -1.651 -1.143)
+          (xy -3.175 0.381)
+          (xy -2.667 0.381)
+          (xy -3.175 0.381)
+          (xy -3.175 -0.127)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "Würth.AS_1_1"
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "K" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "A" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Würth.BS" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "D" (id 0) (at 5.08 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Würth.BS" (id 1) (at 5.08 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "LED_SMD:LED_0805_2012Metric" (id 2) (at -5.08 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.we-online.com/katalog/datasheet/150080BS75000.pdf" (id 3) (at -7.62 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 5.08 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Color" "Blue" (id 5) (at 5.08 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "ID" "150080BS75000" (id 6) (at 2.54 0 90)
+      (effects (font (size 0.635 0.635)))
+    )
+    (property "ki_keywords" "LED" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "LED BLUE CLEAR 0805 SMD" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "LED*3.0mm*" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Würth.BS_0_1"
+      (polyline
+        (pts
+          (xy -3.175 1.651)
+          (xy -3.175 1.143)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 -1.27)
+          (xy 1.27 -1.27)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.651 0.127)
+          (xy -3.175 1.651)
+          (xy -2.667 1.651)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 1.27)
+          (xy 0 -1.27)
+          (xy 1.27 1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -1.651 -1.143)
+          (xy -3.175 0.381)
+          (xy -2.667 0.381)
+          (xy -3.175 0.381)
+          (xy -3.175 -0.127)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "Würth.BS_1_1"
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "K" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "A" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Würth.SS" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "D" (id 0) (at 5.08 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Würth.SS" (id 1) (at 5.08 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "LED_SMD:LED_0805_2012Metric" (id 2) (at -5.08 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.we-online.com/katalog/datasheet/150080SS75000.pdf" (id 3) (at -7.62 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 5.08 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Color" "Red" (id 5) (at 5.08 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "ID" "150080SS75000" (id 6) (at 2.54 0 90)
+      (effects (font (size 0.635 0.635)))
+    )
+    (property "ki_keywords" "LED" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "LED RED CLEAR 0805 SMD" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "LED*3.0mm*" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Würth.SS_0_1"
+      (polyline
+        (pts
+          (xy -3.175 1.651)
+          (xy -3.175 1.143)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 -1.27)
+          (xy 1.27 -1.27)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.651 0.127)
+          (xy -3.175 1.651)
+          (xy -2.667 1.651)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 1.27)
+          (xy 0 -1.27)
+          (xy 1.27 1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -1.651 -1.143)
+          (xy -3.175 0.381)
+          (xy -2.667 0.381)
+          (xy -3.175 0.381)
+          (xy -3.175 -0.127)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "Würth.SS_1_1"
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "K" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "A" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Würth.VS" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "D" (id 0) (at 5.08 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Würth.VS" (id 1) (at 5.08 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "LED_SMD:LED_0805_2012Metric" (id 2) (at -5.08 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.we-online.com/katalog/datasheet/150080VS75000.pdf" (id 3) (at -7.62 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 5.08 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Color" "Green" (id 5) (at 5.08 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "ID" "150080VS75000" (id 6) (at 2.54 0 90)
+      (effects (font (size 0.635 0.635)))
+    )
+    (property "ki_keywords" "LED" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "LED GREEN CLEAR 0805 SMD" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "LED*3.0mm*" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Würth.VS_0_1"
+      (polyline
+        (pts
+          (xy -3.175 1.651)
+          (xy -3.175 1.143)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 -1.27)
+          (xy 1.27 -1.27)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.651 0.127)
+          (xy -3.175 1.651)
+          (xy -2.667 1.651)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 1.27)
+          (xy 0 -1.27)
+          (xy 1.27 1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -1.651 -1.143)
+          (xy -3.175 0.381)
+          (xy -2.667 0.381)
+          (xy -3.175 0.381)
+          (xy -3.175 -0.127)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "Würth.VS_1_1"
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "K" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "A" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
       )
     )
   )
