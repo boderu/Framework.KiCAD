@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP MSTBVA-3pol
-D Header, Nominal current: 12 A, Nom. voltage: 250 V, Pitch: 5.08 mm
-K connector
-F J.PhoenixContact.MSTBVA_2-5_3-G_5-08.1755749.pdf
-$ENDCMP
-#
-#End Doc Library

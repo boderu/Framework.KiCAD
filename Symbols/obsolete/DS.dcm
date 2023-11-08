@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP EA-DIPS082-HN
-D LCD-Modul 2x8
-K LCD Display
-F DS.EA.DIPS082E.pdf
-$ENDCMP
-#
-#End Doc Library

@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP 1k
-D Metal Film Resistor
-K R
-F R.Yageo.FMP200.pdf
-$ENDCMP
-#
-#End Doc Library
