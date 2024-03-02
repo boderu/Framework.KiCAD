@@ -1810,7 +1810,7 @@
 			)
 		)
 		(property "Description" "CONN RCPT 16POS 0.1 GOLD PCB R/A"
-			(at 0 0 0)
+			(at 17.78 -1.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
