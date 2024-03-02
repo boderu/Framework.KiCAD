@@ -1,227 +1,641 @@
-(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
-  (symbol "10µ" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "10µ" (id 1) (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal" (id 2) (at -7.62 0 90)
-      (effects (font (size 1.016 1.016)) hide)
-    )
-    (property "Datasheet" "C.Vishay.021ASM.pdf" (id 3) (at -10.16 0 90)
-      (effects (font (size 1.016 1.016)) hide)
-    )
-    (property "Package" "4.5x10" (id 4) (at 2.54 0 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Voltage" "63V" (id 5) (at 2.54 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Tolerance" "20%" (id 6) (at 2.54 -5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Dielectric" "Al" (id 7) (at 2.54 -7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "MPN" "MAL202128109E3" (id 8) (at -3.81 0 90)
-      (effects (font (size 0.635 0.635) italic))
-    )
-    (property "ki_keywords" "C ELKO" (id 9) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Aluminum Electrolytic Capacitor - Axial Standard Miniature" (id 10) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "*CP?Axial*" (id 11) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "10µ_0_0"
-      (text "+" (at -1.27 1.905 0)
-        (effects (font (size 1.27 1.27)))
-      )
-    )
-    (symbol "10µ_0_1"
-      (rectangle (start -2.032 -0.254) (end 2.032 -0.762)
-        (stroke (width 0.1524)) (fill (type outline))
-      )
-      (rectangle (start -2.032 0.254) (end 2.032 0.762)
-        (stroke (width 0.1524)) (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy 0 -2.54)
-          (xy 0 -0.762)
-        )
-        (stroke (width 0.1524)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 0.762)
-          (xy 0 2.54)
-        )
-        (stroke (width 0.1524)) (fill (type none))
-      )
-    )
-    (symbol "10µ_1_1"
-      (pin passive line (at 0 5.08 270) (length 2.54)
-        (name "~" (effects (font (size 1.778 1.778))))
-        (number "1" (effects (font (size 1.778 1.778))))
-      )
-      (pin passive line (at 0 -5.08 90) (length 2.54)
-        (name "~" (effects (font (size 1.778 1.778))))
-        (number "2" (effects (font (size 1.778 1.778))))
-      )
-    )
-  )
-  (symbol "220µ" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "220µ" (id 1) (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_THT:CP_Axial_L18.0mm_D10.0mm_P25.00mm_Horizontal" (id 2) (at -7.62 0 90)
-      (effects (font (size 1.016 1.016)) hide)
-    )
-    (property "Datasheet" "C.Vishay.021ASM.pdf" (id 3) (at -10.16 0 90)
-      (effects (font (size 1.016 1.016)) hide)
-    )
-    (property "Package" "10x18" (id 4) (at 2.54 0 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Voltage" "40V" (id 5) (at 2.54 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Tolerance" "20%" (id 6) (at 2.54 -5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Dielectric" "Al" (id 7) (at 2.54 -7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "MPN" "MAL202127221E3" (id 8) (at -3.81 0 90)
-      (effects (font (size 0.635 0.635) italic))
-    )
-    (property "ki_keywords" "C ELKO" (id 9) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Aluminum Electrolytic Capacitor - Axial Standard Miniature" (id 10) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "*CP?Axial*" (id 11) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "220µ_0_0"
-      (text "+" (at -1.27 1.905 0)
-        (effects (font (size 1.27 1.27)))
-      )
-    )
-    (symbol "220µ_0_1"
-      (rectangle (start -2.032 -0.254) (end 2.032 -0.762)
-        (stroke (width 0.1524)) (fill (type outline))
-      )
-      (rectangle (start -2.032 0.254) (end 2.032 0.762)
-        (stroke (width 0.1524)) (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy 0 -2.54)
-          (xy 0 -0.762)
-        )
-        (stroke (width 0.1524)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 0.762)
-          (xy 0 2.54)
-        )
-        (stroke (width 0.1524)) (fill (type none))
-      )
-    )
-    (symbol "220µ_1_1"
-      (pin passive line (at 0 5.08 270) (length 2.54)
-        (name "~" (effects (font (size 1.778 1.778))))
-        (number "1" (effects (font (size 1.778 1.778))))
-      )
-      (pin passive line (at 0 -5.08 90) (length 2.54)
-        (name "~" (effects (font (size 1.778 1.778))))
-        (number "2" (effects (font (size 1.778 1.778))))
-      )
-    )
-  )
-  (symbol "22µ" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "22µ" (id 1) (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal" (id 2) (at -7.62 0 90)
-      (effects (font (size 1.016 1.016)) hide)
-    )
-    (property "Datasheet" "C.Vishay.021ASM.pdf" (id 3) (at -10.16 0 90)
-      (effects (font (size 1.016 1.016)) hide)
-    )
-    (property "Package" "4.5x10" (id 4) (at 2.54 0 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Voltage" "40V" (id 5) (at 2.54 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Tolerance" "20%" (id 6) (at 2.54 -5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Dielectric" "Al" (id 7) (at 2.54 -7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "MPN" "MAL202127229E3" (id 8) (at -3.81 0 90)
-      (effects (font (size 0.635 0.635) italic))
-    )
-    (property "ki_keywords" "C ELKO" (id 9) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Aluminum Electrolytic Capacitor - Axial Standard Miniature" (id 10) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "*CP?Axial*" (id 11) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "22µ_0_0"
-      (text "+" (at -1.27 1.905 0)
-        (effects (font (size 1.27 1.27)))
-      )
-    )
-    (symbol "22µ_0_1"
-      (rectangle (start -2.032 -0.254) (end 2.032 -0.762)
-        (stroke (width 0.1524)) (fill (type outline))
-      )
-      (rectangle (start -2.032 0.254) (end 2.032 0.762)
-        (stroke (width 0.1524)) (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy 0 -2.54)
-          (xy 0 -0.762)
-        )
-        (stroke (width 0.1524)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 0.762)
-          (xy 0 2.54)
-        )
-        (stroke (width 0.1524)) (fill (type none))
-      )
-    )
-    (symbol "22µ_1_1"
-      (pin passive line (at 0 5.08 270) (length 2.54)
-        (name "~" (effects (font (size 1.778 1.778))))
-        (number "1" (effects (font (size 1.778 1.778))))
-      )
-      (pin passive line (at 0 -5.08 90) (length 2.54)
-        (name "~" (effects (font (size 1.778 1.778))))
-        (number "2" (effects (font (size 1.778 1.778))))
-      )
-    )
-  )
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "10µ"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10µ"
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
+			(at -7.62 0 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "C.Vishay.021ASM.pdf"
+			(at -10.16 0 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Aluminum Electrolytic Capacitor - Axial Standard Miniature"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "4.5x10"
+			(at 2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "63V"
+			(at 2.54 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 2.54 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "Al"
+			(at 2.54 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "MAL202128109E3"
+			(at -3.81 0 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(italic yes)
+				)
+			)
+		)
+		(property "ki_keywords" "C ELKO"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "*CP?Axial*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "10µ_0_0"
+			(text "+"
+				(at -1.27 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "10µ_0_1"
+			(rectangle
+				(start -2.032 -0.254)
+				(end 2.032 -0.762)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -2.032 0.254)
+				(end 2.032 0.762)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 -0.762)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.762) (xy 0 2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "10µ_1_1"
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.778 1.778)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.778 1.778)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.778 1.778)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.778 1.778)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "220µ"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220µ"
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Axial_L18.0mm_D10.0mm_P25.00mm_Horizontal"
+			(at -7.62 0 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "C.Vishay.021ASM.pdf"
+			(at -10.16 0 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Aluminum Electrolytic Capacitor - Axial Standard Miniature"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "10x18"
+			(at 2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "40V"
+			(at 2.54 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 2.54 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "Al"
+			(at 2.54 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "MAL202127221E3"
+			(at -3.81 0 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(italic yes)
+				)
+			)
+		)
+		(property "ki_keywords" "C ELKO"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "*CP?Axial*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "220µ_0_0"
+			(text "+"
+				(at -1.27 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "220µ_0_1"
+			(rectangle
+				(start -2.032 -0.254)
+				(end 2.032 -0.762)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -2.032 0.254)
+				(end 2.032 0.762)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 -0.762)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.762) (xy 0 2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "220µ_1_1"
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.778 1.778)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.778 1.778)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.778 1.778)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.778 1.778)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "22µ"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22µ"
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
+			(at -7.62 0 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "C.Vishay.021ASM.pdf"
+			(at -10.16 0 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Aluminum Electrolytic Capacitor - Axial Standard Miniature"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "4.5x10"
+			(at 2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "40V"
+			(at 2.54 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 2.54 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "Al"
+			(at 2.54 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "MAL202127229E3"
+			(at -3.81 0 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(italic yes)
+				)
+			)
+		)
+		(property "ki_keywords" "C ELKO"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "*CP?Axial*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "22µ_0_0"
+			(text "+"
+				(at -1.27 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "22µ_0_1"
+			(rectangle
+				(start -2.032 -0.254)
+				(end 2.032 -0.762)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -2.032 0.254)
+				(end 2.032 0.762)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 -0.762)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.762) (xy 0 2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "22µ_1_1"
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.778 1.778)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.778 1.778)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.778 1.778)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.778 1.778)
+						)
+					)
+				)
+			)
+		)
+	)
 )
