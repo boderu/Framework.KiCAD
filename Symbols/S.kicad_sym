@@ -59,7 +59,7 @@
 				)
 			)
 		)
-		(property "ID" "JS202011CQN"
+		(property "MPN" "JS202011CQN"
 			(at 2.54 0 0)
 			(effects
 				(font
@@ -304,7 +304,7 @@
 				)
 			)
 		)
-		(property "ID" "100AWDP1T2B4M2QE "
+		(property "MPN" "100AWDP1T2B4M2QE "
 			(at 5.08 0 0)
 			(effects
 				(font
@@ -562,7 +562,7 @@
 				(justify left)
 			)
 		)
-		(property "ID" "1.14100.5020000"
+		(property "MPN" "1.14100.5020000"
 			(at 1.27 0 90)
 			(effects
 				(font
@@ -734,7 +734,7 @@
 				(justify left)
 			)
 		)
-		(property "ID" "TL3305AF160QG"
+		(property "MPN" "TL3305AF160QG"
 			(at 1.27 0 90)
 			(effects
 				(font

@@ -52,7 +52,7 @@
 				(hide yes)
 			)
 		)
-		(property "ID" "EA DIPS082-HNLED"
+		(property "MPN" "EA DIPS082-HNLED"
 			(at 0 -19.05 0)
 			(effects
 				(font
@@ -384,7 +384,7 @@
 				(hide yes)
 			)
 		)
-		(property "ID" "EA DOGM204W-A"
+		(property "MPN" "EA DOGM204W-A"
 			(at 0 17.78 0)
 			(effects
 				(font
@@ -988,7 +988,7 @@
 				(hide yes)
 			)
 		)
-		(property "ID" "EA-DOGS164N-A"
+		(property "MPN" "EA-DOGS164N-A"
 			(at 0 -16.51 0)
 			(effects
 				(font
@@ -1339,7 +1339,7 @@
 				)
 			)
 		)
-		(property "ID" "EA OLEDM128-6LGA"
+		(property "MPN" "EA OLEDM128-6LGA"
 			(at 0 15.24 0)
 			(effects
 				(font

@@ -80,7 +80,7 @@
 				(justify left)
 			)
 		)
-		(property "ID" "BC63916-D27Z"
+		(property "MPN" "BC63916-D27Z"
 			(at 5.08 0 90)
 			(effects
 				(font
@@ -265,7 +265,7 @@
 				(hide yes)
 			)
 		)
-		(property "ID" "FDY4000CZ"
+		(property "MPN" "FDY4000CZ"
 			(at -2.54 5.08 0)
 			(effects
 				(font
@@ -694,7 +694,7 @@
 				(justify left)
 			)
 		)
-		(property "ID" "TN0702N3-G"
+		(property "MPN" "TN0702N3-G"
 			(at 2.54 0 90)
 			(effects
 				(font

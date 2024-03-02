@@ -84,7 +84,7 @@
 				)
 			)
 		)
-		(property "ID" "CC7V-T1A 32,768KHZ 12,5PF"
+		(property "MPN" "CC7V-T1A 32,768KHZ 12,5PF"
 			(at 0 3.81 0)
 			(effects
 				(font
@@ -293,7 +293,7 @@
 				)
 			)
 		)
-		(property "ID" "CC7V-T1A 32,768KHZ 9PF"
+		(property "MPN" "CC7V-T1A 32,768KHZ 9PF"
 			(at 0 3.81 0)
 			(effects
 				(font
@@ -502,7 +502,7 @@
 				)
 			)
 		)
-		(property "ID" "CTF6-A2C5-32.768KD12.5"
+		(property "MPN" "CTF6-A2C5-32.768KD12.5"
 			(at 0 3.175 0)
 			(effects
 				(font

@@ -18,7 +18,7 @@
     (property "Usage" "Usage" (id 5) (at 5.08 -2.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "ID" "1755749" (id 6) (at 2.54 0 90)
+    (property "MPN" "1755749" (id 6) (at 2.54 0 90)
       (effects (font (size 0.635 0.635)))
     )
     (property "ki_keywords" "connector" (id 7) (at 0 0 0)

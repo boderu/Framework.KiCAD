@@ -18,7 +18,7 @@
     (property "Usage" "Usage" (id 5) (at 0 -15.24 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "ID" "3220-10-0100-00" (id 6) (at 0 7.62 0)
+    (property "MPN" "3220-10-0100-00" (id 6) (at 0 7.62 0)
       (effects (font (size 0.635 0.635)))
     )
     (property "ki_keywords" "connector" (id 7) (at 0 0 0)

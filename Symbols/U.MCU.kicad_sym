@@ -60,7 +60,7 @@
 				)
 			)
 		)
-		(property "ID" "ATmega1284P-PU"
+		(property "MPN" "ATmega1284P-PU"
 			(at 0 30.48 0)
 			(effects
 				(font
@@ -1574,7 +1574,7 @@
 				)
 			)
 		)
-		(property "ID" "ATmega644PA-PU"
+		(property "MPN" "ATmega644PA-PU"
 			(at 0 30.48 0)
 			(effects
 				(font
@@ -3085,7 +3085,7 @@
 				)
 			)
 		)
-		(property "ID" "ATtiny1614-SSFR"
+		(property "MPN" "ATtiny1614-SSFR"
 			(at 0 -10.16 0)
 			(effects
 				(font
@@ -3490,7 +3490,7 @@
 				(hide yes)
 			)
 		)
-		(property "ID" "ATtiny25-20PU"
+		(property "MPN" "ATtiny25-20PU"
 			(at 0 13.97 0)
 			(effects
 				(font
@@ -3748,7 +3748,7 @@
 				(hide yes)
 			)
 		)
-		(property "ID" "ATtiny25V-10PU"
+		(property "MPN" "ATtiny25V-10PU"
 			(at 0 13.97 0)
 			(effects
 				(font
@@ -4017,7 +4017,7 @@
 				)
 			)
 		)
-		(property "ID" "ATtiny412-SSFR"
+		(property "MPN" "ATtiny412-SSFR"
 			(at 0 13.97 0)
 			(effects
 				(font
@@ -4277,7 +4277,7 @@
 				(hide yes)
 			)
 		)
-		(property "ID" "ATtiny45-20PU"
+		(property "MPN" "ATtiny45-20PU"
 			(at 0 13.97 0)
 			(effects
 				(font
@@ -4535,7 +4535,7 @@
 				(hide yes)
 			)
 		)
-		(property "ID" "ATtiny45V-10PU"
+		(property "MPN" "ATtiny45V-10PU"
 			(at 0 13.97 0)
 			(effects
 				(font
@@ -4793,7 +4793,7 @@
 				(hide yes)
 			)
 		)
-		(property "ID" "ATtiny85-20PU"
+		(property "MPN" "ATtiny85-20PU"
 			(at 0 13.97 0)
 			(effects
 				(font
@@ -5051,7 +5051,7 @@
 				(hide yes)
 			)
 		)
-		(property "ID" "ATtiny85V-10PU"
+		(property "MPN" "ATtiny85V-10PU"
 			(at 0 13.97 0)
 			(effects
 				(font
@@ -5320,7 +5320,7 @@
 				)
 			)
 		)
-		(property "ID" "SAMC21E18A-AU"
+		(property "MPN" "SAMC21E18A-AU"
 			(at 73.66 31.75 0)
 			(effects
 				(font
@@ -6912,7 +6912,7 @@
 				)
 			)
 		)
-		(property "ID" "STM32G0B1KET6"
+		(property "MPN" "STM32G0B1KET6"
 			(at 0 33.02 0)
 			(effects
 				(font
@@ -7943,7 +7943,7 @@
 				)
 			)
 		)
-		(property "ID" "DSPIC33EP256GP502-I/SP"
+		(property "MPN" "DSPIC33EP256GP502-I/SP"
 			(at 0 20.32 0)
 			(effects
 				(font

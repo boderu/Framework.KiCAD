@@ -15,7 +15,7 @@
     (property "Package" "SMD-16" (id 4) (at 0 -15.24 0)
       (effects (font (size 1.778 1.778)))
     )
-    (property "ID" "2337822-1" (id 5) (at 0 0 0)
+    (property "MPN" "2337822-1" (id 5) (at 0 0 0)
       (effects (font (size 0.635 0.635)))
     )
     (property "ki_keywords" "single port ethernet transformer poe center-tap" (id 6) (at 0 0 0)

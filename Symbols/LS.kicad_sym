@@ -21,7 +21,7 @@
     (property "Temperature" "-20..60°C" (id 6) (at 5.08 -5.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "ID" "CEM-1612" (id 7) (at 0.635 0 90)
+    (property "MPN" "CEM-1612" (id 7) (at 0.635 0 90)
       (effects (font (size 0.635 0.635)))
     )
     (property "ki_keywords" "quartz resonator ceramic" (id 8) (at 0 0 0)
