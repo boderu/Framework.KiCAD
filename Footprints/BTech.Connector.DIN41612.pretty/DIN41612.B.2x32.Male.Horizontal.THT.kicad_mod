@@ -39,7 +39,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://www.hirose.com/product/document?clcode=CL0583-0079-9-72&productname=PCN10C-20S-2.54DSA(72)&series=PCN10&documenttype=Catalog&lang=en&documentid=D49718_en"
+	(property "Datasheet" ""
 		(at 0 -15.24 0)
 		(unlocked yes)
 		(layer "F.Fab")

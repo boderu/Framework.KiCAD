@@ -33,7 +33,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.hirose.com/product/document?clcode=CL0583-0079-9-72&productname=PCN10C-20S-2.54DSA(72)&series=PCN10&documenttype=Catalog&lang=en&documentid=D49718_en"
+		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/C150/101-40064_03.pdf"
 			(at 15.24 0 90)
 			(effects
 				(font
@@ -60,7 +60,7 @@
 				)
 			)
 		)
-		(property "MPN" "PCN10-64P-2.54DS(72)"
+		(property "MPN" "101-40064"
 			(at 5.08 -83.82 0)
 			(effects
 				(font
@@ -77,7 +77,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "  Hirose Electric Co Ltd"
+		(property "Manufacturer" "EPT"
 			(at 22.86 0 90)
 			(effects
 				(font
