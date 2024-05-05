@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-17062022-039097";"";
+"REFERENCE";"09061486901";"";
+"TraceParts.PartTitle";"48 way DIN41612 plug";"";
+"TraceParts.InstanceId";"90-17062022-0390972N3XX9WWY2MK673V115V3T3RA";"";
+"DESIGN";"48 way DIN41612 plug";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";
+"SUPPLIER";"HARTING";"";
+"TraceParts.PartVersion";"1.0.1";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.ClassPath";"HARTING:90-17062022-039097";"";
