@@ -24,7 +24,7 @@
     (property "TK" "TK100" (id 7) (at 2.54 -7.62 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "ID" "FMP200FBF52-1K" (id 8) (at -2.54 0 90)
+    (property "MPN" "FMP200FBF52-1K" (id 8) (at -2.54 0 90)
       (effects (font (size 0.635 0.635) italic))
     )
     (property "ki_keywords" "R" (id 9) (at 0 0 0)

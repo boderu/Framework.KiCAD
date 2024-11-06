@@ -15,7 +15,7 @@
     (property "Package" "ASV-4Pin-7.0x5.1" (id 4) (at 0 12.7 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "ID" "ASV-16.000MHZ-E-T" (id 5) (at 0 0 0)
+    (property "MPN" "ASV-16.000MHZ-E-T" (id 5) (at 0 0 0)
       (effects (font (size 0.635 0.635) italic))
     )
     (property "Temperature" "-20°C .. 70°C" (id 6) (at 0 7.62 0)

@@ -15,7 +15,7 @@
     (property "Package" "TO-92" (id 4) (at 0 5.08 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "ID" "MCP1541-I/TO" (id 5) (at 5.08 -6.35 0)
+    (property "MPN" "MCP1541-I/TO" (id 5) (at 5.08 -6.35 0)
       (effects (font (size 0.635 0.635)))
     )
     (property "ki_keywords" "Voltage Reference" (id 6) (at 0 0 0)

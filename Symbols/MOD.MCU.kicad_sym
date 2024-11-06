@@ -15,7 +15,7 @@
     (property "Package" "PocketBeagle" (id 4) (at 0 -66.04 0)
       (effects (font (size 1.778 1.778)))
     )
-    (property "ID" "POCKETBEAGLE-SC-569" (id 5) (at 0 -68.58 0)
+    (property "MPN" "POCKETBEAGLE-SC-569" (id 5) (at 0 -68.58 0)
       (effects (font (size 0.635 0.635) italic))
     )
     (property "ki_keywords" "beagleboard pocketbeagle" (id 6) (at 0 0 0)
