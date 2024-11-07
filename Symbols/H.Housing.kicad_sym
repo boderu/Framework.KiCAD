@@ -1,248 +1,89 @@
-(kicad_symbol_lib
-	(version 20231120)
-	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
-	(symbol "CIME.E.BE3500S.1x"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "H"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CIME.E.BE3500S.1x"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BTech.PCB:Camdenboss.CIME.E.BE3500S.1x"
-			(at 0 7.62 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/C700/CIME_E.pdf"
-			(at 0 10.16 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Euro Series 107mm Empty Modular Interface Support"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CIME/E/BE3500S"
-			(at 0 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "Camdenboss"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "CIME.E.BE3500S.1x_0_1"
-			(rectangle
-				(start -2.54 5.08)
-				(end 2.54 -5.08)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-	)
-	(symbol "CIME.E.BE3500S.2x"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "H"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CIME.E.BE3500S.2x"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BTech.PCB:Camdenboss.CIME.E.BE3500S.2x"
-			(at 0 7.62 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/C700/CIME_E.pdf"
-			(at 0 10.16 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Euro Series 107mm Empty Modular Interface Support"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CIME/E/BE3500S"
-			(at 0 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "Camdenboss"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "CIME.E.BE3500S.2x_0_1"
-			(rectangle
-				(start -2.54 5.08)
-				(end 2.54 -5.08)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-	)
-	(symbol "CIME.E.BE3500S.4x"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "H"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CIME.E.BE3500S.4x"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BTech.PCB:Camdenboss.CIME.E.BE3500S.4x"
-			(at 0 7.62 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/C700/CIME_E.pdf"
-			(at 0 10.16 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Euro Series 107mm Empty Modular Interface Support"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CIME/E/BE3500S"
-			(at 0 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "Camdenboss"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "CIME.E.BE3500S.4x_0_1"
-			(rectangle
-				(start -2.54 5.08)
-				(end 2.54 -5.08)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-	)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "CIME.E.BE3500S.1x" (in_bom yes) (on_board yes)
+    (property "Reference" "H" (id 0) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "CIME.E.BE3500S.1x" (id 1) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "BTech.PCB:Camdenboss.CIME.E.BE3500S.1x" (id 2) (at 0 7.62 0)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/C700/CIME_E.pdf" (id 3) (at 0 10.16 0)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "MPN" "CIME/E/BE3500S" (id 4) (at 0 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "Camdenboss" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Euro Series 107mm Empty Modular Interface Support" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "CIME.E.BE3500S.1x_0_1"
+      (rectangle (start -2.54 5.08) (end 2.54 -5.08)
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+  )
+  (symbol "CIME.E.BE3500S.2x" (in_bom yes) (on_board yes)
+    (property "Reference" "H" (id 0) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "CIME.E.BE3500S.2x" (id 1) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "BTech.PCB:Camdenboss.CIME.E.BE3500S.2x" (id 2) (at 0 7.62 0)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/C700/CIME_E.pdf" (id 3) (at 0 10.16 0)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "MPN" "CIME/E/BE3500S" (id 4) (at 0 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "Camdenboss" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Euro Series 107mm Empty Modular Interface Support" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "CIME.E.BE3500S.2x_0_1"
+      (rectangle (start -2.54 5.08) (end 2.54 -5.08)
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+  )
+  (symbol "CIME.E.BE3500S.4x" (in_bom yes) (on_board yes)
+    (property "Reference" "H" (id 0) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "CIME.E.BE3500S.4x" (id 1) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "BTech.PCB:Camdenboss.CIME.E.BE3500S.4x" (id 2) (at 0 7.62 0)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/C700/CIME_E.pdf" (id 3) (at 0 10.16 0)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "MPN" "CIME/E/BE3500S" (id 4) (at 0 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "Camdenboss" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Euro Series 107mm Empty Modular Interface Support" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "CIME.E.BE3500S.4x_0_1"
+      (rectangle (start -2.54 5.08) (end 2.54 -5.08)
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+  )
 )

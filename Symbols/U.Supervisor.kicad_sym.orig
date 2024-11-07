@@ -1,0 +1,1670 @@
+<<<<<<< HEAD
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "DS1834AS+"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS1834AS+"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 0 12.7 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://pdfserv.maximintegrated.com/en/ds/DS1834-DS1834D.pdf"
+			(at 0 15.24 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual EconoReset with Pushbutton"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOIC-8"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" " DS1834AS+"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(italic yes)
+				)
+			)
+		)
+		(property "ki_keywords" "Supervisor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "DS1834AS+_0_1"
+			(rectangle
+				(start -10.16 10.16)
+				(end 10.16 -10.16)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "DS1834AS+_1_1"
+			(pin power_in line
+				(at -12.7 7.62 0)
+				(length 2.54)
+				(name "5V-IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 12.7 7.62 180)
+				(length 2.54)
+				(name "5V-~{RST}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 5.08 0)
+				(length 2.54)
+				(name "5V-TOL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -7.62 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -7.62 0)
+				(length 2.54)
+				(name "~{PBRST}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -2.54 0)
+				(length 2.54)
+				(name "3.3V-TOL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name "3.3V-~{RST}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -12.7 0 0)
+				(length 2.54)
+				(name "3.3V-IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "MIC6315"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -2.54 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MIC6315"
+			(at -2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MIC6315-Open-Drain-Microprocessor-Reset-Circuit-DS20006450A.pdf"
+			(at 0 20.32 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Open-Drain Microprocessor Reset Circuit"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-143"
+			(at 2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Threshold" "Threshold"
+			(at -2.54 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Time" "Time"
+			(at 2.54 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "MIC6315-??D?UY"
+			(at -5.08 -2.54 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(italic yes)
+				)
+			)
+		)
+		(property "ki_keywords" "Supervisor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MIC6315_0_1"
+			(rectangle
+				(start -10.16 2.54)
+				(end 10.16 -7.62)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "MIC6315_1_1"
+			(pin power_in line
+				(at 0 -10.16 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 12.7 -5.08 180)
+				(length 2.54)
+				(name "~{RESET}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 0 0)
+				(length 2.54)
+				(name "~{MR}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "MIC6315-26D3UY"
+		(extends "MIC6315")
+		(property "Reference" "U"
+			(at -2.54 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MIC6315-26D3UY"
+			(at -2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MIC6315-Open-Drain-Microprocessor-Reset-Circuit-DS20006450A.pdf"
+			(at 0 20.32 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Open-Drain Microprocessor Reset Circuit"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-143"
+			(at 2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Threshold" "2V63"
+			(at -2.54 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Time" "140ms"
+			(at 2.54 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "MIC6315-26D3UY"
+			(at -5.08 -2.54 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(italic yes)
+				)
+			)
+		)
+		(property "ki_keywords" "Supervisor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "MIC6315-29D3UY"
+		(extends "MIC6315")
+		(property "Reference" "U"
+			(at -2.54 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MIC6315-29D3UY"
+			(at -2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MIC6315-Open-Drain-Microprocessor-Reset-Circuit-DS20006450A.pdf"
+			(at 0 20.32 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Open-Drain Microprocessor Reset Circuit"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-143"
+			(at 2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Threshold" "2V93"
+			(at -2.54 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Time" "140ms"
+			(at 2.54 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "MIC6315-29D3UY"
+			(at -5.08 -2.54 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(italic yes)
+				)
+			)
+		)
+		(property "ki_keywords" "Supervisor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "MIC6315-30D3UY"
+		(extends "MIC6315")
+		(property "Reference" "U"
+			(at -2.54 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MIC6315-30D3UY"
+			(at -2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MIC6315-Open-Drain-Microprocessor-Reset-Circuit-DS20006450A.pdf"
+			(at 0 20.32 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Open-Drain Microprocessor Reset Circuit"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-143"
+			(at 2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Threshold" "3V"
+			(at -2.54 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Time" "140ms"
+			(at 2.54 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "MIC6315-30D3UY"
+			(at -5.08 -2.54 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(italic yes)
+				)
+			)
+		)
+		(property "ki_keywords" "Supervisor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "MIC6315-31D3UY"
+		(extends "MIC6315")
+		(property "Reference" "U"
+			(at -2.54 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MIC6315-31D3UY"
+			(at -2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MIC6315-Open-Drain-Microprocessor-Reset-Circuit-DS20006450A.pdf"
+			(at 0 20.32 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Open-Drain Microprocessor Reset Circuit"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-143"
+			(at 2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Threshold" "3V08"
+			(at -2.54 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Time" "140ms"
+			(at 2.54 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "MIC6315-31D3UY"
+			(at -5.08 -2.54 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(italic yes)
+				)
+			)
+		)
+		(property "ki_keywords" "Supervisor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "MIC6315-40D3UY"
+		(extends "MIC6315")
+		(property "Reference" "U"
+			(at -2.54 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MIC6315-40D3UY"
+			(at -2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MIC6315-Open-Drain-Microprocessor-Reset-Circuit-DS20006450A.pdf"
+			(at 0 20.32 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Open-Drain Microprocessor Reset Circuit"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-143"
+			(at 2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Threshold" "4V"
+			(at -2.54 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Time" "140ms"
+			(at 2.54 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "MIC6315-40D3UY"
+			(at -5.08 -2.54 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(italic yes)
+				)
+			)
+		)
+		(property "ki_keywords" "Supervisor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "MIC6315-41D3UY"
+		(extends "MIC6315")
+		(property "Reference" "U"
+			(at -2.54 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MIC6315-41D3UY"
+			(at -2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MIC6315-Open-Drain-Microprocessor-Reset-Circuit-DS20006450A.pdf"
+			(at 0 20.32 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Open-Drain Microprocessor Reset Circuit"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-143"
+			(at 2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Threshold" "4V1"
+			(at -2.54 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Time" "140ms"
+			(at 2.54 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "MIC6315-41D3UY"
+			(at -5.08 -2.54 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(italic yes)
+				)
+			)
+		)
+		(property "ki_keywords" "Supervisor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "MIC6315-42D3UY"
+		(extends "MIC6315")
+		(property "Reference" "U"
+			(at -2.54 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MIC6315-42D3UY"
+			(at -2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MIC6315-Open-Drain-Microprocessor-Reset-Circuit-DS20006450A.pdf"
+			(at 0 20.32 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Open-Drain Microprocessor Reset Circuit"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-143"
+			(at 2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Threshold" "4V2"
+			(at -2.54 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Time" "140ms"
+			(at 2.54 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "MIC6315-42D3UY"
+			(at -5.08 -2.54 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(italic yes)
+				)
+			)
+		)
+		(property "ki_keywords" "Supervisor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "MIC6315-44D3UY"
+		(extends "MIC6315")
+		(property "Reference" "U"
+			(at -2.54 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MIC6315-44D3UY"
+			(at -2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MIC6315-Open-Drain-Microprocessor-Reset-Circuit-DS20006450A.pdf"
+			(at 0 20.32 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Open-Drain Microprocessor Reset Circuit"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-143"
+			(at 2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Threshold" "4V38"
+			(at -2.54 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Time" "140ms"
+			(at 2.54 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "MIC6315-44D3UY"
+			(at -5.08 -2.54 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(italic yes)
+				)
+			)
+		)
+		(property "ki_keywords" "Supervisor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "MIC6315-46D3UY"
+		(extends "MIC6315")
+		(property "Reference" "U"
+			(at -2.54 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MIC6315-46D3UY"
+			(at -2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MIC6315-Open-Drain-Microprocessor-Reset-Circuit-DS20006450A.pdf"
+			(at 0 20.32 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Open-Drain Microprocessor Reset Circuit"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-143"
+			(at 2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Threshold" "4V63"
+			(at -2.54 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Time" "140ms"
+			(at 2.54 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "MIC6315-46D3UY"
+			(at -5.08 -2.54 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(italic yes)
+				)
+			)
+		)
+		(property "ki_keywords" "Supervisor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+)
+=======
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
+  (symbol "U.Supervisor:DS1834AS+" (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at 0 -12.7 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "DS1834AS+" (id 1) (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (id 2) (at 0 12.7 0)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://pdfserv.maximintegrated.com/en/ds/DS1834-DS1834D.pdf" (id 3) (at 0 15.24 0)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "SOIC-8" (id 4) (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" " DS1834AS+" (id 5) (at 0 -8.89 0)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "Supervisor" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Dual EconoReset with Pushbutton" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "DS1834AS+_0_1"
+      (rectangle (start -10.16 10.16) (end 10.16 -10.16)
+        (stroke (width 0.1524)) (fill (type background))
+      )
+    )
+    (symbol "DS1834AS+_1_1"
+      (pin power_in line (at -12.7 7.62 0) (length 2.54)
+        (name "5V-IN" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin open_collector line (at 12.7 7.62 180) (length 2.54)
+        (name "5V-~RST" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -12.7 5.08 0) (length 2.54)
+        (name "5V-TOL" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 12.7 -7.62 180) (length 2.54)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -12.7 -7.62 0) (length 2.54)
+        (name "~PBRST" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -12.7 -2.54 0) (length 2.54)
+        (name "3.3V-TOL" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin open_collector line (at 12.7 0 180) (length 2.54)
+        (name "3.3V-~RST" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at -12.7 0 0) (length 2.54)
+        (name "3.3V-IN" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "U.Supervisor:MIC6315" (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -2.54 7.62 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "MIC6315" (id 1) (at -2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-143" (id 2) (at 0 17.78 0)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MIC6315-Open-Drain-Microprocessor-Reset-Circuit-DS20006450A.pdf" (id 3) (at 0 20.32 0)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "SOT-143" (id 4) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Threshold" "Threshold" (id 5) (at -2.54 -10.16 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Time" "Time" (id 6) (at 2.54 -10.16 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "MIC6315-??D?UY" (id 7) (at -5.08 -2.54 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "Supervisor" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Open-Drain Microprocessor Reset Circuit" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "MIC6315_0_1"
+      (rectangle (start -10.16 2.54) (end 10.16 -7.62)
+        (stroke (width 0.1524)) (fill (type background))
+      )
+    )
+    (symbol "MIC6315_1_1"
+      (pin power_in line (at 0 -10.16 90) (length 2.54)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin open_collector line (at 12.7 -5.08 180) (length 2.54)
+        (name "~RESET" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at -12.7 0 0) (length 2.54)
+        (name "~MR" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 0 5.08 270) (length 2.54)
+        (name "VCC" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "U.Supervisor:MIC6315-26D3UY" (extends "MIC6315")
+    (property "Reference" "U" (id 0) (at -2.54 7.62 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "MIC6315-26D3UY" (id 1) (at -2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-143" (id 2) (at 0 17.78 0)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MIC6315-Open-Drain-Microprocessor-Reset-Circuit-DS20006450A.pdf" (id 3) (at 0 20.32 0)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "SOT-143" (id 4) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Threshold" "2V63" (id 5) (at -2.54 -10.16 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Time" "140ms" (id 6) (at 2.54 -10.16 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "MIC6315-26D3UY" (id 7) (at -5.08 -2.54 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "Supervisor" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Open-Drain Microprocessor Reset Circuit" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+  (symbol "U.Supervisor:MIC6315-29D3UY" (extends "MIC6315")
+    (property "Reference" "U" (id 0) (at -2.54 7.62 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "MIC6315-29D3UY" (id 1) (at -2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-143" (id 2) (at 0 17.78 0)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MIC6315-Open-Drain-Microprocessor-Reset-Circuit-DS20006450A.pdf" (id 3) (at 0 20.32 0)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "SOT-143" (id 4) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Threshold" "2V93" (id 5) (at -2.54 -10.16 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Time" "140ms" (id 6) (at 2.54 -10.16 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "MIC6315-29D3UY" (id 7) (at -5.08 -2.54 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "Supervisor" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Open-Drain Microprocessor Reset Circuit" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+  (symbol "U.Supervisor:MIC6315-30D3UY" (extends "MIC6315")
+    (property "Reference" "U" (id 0) (at -2.54 7.62 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "MIC6315-30D3UY" (id 1) (at -2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-143" (id 2) (at 0 17.78 0)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MIC6315-Open-Drain-Microprocessor-Reset-Circuit-DS20006450A.pdf" (id 3) (at 0 20.32 0)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "SOT-143" (id 4) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Threshold" "3V" (id 5) (at -2.54 -10.16 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Time" "140ms" (id 6) (at 2.54 -10.16 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "MIC6315-30D3UY" (id 7) (at -5.08 -2.54 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "Supervisor" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Open-Drain Microprocessor Reset Circuit" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+  (symbol "U.Supervisor:MIC6315-31D3UY" (extends "MIC6315")
+    (property "Reference" "U" (id 0) (at -2.54 7.62 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "MIC6315-31D3UY" (id 1) (at -2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-143" (id 2) (at 0 17.78 0)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MIC6315-Open-Drain-Microprocessor-Reset-Circuit-DS20006450A.pdf" (id 3) (at 0 20.32 0)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "SOT-143" (id 4) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Threshold" "3V08" (id 5) (at -2.54 -10.16 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Time" "140ms" (id 6) (at 2.54 -10.16 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "MIC6315-31D3UY" (id 7) (at -5.08 -2.54 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "Supervisor" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Open-Drain Microprocessor Reset Circuit" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+  (symbol "U.Supervisor:MIC6315-40D3UY" (extends "MIC6315")
+    (property "Reference" "U" (id 0) (at -2.54 7.62 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "MIC6315-40D3UY" (id 1) (at -2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-143" (id 2) (at 0 17.78 0)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MIC6315-Open-Drain-Microprocessor-Reset-Circuit-DS20006450A.pdf" (id 3) (at 0 20.32 0)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "SOT-143" (id 4) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Threshold" "4V" (id 5) (at -2.54 -10.16 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Time" "140ms" (id 6) (at 2.54 -10.16 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "MIC6315-40D3UY" (id 7) (at -5.08 -2.54 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "Supervisor" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Open-Drain Microprocessor Reset Circuit" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+  (symbol "U.Supervisor:MIC6315-41D3UY" (extends "MIC6315")
+    (property "Reference" "U" (id 0) (at -2.54 7.62 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "MIC6315-41D3UY" (id 1) (at -2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-143" (id 2) (at 0 17.78 0)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MIC6315-Open-Drain-Microprocessor-Reset-Circuit-DS20006450A.pdf" (id 3) (at 0 20.32 0)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "SOT-143" (id 4) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Threshold" "4V1" (id 5) (at -2.54 -10.16 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Time" "140ms" (id 6) (at 2.54 -10.16 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "MIC6315-41D3UY" (id 7) (at -5.08 -2.54 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "Supervisor" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Open-Drain Microprocessor Reset Circuit" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+  (symbol "U.Supervisor:MIC6315-42D3UY" (extends "MIC6315")
+    (property "Reference" "U" (id 0) (at -2.54 7.62 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "MIC6315-42D3UY" (id 1) (at -2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-143" (id 2) (at 0 17.78 0)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MIC6315-Open-Drain-Microprocessor-Reset-Circuit-DS20006450A.pdf" (id 3) (at 0 20.32 0)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "SOT-143" (id 4) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Threshold" "4V2" (id 5) (at -2.54 -10.16 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Time" "140ms" (id 6) (at 2.54 -10.16 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "MIC6315-42D3UY" (id 7) (at -5.08 -2.54 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "Supervisor" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Open-Drain Microprocessor Reset Circuit" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+  (symbol "U.Supervisor:MIC6315-44D3UY" (extends "MIC6315")
+    (property "Reference" "U" (id 0) (at -2.54 7.62 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "MIC6315-44D3UY" (id 1) (at -2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-143" (id 2) (at 0 17.78 0)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MIC6315-Open-Drain-Microprocessor-Reset-Circuit-DS20006450A.pdf" (id 3) (at 0 20.32 0)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "SOT-143" (id 4) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Threshold" "4V38" (id 5) (at -2.54 -10.16 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Time" "140ms" (id 6) (at 2.54 -10.16 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "MIC6315-44D3UY" (id 7) (at -5.08 -2.54 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "Supervisor" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Open-Drain Microprocessor Reset Circuit" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+  (symbol "U.Supervisor:MIC6315-46D3UY" (extends "MIC6315")
+    (property "Reference" "U" (id 0) (at -2.54 7.62 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "MIC6315-46D3UY" (id 1) (at -2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-143" (id 2) (at 0 17.78 0)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MIC6315-Open-Drain-Microprocessor-Reset-Circuit-DS20006450A.pdf" (id 3) (at 0 20.32 0)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "SOT-143" (id 4) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Threshold" "4V63" (id 5) (at -2.54 -10.16 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Time" "140ms" (id 6) (at 2.54 -10.16 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "MIC6315-46D3UY" (id 7) (at -5.08 -2.54 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "Supervisor" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Open-Drain Microprocessor Reset Circuit" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+)
+>>>>>>> master

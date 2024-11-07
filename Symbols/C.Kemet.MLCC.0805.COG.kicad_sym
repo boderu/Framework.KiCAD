@@ -1,6747 +1,2713 @@
-(kicad_symbol_lib
-	(version 20231120)
-	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
-	(symbol "100p"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100p"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "file:///home/Public/Datasheets/C.Kemet.MLCC.0805.C0G.pdf"
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "C0805C101J5G"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*0805*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "100p_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "100p_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "10n"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10n"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "file:///home/Public/Datasheets/C.Kemet.MLCC.0805.C0G.pdf"
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "C0805C103J5G"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*0805*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "10n_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "10n_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "10p"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10p"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "file:///home/Public/Datasheets/C.Kemet.MLCC.0805.C0G.pdf"
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "C0805C100J5G"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*0805*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "10p_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "10p_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "120p"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "120p"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "file:///home/Public/Datasheets/C.Kemet.MLCC.0805.C0G.pdf"
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "C0805C121J5G"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*0805*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "120p_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "120p_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "150p"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "150p"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "file:///home/Public/Datasheets/C.Kemet.MLCC.0805.C0G.pdf"
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "C0805C151J5G"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*0805*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "150p_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "150p_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "15p"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "15p"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "file:///home/Public/Datasheets/C.Kemet.MLCC.0805.C0G.pdf"
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "C0805C150J5G"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*0805*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "15p_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "15p_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "1n2"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1n2"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "file:///home/Public/Datasheets/C.Kemet.MLCC.0805.C0G.pdf"
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "C0805C122J5G"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*0805*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "1n2_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "1n2_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "1n5"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1n5"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "file:///home/Public/Datasheets/C.Kemet.MLCC.0805.C0G.pdf"
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "C0805C152J5G"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*0805*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "1n5_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "1n5_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "1n8"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1n8"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "file:///home/Public/Datasheets/C.Kemet.MLCC.0805.C0G.pdf"
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "C0805C182J5G"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*0805*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "1n8_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "1n8_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "1p2"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1p2"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "file:///home/Public/Datasheets/C.Kemet.MLCC.0805.C0G.pdf"
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "C0805C129D5G"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*0805*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "1p2_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "1p2_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "22n"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22n"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "file:///home/Public/Datasheets/C.Kemet.MLCC.0805.C0G.pdf"
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "C0805C223J5G"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*0805*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "22n_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "22n_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "22p"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22p"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "file:///home/Public/Datasheets/C.Kemet.MLCC.0805.C0G.pdf"
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "C0805C220J5G"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*0805*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "22p_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "22p_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "27p"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "27p"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "file:///home/Public/Datasheets/C.Kemet.MLCC.0805.C0G.pdf"
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "C0805C270J5G"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*0805*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "27p_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "27p_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "2n2"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2n2"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "file:///home/Public/Datasheets/C.Kemet.MLCC.0805.C0G.pdf"
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "C0805C222J5G"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*0805*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "2n2_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "2n2_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "2p2"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2p2"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "file:///home/Public/Datasheets/C.Kemet.MLCC.0805.C0G.pdf"
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "C0805C229D5G"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*0805*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "2p2_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "2p2_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "2p7"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2p7"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "file:///home/Public/Datasheets/C.Kemet.MLCC.0805.C0G.pdf"
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "C0805C279D5G"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*0805*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "2p7_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "2p7_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "330p"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330p"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "file:///home/Public/Datasheets/C.Kemet.MLCC.0805.C0G.pdf"
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "C0805C331J5G"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*0805*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "330p_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "330p_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "33p"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "33p"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "file:///home/Public/Datasheets/C.Kemet.MLCC.0805.C0G.pdf"
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "C0805C330J5G"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*0805*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "33p_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "33p_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "390p"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "390p"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "file:///home/Public/Datasheets/C.Kemet.MLCC.0805.C0G.pdf"
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "C0805C391J5G"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*0805*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "390p_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "390p_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "39p"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "39p"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "file:///home/Public/Datasheets/C.Kemet.MLCC.0805.C0G.pdf"
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "C0805C390J5G"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*0805*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "39p_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "39p_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "3p3"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3p3"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "file:///home/Public/Datasheets/C.Kemet.MLCC.0805.C0G.pdf"
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "C0805C339D5G"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*0805*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "3p3_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "3p3_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "3p9"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3p9"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "file:///home/Public/Datasheets/C.Kemet.MLCC.0805.C0G.pdf"
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "C0805C399D5G"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*0805*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "3p9_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "3p9_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "470p"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470p"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "file:///home/Public/Datasheets/C.Kemet.MLCC.0805.C0G.pdf"
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "100V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "C0805C471J1G"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*0805*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "470p_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "470p_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "47n"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47n"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "file:///home/Public/Datasheets/C.Kemet.MLCC.0805.C0G.pdf"
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "25V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "C0805C473J3G"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*0805*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "47n_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "47n_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "47p"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47p"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "file:///home/Public/Datasheets/C.Kemet.MLCC.0805.C0G.pdf"
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "C0805C470J5G"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*0805*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "47p_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "47p_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "560p"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "560p"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "file:///home/Public/Datasheets/C.Kemet.MLCC.0805.C0G.pdf"
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "C0805C561J5G"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*0805*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "560p_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "560p_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "56p"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "56p"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "file:///home/Public/Datasheets/C.Kemet.MLCC.0805.C0G.pdf"
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "C0805C560J5G"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*0805*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "56p_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "56p_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "680p"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "680p"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "file:///home/Public/Datasheets/C.Kemet.MLCC.0805.C0G.pdf"
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "100V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "C0805C681J1G"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*0805*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "680p_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "680p_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "68p"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "68p"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "file:///home/Public/Datasheets/C.Kemet.MLCC.0805.C0G.pdf"
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "C0805C680J5G"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*0805*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "68p_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "68p_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "820p"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "820p"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "file:///home/Public/Datasheets/C.Kemet.MLCC.0805.C0G.pdf"
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "100V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "C0805C821J1G"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*0805*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "820p_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "820p_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "82p"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "82p"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "file:///home/Public/Datasheets/C.Kemet.MLCC.0805.C0G.pdf"
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "C0805C820J5G"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*0805*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "82p_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "82p_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "8p2"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "8p2"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "file:///home/Public/Datasheets/C.Kemet.MLCC.0805.C0G.pdf"
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "C0805C829D5G"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*0805*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "8p2_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "8p2_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "FixMe"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FixMe"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "file:///home/Public/Datasheets/C.Kemet.MLCC.0805.C0G.pdf"
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "Voltage"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "Tol"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "COG"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "Fix Me!"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*0805*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "FixMe_0_0"
-			(text "!"
-				(at -1.27 3.81 0)
-				(effects
-					(font
-						(size 2.54 2.54)
-					)
-				)
-			)
-		)
-		(symbol "FixMe_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "FixMe_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "100p" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100p" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "50V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "5%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "C0G" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "C0805C101J5G" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*0805*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "100p_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "100p_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
+  (symbol "10n" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10n" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "50V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "5%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "C0G" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "C0805C103J5G" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*0805*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "10n_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "10n_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
+  (symbol "10p" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10p" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "50V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "5%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "C0G" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "C0805C100J5G" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*0805*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "10p_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "10p_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
+  (symbol "120p" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "120p" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "50V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "5%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "C0G" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "C0805C121J5G" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*0805*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "120p_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "120p_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
+  (symbol "150p" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "150p" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "50V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "5%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "C0G" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "C0805C151J5G" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*0805*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "150p_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "150p_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
+  (symbol "15p" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "15p" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "50V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "5%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "C0G" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "C0805C150J5G" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*0805*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "15p_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "15p_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
+  (symbol "1n2" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "1n2" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "50V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "5%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "C0G" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "C0805C122J5G" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*0805*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "1n2_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "1n2_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
+  (symbol "1n5" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "1n5" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "50V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "5%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "C0G" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "C0805C152J5G" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*0805*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "1n5_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "1n5_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
+  (symbol "1n8" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "1n8" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "50V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "5%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "C0G" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "C0805C182J5G" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*0805*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "1n8_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "1n8_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
+  (symbol "1p2" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "1p2" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "50V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "5%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "C0G" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "C0805C129D5G" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*0805*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "1p2_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "1p2_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
+  (symbol "22n" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "22n" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "50V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "5%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "C0G" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "C0805C223J5G" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*0805*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "22n_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "22n_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
+  (symbol "22p" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "22p" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "50V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "5%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "C0G" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "C0805C220J5G" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*0805*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "22p_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "22p_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
+  (symbol "27p" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "27p" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "50V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "5%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "C0G" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "C0805C270J5G" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*0805*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "27p_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "27p_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
+  (symbol "2n2" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "2n2" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "50V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "5%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "C0G" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "C0805C222J5G" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*0805*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "2n2_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "2n2_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
+  (symbol "2p2" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "2p2" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "50V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "5%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "C0G" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "C0805C229D5G" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*0805*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "2p2_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "2p2_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
+  (symbol "2p7" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "2p7" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "50V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "5%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "C0G" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "C0805C279D5G" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*0805*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "2p7_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "2p7_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
+  (symbol "330p" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "330p" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "50V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "5%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "C0G" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "C0805C331J5G" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*0805*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "330p_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "330p_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
+  (symbol "33p" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "33p" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "50V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "5%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "C0G" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "C0805C330J5G" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*0805*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "33p_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "33p_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
+  (symbol "390p" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "390p" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "50V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "5%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "C0G" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "C0805C391J5G" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*0805*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "390p_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "390p_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
+  (symbol "39p" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "39p" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "50V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "5%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "C0G" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "C0805C390J5G" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*0805*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "39p_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "39p_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
+  (symbol "3p3" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "3p3" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "50V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "5%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "C0G" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "C0805C339D5G" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*0805*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "3p3_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "3p3_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
+  (symbol "3p9" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "3p9" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "50V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "5%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "C0G" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "C0805C399D5G" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*0805*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "3p9_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "3p9_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
+  (symbol "470p" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "470p" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "100V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "5%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "C0G" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "C0805C471J1G" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*0805*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "470p_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "470p_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
+  (symbol "47n" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "47n" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "25V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "5%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "C0G" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "C0805C473J3G" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*0805*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "47n_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "47n_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
+  (symbol "47p" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "47p" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "50V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "5%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "C0G" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "C0805C470J5G" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*0805*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "47p_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "47p_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
+  (symbol "560p" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "560p" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "50V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "5%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "C0G" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "C0805C561J5G" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*0805*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "560p_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "560p_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
+  (symbol "56p" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "56p" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "50V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "5%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "C0G" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "C0805C560J5G" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*0805*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "56p_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "56p_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
+  (symbol "680p" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "680p" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "100V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "5%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "C0G" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "C0805C681J1G" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*0805*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "680p_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "680p_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
+  (symbol "68p" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "68p" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "50V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "5%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "C0G" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "C0805C680J5G" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*0805*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "68p_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "68p_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
+  (symbol "820p" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "820p" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "100V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "5%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "C0G" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "C0805C821J1G" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*0805*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "820p_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "820p_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
+  (symbol "82p" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "82p" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "50V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "5%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "C0G" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "C0805C820J5G" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*0805*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "82p_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "82p_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
+  (symbol "8p2" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "8p2" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "50V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "5%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "C0G" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "C0805C829D5G" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*0805*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "8p2_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "8p2_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
+  (symbol "FixMe" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "FixMe" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "0805" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "Voltage" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "Tol" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "COG" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "Fix Me!" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*0805*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "FixMe_0_0"
+      (text "!" (at -1.27 3.81 0)
+        (effects (font (size 2.54 2.54)))
+      )
+    )
+    (symbol "FixMe_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "FixMe_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
 )

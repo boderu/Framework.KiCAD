@@ -27,39 +27,39 @@
 			)
 		)
 	)
-	(property "Footprint" "DIN41612.F.3x16.Male.Horizontal.THT"
+	(property "Footprint" ""
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8659885c-d54d-4c98-90cd-09abb378960b")
+		(uuid "3a9c765b-7bd1-4d6d-bf50-b7984f16bd62")
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(property "Datasheet" ""
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8a2f0bad-5cdb-4d73-9ebf-28f1ad7ac619")
+		(uuid "5f34286d-f615-4d1f-ba33-ff587c959108")
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(property "Description" ""
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b0323d98-efad-4a53-817b-900c56256852")
+		(uuid "62a82e71-6f2a-4938-bf4d-b9cebd7a5c42")
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -1087,26 +1087,15 @@
 		(remove_unused_layers no)
 		(uuid "2fa34651-0f5b-4f56-beba-ca5c351a7a74")
 	)
-	(model "${KICAD7_USER_3DMODEL_DIR}/Connector/DIN41612/ept_109-40064/ept_109-40064_3D_STEP.STEP"
+	(model "${KICAD_USER_3DMODEL_DIR}/Connector/DIN41612/ept_109-40064/ept_109-40064_3D_STEP.STEP"
 		(offset
-			(xyz 0 2.999999994 4.000000001)
+			(xyz 0 3 4)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "/home/boderu/Frameworks/KiCAD/3D-Models/Connector/DIN41612/Harting-09061486901/09061486901.stp"
-		(offset
-			(xyz -43.815 -10.922 11.43)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 90 -180)
+			(xyz 180 0 0)
 		)
 	)
 )

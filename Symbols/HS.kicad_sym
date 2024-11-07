@@ -1,174 +1,85 @@
-(kicad_symbol_lib
-	(version 20231120)
-	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
-	(symbol "Aavid-Channel-5510"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "HS"
-			(at 0 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Aavid-Channel-5510"
-			(at 0 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "BTech.Heatsinks:Aavid.Channel5510"
-			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "HS.Aavid.Channel-5510.pdf"
-			(at 0.3048 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Heatsink"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "551002B00000G"
-			(at 0 -0.635 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "ki_keywords" "thermal heat temperature"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Aavid-Channel-5510_0_1"
-			(polyline
-				(pts
-					(xy -0.3302 1.27) (xy -0.9652 1.27) (xy -0.9652 3.81) (xy -1.6002 3.81) (xy -1.6002 1.27) (xy -2.2352 1.27)
-					(xy -2.2352 3.81) (xy -2.8702 3.81) (xy -2.8702 0) (xy -0.9652 0)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.3302 1.27) (xy -0.3302 3.81) (xy 0.3048 3.81) (xy 0.3048 1.27) (xy 0.9398 1.27) (xy 0.9398 3.81)
-					(xy 1.5748 3.81) (xy 1.5748 1.27) (xy 2.2098 1.27) (xy 2.2098 3.81) (xy 2.8448 3.81) (xy 2.8448 0)
-					(xy -0.9652 0)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-	)
-	(symbol "Aavid-MountingKit-TO220"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "HS"
-			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Aavid-MountingKit-TO220"
-			(at 0 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "BTech.Misc:Dummy"
-			(at 0 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "HS.Aavid.Channel-5510.pdf"
-			(at 0 7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Kit For TO-220 Heat Sinks"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "4880G"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(symbol "Aavid-MountingKit-TO220_0_1"
-			(rectangle
-				(start -2.54 2.54)
-				(end 2.54 -2.54)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-	)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
+  (symbol "Aavid-Channel-5510" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "HS" (id 0) (at 0 5.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Aavid-Channel-5510" (id 1) (at 0 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "BTech.Heatsinks:Aavid.Channel5510" (id 2) (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "HS.Aavid.Channel-5510.pdf" (id 3) (at 0.3048 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "551002B00000G" (id 4) (at 0 -0.635 0)
+      (effects (font (size 0.635 0.635)))
+    )
+    (property "ki_keywords" "thermal heat temperature" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Heatsink" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Aavid-Channel-5510_0_1"
+      (polyline
+        (pts
+          (xy -0.3302 1.27)
+          (xy -0.9652 1.27)
+          (xy -0.9652 3.81)
+          (xy -1.6002 3.81)
+          (xy -1.6002 1.27)
+          (xy -2.2352 1.27)
+          (xy -2.2352 3.81)
+          (xy -2.8702 3.81)
+          (xy -2.8702 0)
+          (xy -0.9652 0)
+        )
+        (stroke (width 0.2032)) (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -0.3302 1.27)
+          (xy -0.3302 3.81)
+          (xy 0.3048 3.81)
+          (xy 0.3048 1.27)
+          (xy 0.9398 1.27)
+          (xy 0.9398 3.81)
+          (xy 1.5748 3.81)
+          (xy 1.5748 1.27)
+          (xy 2.2098 1.27)
+          (xy 2.2098 3.81)
+          (xy 2.8448 3.81)
+          (xy 2.8448 0)
+          (xy -0.9652 0)
+        )
+        (stroke (width 0.2032)) (fill (type background))
+      )
+    )
+  )
+  (symbol "Aavid-MountingKit-TO220" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "HS" (id 0) (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Aavid-MountingKit-TO220" (id 1) (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "BTech.Misc:Dummy" (id 2) (at 0 5.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "HS.Aavid.Channel-5510.pdf" (id 3) (at 0 7.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "4880G" (id 4) (at 0 0 0)
+      (effects (font (size 0.635 0.635)))
+    )
+    (property "ki_description" "Mounting Kit For TO-220 Heat Sinks" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Aavid-MountingKit-TO220_0_1"
+      (rectangle (start -2.54 2.54) (end 2.54 -2.54)
+        (stroke (width 0.2032)) (fill (type none))
+      )
+    )
+  )
 )

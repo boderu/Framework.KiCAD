@@ -1,617 +1,236 @@
-(kicad_symbol_lib
-	(version 20231120)
-	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
-	(symbol "100n"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BTech.Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.08mm"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Vielschicht-Keramik-Kondensator"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "RM5.08"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "X7R-5.100n"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*Capacitor*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "100n_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "100n_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "10n"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10n"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BTech.Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.08mm"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Vielschicht-Keramik-Kondensator"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "RM5.08"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "X7R-5.10n"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*Capacitor*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "10n_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "10n_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "4n7"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.54 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4n7"
-			(at 2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BTech.Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.08mm"
-			(at -7.62 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -10.16 0 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Vielschicht-Keramik-Kondensator"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "RM5.08"
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "X7R-5.4n7"
-			(at -3.81 0 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(italic yes)
-				)
-			)
-		)
-		(property "ki_keywords" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*Capacitor*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "4n7_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635) (xy 1.905 -0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0.635) (xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.635)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -0.635)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.635) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "4n7_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-					)
-				)
-			)
-		)
-	)
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
+  (symbol "100n" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100n" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "BTech.Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.08mm" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "RM5.08" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "50V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "10%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "X7R" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "X7R-5.100n" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Vielschicht-Keramik-Kondensator" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*Capacitor*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "100n_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524)) (fill (type none))
+      )
+    )
+    (symbol "100n_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
+  (symbol "10n" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10n" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "BTech.Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.08mm" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "RM5.08" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "50V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "10%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "X7R" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "X7R-5.10n" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Vielschicht-Keramik-Kondensator" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*Capacitor*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "10n_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524)) (fill (type none))
+      )
+    )
+    (symbol "10n_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
+  (symbol "4n7" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 2.54 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "4n7" (id 1) (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "BTech.Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.08mm" (id 2) (at -7.62 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at -10.16 0 90)
+      (effects (font (size 1.016 1.016)) hide)
+    )
+    (property "Package" "RM5.08" (id 4) (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Voltage" "50V" (id 5) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "10%" (id 6) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Dielectric" "X7R" (id 7) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "X7R-5.4n7" (id 8) (at -3.81 0 90)
+      (effects (font (size 0.635 0.635) italic))
+    )
+    (property "ki_keywords" "C" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Vielschicht-Keramik-Kondensator" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*Capacitor*" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "4n7_0_1"
+      (polyline
+        (pts
+          (xy -1.905 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0.635)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy 1.905 0.635)
+        )
+        (stroke (width 0.635)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -0.635)
+        )
+        (stroke (width 0.1524)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524)) (fill (type none))
+      )
+    )
+    (symbol "4n7_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "1" (effects (font (size 1.778 1.778))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "~" (effects (font (size 1.778 1.778))))
+        (number "2" (effects (font (size 1.778 1.778))))
+      )
+    )
+  )
 )
