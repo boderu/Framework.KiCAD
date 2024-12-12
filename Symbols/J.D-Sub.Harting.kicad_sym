@@ -9,7 +9,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 7.62 -25.4 90)
+			(at 7.62 -27.94 90)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -18,12 +18,12 @@
 			)
 		)
 		(property "Value" "STD.25P.MALE.Vert.Screw"
-			(at 7.62 -15.24 90)
+			(at 7.62 27.94 90)
 			(effects
 				(font
 					(size 1.778 1.778)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "BTech.Connector.DSub:DSUB-25_Male_Vertical_Harting09653616713"
@@ -54,16 +54,16 @@
 			)
 		)
 		(property "Package" "MV:2.74x2.84-25"
-			(at 10.16 5.08 90)
+			(at 10.16 27.94 90)
 			(effects
 				(font
 					(size 1.778 1.778)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Usage" "Usage"
-			(at 10.16 -25.4 90)
+			(at 10.16 -27.94 90)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -1197,12 +1197,12 @@
 			)
 		)
 		(property "Value" "STD.37P.MALE.Vert.Screw"
-			(at 7.62 0 90)
+			(at 7.62 43.18 90)
 			(effects
 				(font
 					(size 1.778 1.778)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "BTech.Connector.DSub:DSUB-37_Male_Vertical_Harting09654616713"
@@ -1233,12 +1233,12 @@
 			)
 		)
 		(property "Package" "MV:2.74x2.84-37"
-			(at 10.16 20.32 90)
+			(at 10.16 43.18 90)
 			(effects
 				(font
 					(size 1.778 1.778)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Usage" "Usage"
@@ -3418,7 +3418,7 @@
 			)
 		)
 		(property "Description" "D-Sub STD 9P FEM angled board locks"
-			(at 0 0 0)
+			(at 0 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3917,7 +3917,7 @@
 			)
 		)
 		(property "Description" "CONN D-SUB RCPT 9POS VERT SLDR"
-			(at 0 0 0)
+			(at 0 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4440,7 +4440,7 @@
 			)
 		)
 		(property "Description" "9-pin male D-SUB connector, Mounting Hole"
-			(at 0 0 0)
+			(at 0 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4963,7 +4963,7 @@
 			)
 		)
 		(property "Description" "9-pin male D-SUB connector, Mounting Hole"
-			(at 0 0 0)
+			(at 0 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5426,7 +5426,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 5.08 5.08 0)
+			(at 0 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5435,24 +5435,14 @@
 			)
 		)
 		(property "Value" "STD.9P.MALE.Vert.Screw"
-			(at 5.08 2.54 0)
+			(at 10.16 0 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.778)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "BTech.Connector.DSub:DSUB-9_Male_Vertical_Harting09651617713"
-			(at 0 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "J.D-Sub.Harting.0968163X81X_100539977DRW001B.pdf"
 			(at 0 17.78 0)
 			(effects
 				(font
@@ -5461,7 +5451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "9-pin male D-SUB connector, Mounting Hole"
+		(property "Datasheet" "J.D-Sub.Harting.0968163X81X_100539977DRW001B.pdf"
 			(at 0 20.32 0)
 			(effects
 				(font
@@ -5470,22 +5460,29 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "MV:2.74x2.84-9.9"
-			(at 5.08 0 0)
+		(property "Description" "9-pin male D-SUB connector, Mounting Hole"
+			(at 0 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "MV:2.74x2.84-9.9"
+			(at 7.62 0 90)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
 			)
 		)
 		(property "Usage" "Usage"
-			(at 5.08 -2.54 0)
+			(at 12.7 0 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.778)
 				)
-				(justify left)
 			)
 		)
 		(property "MPN" "09651617713"
