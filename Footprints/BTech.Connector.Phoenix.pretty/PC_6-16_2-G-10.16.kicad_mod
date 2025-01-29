@@ -1,0 +1,223 @@
+(footprint "PC_6-16_2-G-10.16"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 5.08 -3.81 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "89970f06-a286-4bc9-bc3e-06a0d90809f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PC_6-16_2-G-10.16"
+		(at 0 15.24 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "54cdcb87-92f7-4e17-bef0-78bebbad1ff4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "573367ab-fb02-4a1e-a25b-77cec26565ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9853a7f-f12d-4377-b540-0030ac0af4c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87db1d1a-9d65-49f0-a2bf-756b3369bfac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -12.065 -2.54)
+		(end -12.065 29.21)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d17722a3-1d3d-4cef-a404-d6069c865d53")
+	)
+	(fp_line
+		(start -12.065 -2.54)
+		(end 12.065 -2.54)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4f7e96a8-9b64-473a-9455-cae961608d1b")
+	)
+	(fp_line
+		(start 12.065 -2.54)
+		(end 12.065 29.21)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d38213f7-a7db-4052-aafc-99cce5f1d12a")
+	)
+	(fp_poly
+		(pts
+			(xy -5.08 -2.54) (xy -2.54 -5.08) (xy -7.62 -5.08)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "dbd0c395-3b50-4cda-9799-b86499e9d40e")
+	)
+	(fp_line
+		(start -11.68 -2.24)
+		(end 11.68 -2.24)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "6f832375-0163-4c27-a19a-c20da6401e0e")
+	)
+	(fp_line
+		(start -11.68 29.76)
+		(end -11.68 -2.24)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "18827ccf-aa12-4747-b5bd-9b55df1666ad")
+	)
+	(fp_line
+		(start 11.68 -2.24)
+		(end 11.68 29.76)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "4a8a318a-d48c-4276-b0dc-524b5e5fbf19")
+	)
+	(fp_line
+		(start 11.68 29.76)
+		(end -11.68 29.76)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "368c5125-4882-4a44-890c-fcb72f6b6530")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 17.78 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "da57b655-62f3-42dc-82b6-95ce0e4e1fdf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -5.08 0)
+		(size 4 4)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "783c7b00-d2d4-4ccd-8137-b68d51aba388")
+	)
+	(pad "1" thru_hole circle
+		(at -5.08 5.08)
+		(size 4 4)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "41bbb67b-806f-4d0f-b4fa-9b0e0ccc5e05")
+	)
+	(pad "1" thru_hole circle
+		(at -5.08 10.16)
+		(size 4 4)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f1d0ebf6-6b5c-428f-a346-8ab2186db24c")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 4 4)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "15605dd4-17d8-4f80-b82c-dc221e86adc9")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 5.08)
+		(size 4 4)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f2dcf0d7-0b75-400a-88f3-39b7d91da063")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 10.16)
+		(size 4 4)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "721176a2-f472-4415-9e8f-5fa54fc789b2")
+	)
+	(model "${KICAD_USER_3DMODEL_DIR}/Connector/Phoenix/pxc_1913646_01_00_PC-6-16-2-G-10-16_3D.stp"
+		(offset
+			(xyz -1.8 -28.6 23.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)
