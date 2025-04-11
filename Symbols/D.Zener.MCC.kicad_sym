@@ -5997,7 +5997,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 2.54 2.54 0)
+			(at 2.54 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6005,8 +6005,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5V1"
-			(at 2.54 0 0)
+		(property "Value" "SMBJ5338B"
+			(at 2.54 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6042,7 +6042,16 @@
 			)
 		)
 		(property "Package" "DO-214AA"
-			(at 2.54 -2.54 0)
+			(at 2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "5V1"
+			(at 2.54 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6051,7 +6060,7 @@
 			)
 		)
 		(property "PowerDissipation" "5W"
-			(at 2.54 -5.08 0)
+			(at 2.54 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6745,7 +6754,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 2.54 2.54 0)
+			(at 2.54 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6753,8 +6762,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6V"
-			(at 2.54 0 0)
+		(property "Value" "SMBJ5340B"
+			(at 2.54 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6790,7 +6799,7 @@
 			)
 		)
 		(property "Package" "DO-214AA"
-			(at 2.54 -2.54 0)
+			(at 2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6799,6 +6808,15 @@
 			)
 		)
 		(property "PowerDissipation" "5W"
+			(at 2.54 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "6V"
 			(at 2.54 -5.08 0)
 			(effects
 				(font
@@ -6932,7 +6950,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 2.54 2.54 0)
+			(at 2.54 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6940,8 +6958,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6V2"
-			(at 2.54 0 0)
+		(property "Value" "SMBJ5341B"
+			(at 2.54 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6977,7 +6995,7 @@
 			)
 		)
 		(property "Package" "DO-214AA"
-			(at 2.54 -2.54 0)
+			(at 2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6986,6 +7004,15 @@
 			)
 		)
 		(property "PowerDissipation" "5W"
+			(at 2.54 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "6V2"
 			(at 2.54 -5.08 0)
 			(effects
 				(font
@@ -7119,7 +7146,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 2.54 2.54 0)
+			(at 2.54 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7127,8 +7154,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6V8"
-			(at 2.54 0 0)
+		(property "Value" "SMBJ5342B"
+			(at 2.54 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7164,7 +7191,7 @@
 			)
 		)
 		(property "Package" "DO-214AA"
-			(at 2.54 -2.54 0)
+			(at 2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7173,6 +7200,15 @@
 			)
 		)
 		(property "PowerDissipation" "5W"
+			(at 2.54 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "6V8"
 			(at 2.54 -5.08 0)
 			(effects
 				(font
