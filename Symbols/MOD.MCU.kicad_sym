@@ -164,6 +164,12 @@
 						)
 					)
 				)
+				(alternate "EHRPWM0_SYNCI" bidirectional line)
+				(alternate "GPIO0.05" bidirectional line)
+				(alternate "GPIO05" bidirectional line)
+				(alternate "MMC2_SDWP" bidirectional line)
+				(alternate "PR1_UART0_TXD" output line)
+				(alternate "SPI0_CS0" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -27.94 60.96 0)
@@ -434,6 +440,13 @@
 						)
 					)
 				)
+				(alternate "EHRPWM1B" bidirectional line)
+				(alternate "GPIO2.17" bidirectional line)
+				(alternate "GPIO81" bidirectional line)
+				(alternate "GPMC_A15" bidirectional line)
+				(alternate "LCD_DATA11" bidirectional line)
+				(alternate "MCASP0_AHCLKR" bidirectional line)
+				(alternate "MCASP0_AXR2" bidirectional line)
 			)
 			(pin input line
 				(at -27.94 7.62 0)
@@ -452,6 +465,12 @@
 						)
 					)
 				)
+				(alternate "EHRPWM1A" bidirectional line)
+				(alternate "GPIO2.16" bidirectional line)
+				(alternate "GPIO80" bidirectional line)
+				(alternate "GPMC_A14" bidirectional line)
+				(alternate "LCD_DATA10" bidirectional line)
+				(alternate "MCASP0_AXR0" bidirectional line)
 			)
 			(pin output line
 				(at -27.94 2.54 0)
@@ -470,6 +489,13 @@
 						)
 					)
 				)
+				(alternate "GPIO0.31" bidirectional line)
+				(alternate "GPIO31" bidirectional line)
+				(alternate "GPMC_CSN5" bidirectional line)
+				(alternate "GPMC_WPN" bidirectional line)
+				(alternate "MII_RXERR" bidirectional line)
+				(alternate "MMC2_SDCD" bidirectional line)
+				(alternate "RMII2_RXERR" bidirectional line)
 			)
 			(pin input line
 				(at -27.94 0 0)
@@ -488,6 +514,13 @@
 						)
 					)
 				)
+				(alternate "GPIO0.30" bidirectional line)
+				(alternate "GPIO30" bidirectional line)
+				(alternate "GPMC_CSN4" bidirectional line)
+				(alternate "GPMC_WAIT0" bidirectional line)
+				(alternate "MII2_CRS" bidirectional line)
+				(alternate "MMC1_SDCD" bidirectional line)
+				(alternate "RMII2_CRS_DV" bidirectional line)
 			)
 			(pin output line
 				(at -27.94 -2.54 0)
@@ -506,6 +539,13 @@
 						)
 					)
 				)
+				(alternate "EQEP1B_IN" bidirectional line)
+				(alternate "GPIO0.09" bidirectional line)
+				(alternate "GPIO09" bidirectional line)
+				(alternate "GPMC_A17" bidirectional line)
+				(alternate "LCD_DATA13" bidirectional line)
+				(alternate "MCASP0_AXR3" bidirectional line)
+				(alternate "MCASP0_FSR" bidirectional line)
 			)
 			(pin input line
 				(at -27.94 -5.08 0)
@@ -524,6 +564,13 @@
 						)
 					)
 				)
+				(alternate "EQEP1A_IN" bidirectional line)
+				(alternate "GPIO0.08" bidirectional line)
+				(alternate "GPIO08" bidirectional line)
+				(alternate "GPMC_A16" bidirectional line)
+				(alternate "LCD_DATA12" bidirectional line)
+				(alternate "MCASP0_ACLKR" bidirectional line)
+				(alternate "MCASP0_AXR2" bidirectional line)
 			)
 			(pin output line
 				(at -27.94 -10.16 0)
@@ -542,6 +589,13 @@
 						)
 					)
 				)
+				(alternate "EHRPWM1_TRIPZONE_IN" input line)
+				(alternate "GPIO2.14" bidirectional line)
+				(alternate "GPIO78" bidirectional line)
+				(alternate "GPMC_A12" bidirectional line)
+				(alternate "LCD_DATA8" bidirectional line)
+				(alternate "MCASP0_ACLKX" bidirectional line)
+				(alternate "UART2_CTSN" bidirectional line)
 			)
 			(pin input line
 				(at -27.94 -12.7 0)
@@ -560,6 +614,13 @@
 						)
 					)
 				)
+				(alternate "EHRPWM0_SYNCO" bidirectional line)
+				(alternate "GPIO2.15" bidirectional line)
+				(alternate "GPIO79" bidirectional line)
+				(alternate "GPMC_A13" bidirectional line)
+				(alternate "LCD_DATA9" bidirectional line)
+				(alternate "MCASP0_FSX" bidirectional line)
+				(alternate "UART2_RTSN" bidirectional line)
 			)
 			(pin output line
 				(at -27.94 -15.24 0)
@@ -578,6 +639,13 @@
 						)
 					)
 				)
+				(alternate "EQEP1_STROBE" bidirectional line)
+				(alternate "GPIO0.11" bidirectional line)
+				(alternate "GPIO11" bidirectional line)
+				(alternate "GPMC_A19" bidirectional line)
+				(alternate "LCD_DATA15" bidirectional line)
+				(alternate "MCASP0_AHCLKX" bidirectional line)
+				(alternate "MCASP0_AXR3" bidirectional line)
 			)
 			(pin input line
 				(at -27.94 -17.78 0)
@@ -596,6 +664,13 @@
 						)
 					)
 				)
+				(alternate "EQEP1_INDEX" bidirectional line)
+				(alternate "GPIO0.10" bidirectional line)
+				(alternate "GPIO10" bidirectional line)
+				(alternate "GPMC_A18" bidirectional line)
+				(alternate "LCD_DATA14" bidirectional line)
+				(alternate "MCASP0_AXR1" bidirectional line)
+				(alternate "UART5_RXD" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -27.94 -22.86 0)
@@ -1010,6 +1085,13 @@
 						)
 					)
 				)
+				(alternate "GPIO1.18" bidirectional line)
+				(alternate "GPIO50" bidirectional line)
+				(alternate "GPMC_A18" bidirectional line)
+				(alternate "GPMC_A2" bidirectional line)
+				(alternate "MII2_TXD3" bidirectional line)
+				(alternate "MMC2_DAT1" bidirectional line)
+				(alternate "RGMII2_TD3" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 63.5 180)
@@ -1028,6 +1110,13 @@
 						)
 					)
 				)
+				(alternate "GPIO1.19" bidirectional line)
+				(alternate "GPIO51" bidirectional line)
+				(alternate "GPMC_A19" bidirectional line)
+				(alternate "GPMC_A3" bidirectional line)
+				(alternate "MII2_TXD2" bidirectional line)
+				(alternate "MMC2_DAT2" bidirectional line)
+				(alternate "RGMII2_TD2" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 58.42 180)
@@ -1047,6 +1136,7 @@
 					)
 				)
 				(alternate "GPIO0.22" bidirectional line)
+				(alternate "GPIO22" bidirectional line)
 				(alternate "GPMC_AD8" output line)
 				(alternate "LCD_DATA23" bidirectional line)
 				(alternate "MMC1_DAT0" bidirectional line)
@@ -1070,6 +1160,7 @@
 					)
 				)
 				(alternate "GPIO0.23" bidirectional line)
+				(alternate "GPIO23" bidirectional line)
 				(alternate "GPMC_AD9" output line)
 				(alternate "LCD_DATA22" bidirectional line)
 				(alternate "MMC1_DAT1" bidirectional line)
@@ -1093,6 +1184,7 @@
 					)
 				)
 				(alternate "GPIO2.02" bidirectional line)
+				(alternate "GPIO66" bidirectional line)
 				(alternate "GPMC_ADVN_ALE" output line)
 			)
 			(pin bidirectional line
@@ -1113,6 +1205,7 @@
 					)
 				)
 				(alternate "GPIO2.05" bidirectional line)
+				(alternate "GPIO69" bidirectional line)
 				(alternate "GPMC_BE0N_CLE" bidirectional line)
 			)
 			(pin bidirectional line
@@ -1133,6 +1226,7 @@
 					)
 				)
 				(alternate "GPIO2.04" bidirectional line)
+				(alternate "GPIO68" bidirectional line)
 				(alternate "GPMC_WEN" output line)
 			)
 			(pin bidirectional line
@@ -1153,6 +1247,7 @@
 					)
 				)
 				(alternate "GPIO2.03" bidirectional line)
+				(alternate "GPIO67" bidirectional line)
 				(alternate "GPMC_OEN_REN" output line)
 			)
 			(pin bidirectional line
@@ -1181,7 +1276,7 @@
 			(pin bidirectional line
 				(at 27.94 35.56 180)
 				(length 7.62)
-				(name "GPIO0.26"
+				(name "GPIO26"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1196,6 +1291,7 @@
 					)
 				)
 				(alternate "EHRPWM2_TRIPZONE_IN" input line)
+				(alternate "GPIO0.26" bidirectional line)
 				(alternate "GPMC_AD10" output line)
 				(alternate "LCD_DATA21" bidirectional line)
 				(alternate "MMC1_DAT2" bidirectional line)
@@ -1204,7 +1300,7 @@
 			(pin bidirectional line
 				(at 27.94 33.02 180)
 				(length 7.62)
-				(name "GPIO0.27"
+				(name "GPIO27"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1218,11 +1314,17 @@
 						)
 					)
 				)
+				(alternate "EHRPWM0_SYNCO" output line)
+				(alternate "GPIO0.27" bidirectional line)
+				(alternate "GPMC_AD11" bidirectional line)
+				(alternate "LCD_DATA20" bidirectional line)
+				(alternate "MMC1_DAT3" bidirectional line)
+				(alternate "MMC2_DAT7" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 27.94 180)
 				(length 7.62)
-				(name "GPIO1.00"
+				(name "GPIO32"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1236,11 +1338,14 @@
 						)
 					)
 				)
+				(alternate "GPIO1.00" bidirectional line)
+				(alternate "GPMC_AD0" bidirectional line)
+				(alternate "MMC1_DAT0" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 25.4 180)
 				(length 7.62)
-				(name "GPIO1.01"
+				(name "GPIO33"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1254,11 +1359,14 @@
 						)
 					)
 				)
+				(alternate "GPIO1.01" bidirectional line)
+				(alternate "GPMC_AD1" bidirectional line)
+				(alternate "MMC1_DAT1" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 22.86 180)
 				(length 7.62)
-				(name "GPIO1.02"
+				(name "GPIO34"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1272,13 +1380,14 @@
 						)
 					)
 				)
+				(alternate "GPIO1.02" bidirectional line)
 				(alternate "GPMC_AD2" output line)
 				(alternate "MMC1_DAT2" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 20.32 180)
 				(length 7.62)
-				(name "GPIO1.03"
+				(name "GPIO35"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1292,13 +1401,14 @@
 						)
 					)
 				)
+				(alternate "GPIO1.03" bidirectional line)
 				(alternate "GPMC_AD3" output line)
 				(alternate "MMC1_DAT3" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 17.78 180)
 				(length 7.62)
-				(name "GPIO1.04"
+				(name "GPIO36"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1312,11 +1422,14 @@
 						)
 					)
 				)
+				(alternate "GPIO1.04" bidirectional line)
+				(alternate "gpmc_ad4" bidirectional line)
+				(alternate "mmc1_dat4" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 15.24 180)
 				(length 7.62)
-				(name "GPIO1.05"
+				(name "GPIO37"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1330,11 +1443,14 @@
 						)
 					)
 				)
+				(alternate "GPIO1.05" bidirectional line)
+				(alternate "GPMC_AD5" bidirectional line)
+				(alternate "MMC1_DAT5" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 12.7 180)
 				(length 7.62)
-				(name "GPIO1.06"
+				(name "GPIO38"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1349,12 +1465,13 @@
 					)
 				)
 				(alternate "GMPC_AD6" output line)
+				(alternate "GPIO1.06" bidirectional line)
 				(alternate "MMC1_DAT6" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 10.16 180)
 				(length 7.62)
-				(name "GPIO1.07"
+				(name "GPIO39"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1368,13 +1485,14 @@
 						)
 					)
 				)
+				(alternate "GPIO1.07" bidirectional line)
 				(alternate "GPMC_AD2" output line)
 				(alternate "MMC1_DAT7" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 7.62 180)
 				(length 7.62)
-				(name "GPIO1.12"
+				(name "GPIO44"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1388,6 +1506,7 @@
 						)
 					)
 				)
+				(alternate "GPIO1.12" bidirectional line)
 				(alternate "GPMC_AD12" output line)
 				(alternate "LCD_DATA19" bidirectional line)
 				(alternate "MMC1_DAT4" bidirectional line)
@@ -1398,7 +1517,7 @@
 			(pin bidirectional line
 				(at 27.94 5.08 180)
 				(length 7.62)
-				(name "GPIO1.13"
+				(name "GPIO45"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1412,6 +1531,7 @@
 						)
 					)
 				)
+				(alternate "GPIO1.13" bidirectional line)
 				(alternate "GPMC_AD13" output line)
 				(alternate "LCD_DATA18" bidirectional line)
 				(alternate "MMC1_DAT5" bidirectional line)
@@ -1422,7 +1542,7 @@
 			(pin bidirectional line
 				(at 27.94 2.54 180)
 				(length 7.62)
-				(name "GPIO1.14"
+				(name "GPIO46"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1436,6 +1556,7 @@
 						)
 					)
 				)
+				(alternate "GPIO1.14" bidirectional line)
 				(alternate "GPMC_AD14" output line)
 				(alternate "LCD_DATA17" bidirectional line)
 				(alternate "MMC1_DAT6" bidirectional line)
@@ -1446,7 +1567,7 @@
 			(pin bidirectional line
 				(at 27.94 0 180)
 				(length 7.62)
-				(name "GPIO1.15"
+				(name "GPIO47"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1460,6 +1581,7 @@
 						)
 					)
 				)
+				(alternate "GPIO1.15" bidirectional line)
 				(alternate "GPMC_AD15" output line)
 				(alternate "LCD_DATA16" bidirectional line)
 				(alternate "MMC1_DAT7" bidirectional line)
@@ -1470,7 +1592,7 @@
 			(pin bidirectional line
 				(at 27.94 -2.54 180)
 				(length 7.62)
-				(name "GPIO1.16"
+				(name "GPIO48"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1484,6 +1606,13 @@
 						)
 					)
 				)
+				(alternate "EHRPWM1_TRIPZONE_INPUT" input line)
+				(alternate "GMII2_TXEN" bidirectional line)
+				(alternate "GPIO1.16" bidirectional line)
+				(alternate "GPMC_A0" bidirectional line)
+				(alternate "GPMC_A16" bidirectional line)
+				(alternate "MII2_TXEN" bidirectional line)
+				(alternate "RMII2_TCTL" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -5.08 180)
@@ -1506,7 +1635,7 @@
 			(pin bidirectional line
 				(at 27.94 -7.62 180)
 				(length 7.62)
-				(name "GPIO1.28"
+				(name "GPIO60"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1520,11 +1649,18 @@
 						)
 					)
 				)
+				(alternate "GPIO1.28" bidirectional line)
+				(alternate "GPMC_BE1N" bidirectional line)
+				(alternate "GPMC_CSN6" bidirectional line)
+				(alternate "GPMC_DIR" bidirectional line)
+				(alternate "MCASP0_ACLK_MUX3" bidirectional line)
+				(alternate "MII2_COL" bidirectional line)
+				(alternate "MMC2_DAT3" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -10.16 180)
 				(length 7.62)
-				(name "GPIO1.29"
+				(name "GPIO61"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1538,11 +1674,13 @@
 						)
 					)
 				)
+				(alternate "GPIO1.29" bidirectional line)
+				(alternate "GPMC_CSN0" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -12.7 180)
 				(length 7.62)
-				(name "GPIO1.30"
+				(name "GPIO62"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1556,11 +1694,17 @@
 						)
 					)
 				)
+				(alternate "GPIO1.30" bidirectional line)
+				(alternate "GPMC_CLK" bidirectional line)
+				(alternate "GPMC_CSN1" bidirectional line)
+				(alternate "MMC1_CLK" bidirectional line)
+				(alternate "PR1_PRU1_PRU_R30_12" bidirectional line)
+				(alternate "PR1_PRU1_PRU_R31_12" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -15.24 180)
 				(length 7.62)
-				(name "GPIO1.31"
+				(name "GPIO63"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1574,6 +1718,7 @@
 						)
 					)
 				)
+				(alternate "GPIO1.31" bidirectional line)
 				(alternate "GPMC_BE1N" bidirectional line)
 				(alternate "GPMC_CSN2" bidirectional line)
 				(alternate "MMC1_CMD" bidirectional line)
@@ -1583,7 +1728,7 @@
 			(pin bidirectional line
 				(at 27.94 -20.32 180)
 				(length 7.62)
-				(name "GPIO2.01"
+				(name "GPIO65"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1597,6 +1742,7 @@
 						)
 					)
 				)
+				(alternate "GPIO2.01" bidirectional line)
 				(alternate "GPMC_CLK_MUX0" bidirectional line)
 				(alternate "GPMC_WAIT1" bidirectional line)
 				(alternate "LCD_MEMORY_CLK" output line)
@@ -1606,7 +1752,7 @@
 			(pin bidirectional line
 				(at 27.94 -22.86 180)
 				(length 7.62)
-				(name "GPIO2.06"
+				(name "GPIO70"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1620,11 +1766,17 @@
 						)
 					)
 				)
+				(alternate "EHRPWM2A" bidirectional line)
+				(alternate "GPIO2.06" bidirectional line)
+				(alternate "GPMC_A0" bidirectional line)
+				(alternate "LCD_DATA0" bidirectional line)
+				(alternate "PR1_PRU1_PRU_R30_0" bidirectional line)
+				(alternate "PR1_PRU1_PRU_R31_0" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -25.4 180)
 				(length 7.62)
-				(name "GPIO2.07"
+				(name "GPIO71"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1638,11 +1790,17 @@
 						)
 					)
 				)
+				(alternate "EHRPWM2B" bidirectional line)
+				(alternate "GPIO2.07" bidirectional line)
+				(alternate "GPMC_A1" bidirectional line)
+				(alternate "LCD_DATA1" bidirectional line)
+				(alternate "PR1_PRU1_PRU_R30_1" bidirectional line)
+				(alternate "PR1_PRU1_PRU_R31_1" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -27.94 180)
 				(length 7.62)
-				(name "GPIO2.08"
+				(name "GPIO72"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1656,11 +1814,17 @@
 						)
 					)
 				)
+				(alternate "EHRPWM2_TRIPZONE_IN" input line)
+				(alternate "GPIO2.08" bidirectional line)
+				(alternate "GPMC_A2" bidirectional line)
+				(alternate "LCD_DATA2" bidirectional line)
+				(alternate "PR1_PRU1_PRU_R30_2" bidirectional line)
+				(alternate "PR1_PRU1_PRU_R31_2" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -30.48 180)
 				(length 7.62)
-				(name "GPIO2.09"
+				(name "GPIO73"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1674,11 +1838,17 @@
 						)
 					)
 				)
+				(alternate "EHRPWM0_SYNCO" bidirectional line)
+				(alternate "GPIO2.09" bidirectional line)
+				(alternate "GPMC_A3" bidirectional line)
+				(alternate "LCD_DATA3" bidirectional line)
+				(alternate "PR1_PRU1_PRU_R30_3" bidirectional line)
+				(alternate "PR1_PRU1_PRU_R31_3" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -33.02 180)
 				(length 7.62)
-				(name "GPIO2.10"
+				(name "GPIO74"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1692,11 +1862,17 @@
 						)
 					)
 				)
+				(alternate "EQEP2A_IN" input line)
+				(alternate "GPIO2.10" bidirectional line)
+				(alternate "GPMC_A4" bidirectional line)
+				(alternate "LCD_DATA4" bidirectional line)
+				(alternate "PR1_PRU1_PRU_R30_4" bidirectional line)
+				(alternate "PR1_PRU1_PRU_R31_4" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -35.56 180)
 				(length 7.62)
-				(name "GPIO2.11"
+				(name "GPIO75"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1710,11 +1886,17 @@
 						)
 					)
 				)
+				(alternate "EQEP2B_IN" input line)
+				(alternate "GPIO2.11" bidirectional line)
+				(alternate "GPMC_A5" bidirectional line)
+				(alternate "LCD_DATA5" bidirectional line)
+				(alternate "PR1_PRU1_PRU_R30_5" bidirectional line)
+				(alternate "PR1_PRU1_PRU_R31_5" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -38.1 180)
 				(length 7.62)
-				(name "GPIO2.12"
+				(name "GPIO76"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1728,11 +1910,17 @@
 						)
 					)
 				)
+				(alternate "EQEP2_INDEX" bidirectional line)
+				(alternate "GPIO2.12" bidirectional line)
+				(alternate "GPMC_A6" bidirectional line)
+				(alternate "LCD_DATA6" bidirectional line)
+				(alternate "PR1_PRU1_PRU_R30_6" bidirectional line)
+				(alternate "PR1_PRU1_PRU_R31_6" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -40.64 180)
 				(length 7.62)
-				(name "GPIO2.13"
+				(name "GPIO77"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1746,11 +1934,18 @@
 						)
 					)
 				)
+				(alternate "EQEP2_STROBE" bidirectional line)
+				(alternate "GPIO2.13" bidirectional line)
+				(alternate "GPMC_A7" bidirectional line)
+				(alternate "LCD_DATA7" bidirectional line)
+				(alternate "PR1_EDIO_DATA_OUT7" output line)
+				(alternate "PR1_PRU1_PRU_R30_7" bidirectional line)
+				(alternate "PR1_PRU1_PRU_R31_7" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -43.18 180)
 				(length 7.62)
-				(name "GPIO2.22"
+				(name "GPIO86"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1764,11 +1959,16 @@
 						)
 					)
 				)
+				(alternate "GPIO2.22" bidirectional line)
+				(alternate "GPMC_A8" bidirectional line)
+				(alternate "LCD_VSYNC" bidirectional line)
+				(alternate "PR1_PRU1_PRU_R30_8" bidirectional line)
+				(alternate "PR1_PRU1_PRU_R31_8" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -45.72 180)
 				(length 7.62)
-				(name "GPIO2.23"
+				(name "GPIO87"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1782,11 +1982,16 @@
 						)
 					)
 				)
+				(alternate "GPIO2.23" bidirectional line)
+				(alternate "GPMC_A9" bidirectional line)
+				(alternate "LCD_HSYNC" bidirectional line)
+				(alternate "PR1_PRU1_PRU_R30_9" bidirectional line)
+				(alternate "PR1_PRU1_PRU_R31_9" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -48.26 180)
 				(length 7.62)
-				(name "GPIO2.24"
+				(name "GPIO88"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1800,11 +2005,16 @@
 						)
 					)
 				)
+				(alternate "GPIO2.24" bidirectional line)
+				(alternate "GPMC_A10" bidirectional line)
+				(alternate "LCD_PCLK" bidirectional line)
+				(alternate "PR1_PRU1_PRU_R30_10" bidirectional line)
+				(alternate "PR1_PRU1_PRU_R31_10" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -50.8 180)
 				(length 7.62)
-				(name "GPIO2.25"
+				(name "GPIO89"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1818,6 +2028,9 @@
 						)
 					)
 				)
+				(alternate "GPIO2.25" bidirectional line)
+				(alternate "GPMC_A11" bidirectional line)
+				(alternate "LCD_AC_BIAS_EN" bidirectional line)
 			)
 			(pin power_out line
 				(at 27.94 -55.88 180)
