@@ -26,7 +26,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
-			(at -40.64 35.56 0)
+			(at 0 48.26 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -34,8 +34,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "U.MCU.ATmega1284P.pdf"
-			(at 38.1 35.56 0)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/ATmega164A_PA-324A_PA-644A_PA-1284_P_Data-Sheet-40002070B.pdf"
+			(at 0 45.72 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -44,7 +44,7 @@
 			)
 		)
 		(property "Description" "High Performance, Low Power Atmel®AVR® 8-Bit Microcontroller"
-			(at 0 0 0)
+			(at 0 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -89,8 +89,8 @@
 		)
 		(symbol "ATmega1284P-PU_0_0"
 			(rectangle
-				(start -60.96 33.02)
-				(end 60.96 -33.02)
+				(start -40.64 33.02)
+				(end 40.64 -33.02)
 				(stroke
 					(width 0.2032)
 					(type default)
@@ -99,703 +99,10 @@
 					(type background)
 				)
 			)
-			(text "TCK"
-				(at -50.8 25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(text "TMS"
-				(at -50.8 22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(text "TDO"
-				(at -50.8 20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(text "TDI"
-				(at -50.8 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(text "AIN0"
-				(at -50.8 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(text "AIN1"
-				(at -50.8 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(text "ADC0"
-				(at -50.8 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(text "ADC1"
-				(at -50.8 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(text "ADC2"
-				(at -50.8 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(text "ADC3"
-				(at -50.8 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(text "ADC4"
-				(at -50.8 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(text "ADC5"
-				(at -50.8 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(text "ADC6"
-				(at -50.8 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(text "ADC7"
-				(at -50.8 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(text "INT2"
-				(at -40.64 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(text "OC0A"
-				(at -40.64 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(text "PCINT18"
-				(at -30.48 25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(text "PCINT19"
-				(at -30.48 22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(text "PCINT20"
-				(at -30.48 20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(text "PCINT21"
-				(at -30.48 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(text "PCINT10"
-				(at -30.48 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(text "PCINT11"
-				(at -30.48 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(text "PCINT0"
-				(at -30.48 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(text "PCINT1"
-				(at -30.48 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(text "PCINT2"
-				(at -30.48 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(text "PCINT3"
-				(at -30.48 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(text "PCINT4"
-				(at -30.48 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(text "PCINT5"
-				(at -30.48 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(text "PCINT6"
-				(at -30.48 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(text "PCINT7"
-				(at -30.48 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(text "PCINT22"
-				(at 10.16 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "TOSC1"
-				(at 10.16 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "PCINT16"
-				(at 27.94 30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "PCINT17"
-				(at 27.94 27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "PCINT12"
-				(at 27.94 22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "PCINT13"
-				(at 27.94 20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "PCINT14"
-				(at 27.94 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "PCINT15"
-				(at 27.94 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "PCINT24"
-				(at 27.94 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "PCINT25"
-				(at 27.94 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "PCINT8"
-				(at 27.94 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "PCINT26"
-				(at 27.94 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "PCINT27"
-				(at 27.94 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "PCINT28"
-				(at 27.94 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "PCINT29"
-				(at 27.94 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "PCINT30"
-				(at 27.94 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "PCINT31"
-				(at 27.94 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "PCINT9"
-				(at 27.94 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "OC0B"
-				(at 40.64 22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "ICP3"
-				(at 40.64 20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "OC3A"
-				(at 40.64 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "OC3B"
-				(at 40.64 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "T3"
-				(at 40.64 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "T0"
-				(at 40.64 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "INT0"
-				(at 40.64 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "INT1"
-				(at 40.64 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "OC1B"
-				(at 40.64 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "ICP"
-				(at 40.64 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "T1"
-				(at 40.64 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "PCINT23"
-				(at 40.64 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "TOSC2"
-				(at 40.64 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "SCL"
-				(at 50.8 30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "SDA"
-				(at 50.8 27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "~{SS}"
-				(at 50.8 22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "MOSI"
-				(at 50.8 20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "MISO"
-				(at 50.8 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "SCK"
-				(at 50.8 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "RXD0"
-				(at 50.8 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "TXD0"
-				(at 50.8 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "XCK0"
-				(at 50.8 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "RXD1"
-				(at 50.8 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "TXD1"
-				(at 50.8 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "XCK1"
-				(at 50.8 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "OC1A"
-				(at 50.8 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "OC2B"
-				(at 50.8 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "OC2A"
-				(at 50.8 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "CLKO"
-				(at 50.8 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
 		)
 		(symbol "ATmega1284P-PU_1_1"
 			(pin input line
-				(at -63.5 30.48 0)
+				(at -43.18 30.48 0)
 				(length 2.54)
 				(name "~{RESET}"
 					(effects
@@ -813,7 +120,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -63.5 25.4 0)
+				(at -43.18 25.4 0)
 				(length 2.54)
 				(name "PC2"
 					(effects
@@ -829,9 +136,11 @@
 						)
 					)
 				)
+				(alternate "PCINT18" input line)
+				(alternate "TCK" input line)
 			)
 			(pin bidirectional line
-				(at -63.5 22.86 0)
+				(at -43.18 22.86 0)
 				(length 2.54)
 				(name "PC3"
 					(effects
@@ -847,9 +156,11 @@
 						)
 					)
 				)
+				(alternate "PCINT19" input line)
+				(alternate "TMS" input line)
 			)
 			(pin bidirectional line
-				(at -63.5 20.32 0)
+				(at -43.18 20.32 0)
 				(length 2.54)
 				(name "PC4"
 					(effects
@@ -865,9 +176,11 @@
 						)
 					)
 				)
+				(alternate "PCINT20" input line)
+				(alternate "TDO" output line)
 			)
 			(pin bidirectional line
-				(at -63.5 17.78 0)
+				(at -43.18 17.78 0)
 				(length 2.54)
 				(name "PC5"
 					(effects
@@ -883,9 +196,11 @@
 						)
 					)
 				)
+				(alternate "PCINT21" input line)
+				(alternate "TDI" input line)
 			)
 			(pin bidirectional line
-				(at -63.5 10.16 0)
+				(at -43.18 10.16 0)
 				(length 2.54)
 				(name "PB2"
 					(effects
@@ -901,9 +216,12 @@
 						)
 					)
 				)
+				(alternate "AIN0" input line)
+				(alternate "INT2" input line)
+				(alternate "PCINT10" input line)
 			)
 			(pin bidirectional line
-				(at -63.5 7.62 0)
+				(at -43.18 7.62 0)
 				(length 2.54)
 				(name "PB3"
 					(effects
@@ -919,9 +237,12 @@
 						)
 					)
 				)
+				(alternate "AIN1" input line)
+				(alternate "OC0A" output line)
+				(alternate "PCINT11" input line)
 			)
 			(pin bidirectional line
-				(at -63.5 0 0)
+				(at -43.18 0 0)
 				(length 2.54)
 				(name "PA0"
 					(effects
@@ -937,9 +258,11 @@
 						)
 					)
 				)
+				(alternate "ADC0" input line)
+				(alternate "PCINT0" input line)
 			)
 			(pin bidirectional line
-				(at -63.5 -2.54 0)
+				(at -43.18 -2.54 0)
 				(length 2.54)
 				(name "PA1"
 					(effects
@@ -955,9 +278,11 @@
 						)
 					)
 				)
+				(alternate "ADC1" input line)
+				(alternate "PCINT1" input line)
 			)
 			(pin bidirectional line
-				(at -63.5 -5.08 0)
+				(at -43.18 -5.08 0)
 				(length 2.54)
 				(name "PA2"
 					(effects
@@ -973,9 +298,11 @@
 						)
 					)
 				)
+				(alternate "ADC2" input line)
+				(alternate "PCINT2" input line)
 			)
 			(pin bidirectional line
-				(at -63.5 -7.62 0)
+				(at -43.18 -7.62 0)
 				(length 2.54)
 				(name "PA3"
 					(effects
@@ -991,9 +318,11 @@
 						)
 					)
 				)
+				(alternate "ADC3" input line)
+				(alternate "PCINT3" input line)
 			)
 			(pin bidirectional line
-				(at -63.5 -10.16 0)
+				(at -43.18 -10.16 0)
 				(length 2.54)
 				(name "PA4"
 					(effects
@@ -1009,9 +338,11 @@
 						)
 					)
 				)
+				(alternate "ADC4" input line)
+				(alternate "PCINT4" input line)
 			)
 			(pin bidirectional line
-				(at -63.5 -12.7 0)
+				(at -43.18 -12.7 0)
 				(length 2.54)
 				(name "PA5"
 					(effects
@@ -1027,9 +358,11 @@
 						)
 					)
 				)
+				(alternate "ADC5" input line)
+				(alternate "PCINT5" input line)
 			)
 			(pin bidirectional line
-				(at -63.5 -15.24 0)
+				(at -43.18 -15.24 0)
 				(length 2.54)
 				(name "PA6"
 					(effects
@@ -1045,9 +378,11 @@
 						)
 					)
 				)
+				(alternate "ADC6" input line)
+				(alternate "PCINT6" input line)
 			)
 			(pin bidirectional line
-				(at -63.5 -17.78 0)
+				(at -43.18 -17.78 0)
 				(length 2.54)
 				(name "PA7"
 					(effects
@@ -1063,9 +398,11 @@
 						)
 					)
 				)
+				(alternate "ADC7" input line)
+				(alternate "PCINT7" input line)
 			)
 			(pin input line
-				(at -63.5 -22.86 0)
+				(at -43.18 -22.86 0)
 				(length 2.54)
 				(name "AREF"
 					(effects
@@ -1083,7 +420,7 @@
 				)
 			)
 			(pin power_in line
-				(at -63.5 -27.94 0)
+				(at -43.18 -27.94 0)
 				(length 2.54)
 				(name "AVCC"
 					(effects
@@ -1101,7 +438,7 @@
 				)
 			)
 			(pin power_in line
-				(at -63.5 -30.48 0)
+				(at -43.18 -30.48 0)
 				(length 2.54)
 				(name "AGND"
 					(effects
@@ -1119,7 +456,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -45.72 -35.56 90)
+				(at -30.48 -35.56 90)
 				(length 2.54)
 				(name "XTAL1"
 					(effects
@@ -1137,7 +474,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -35.56 90)
+				(at -10.16 -35.56 90)
 				(length 2.54)
 				(name "XTAL2"
 					(effects
@@ -1155,7 +492,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -35.56 90)
+				(at 10.16 -35.56 90)
 				(length 2.54)
 				(name "PC6"
 					(effects
@@ -1171,9 +508,11 @@
 						)
 					)
 				)
+				(alternate "PCINT22" input line)
+				(alternate "TOSC1" passive line)
 			)
 			(pin bidirectional line
-				(at 45.72 -35.56 90)
+				(at 30.48 -35.56 90)
 				(length 2.54)
 				(name "PC7"
 					(effects
@@ -1189,9 +528,11 @@
 						)
 					)
 				)
+				(alternate "PCINT23" input line)
+				(alternate "TOSC2" passive line)
 			)
 			(pin bidirectional line
-				(at 63.5 30.48 180)
+				(at 43.18 30.48 180)
 				(length 2.54)
 				(name "PC0"
 					(effects
@@ -1207,9 +548,11 @@
 						)
 					)
 				)
+				(alternate "PCINT16" input line)
+				(alternate "SCL" open_collector line)
 			)
 			(pin bidirectional line
-				(at 63.5 27.94 180)
+				(at 43.18 27.94 180)
 				(length 2.54)
 				(name "PC1"
 					(effects
@@ -1225,9 +568,11 @@
 						)
 					)
 				)
+				(alternate "PCINT17" input line)
+				(alternate "SDA" open_collector line)
 			)
 			(pin bidirectional line
-				(at 63.5 22.86 180)
+				(at 43.18 22.86 180)
 				(length 2.54)
 				(name "PB4"
 					(effects
@@ -1243,9 +588,12 @@
 						)
 					)
 				)
+				(alternate "OC0B" output line)
+				(alternate "PCINT12" input line)
+				(alternate "~{SS}" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 63.5 20.32 180)
+				(at 43.18 20.32 180)
 				(length 2.54)
 				(name "PB5"
 					(effects
@@ -1261,9 +609,12 @@
 						)
 					)
 				)
+				(alternate "ICP3" input line)
+				(alternate "MOSI" output line)
+				(alternate "PCINT13" input line)
 			)
 			(pin bidirectional line
-				(at 63.5 17.78 180)
+				(at 43.18 17.78 180)
 				(length 2.54)
 				(name "PB6"
 					(effects
@@ -1279,9 +630,12 @@
 						)
 					)
 				)
+				(alternate "MISO" input line)
+				(alternate "OC3A" output line)
+				(alternate "PCINT14" input line)
 			)
 			(pin bidirectional line
-				(at 63.5 15.24 180)
+				(at 43.18 15.24 180)
 				(length 2.54)
 				(name "PB7"
 					(effects
@@ -1297,9 +651,12 @@
 						)
 					)
 				)
+				(alternate "OC3B" output line)
+				(alternate "PCINT15" input line)
+				(alternate "SCK" output line)
 			)
 			(pin bidirectional line
-				(at 63.5 10.16 180)
+				(at 43.18 10.16 180)
 				(length 2.54)
 				(name "PD0"
 					(effects
@@ -1315,9 +672,12 @@
 						)
 					)
 				)
+				(alternate "PCINT24" input line)
+				(alternate "RXD0" input line)
+				(alternate "T3" input line)
 			)
 			(pin bidirectional line
-				(at 63.5 7.62 180)
+				(at 43.18 7.62 180)
 				(length 2.54)
 				(name "PD1"
 					(effects
@@ -1333,9 +693,11 @@
 						)
 					)
 				)
+				(alternate "PCINT25" input line)
+				(alternate "TXD0" output line)
 			)
 			(pin bidirectional line
-				(at 63.5 5.08 180)
+				(at 43.18 5.08 180)
 				(length 2.54)
 				(name "PB0"
 					(effects
@@ -1351,9 +713,12 @@
 						)
 					)
 				)
+				(alternate "PCINT8" input line)
+				(alternate "T0" input line)
+				(alternate "XCK0" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 63.5 0 180)
+				(at 43.18 0 180)
 				(length 2.54)
 				(name "PD2"
 					(effects
@@ -1369,9 +734,12 @@
 						)
 					)
 				)
+				(alternate "INT0" input line)
+				(alternate "PCINT26" input line)
+				(alternate "RXD1" input line)
 			)
 			(pin bidirectional line
-				(at 63.5 -2.54 180)
+				(at 43.18 -2.54 180)
 				(length 2.54)
 				(name "PD3"
 					(effects
@@ -1387,9 +755,12 @@
 						)
 					)
 				)
+				(alternate "INT1" input line)
+				(alternate "PCINT27" input line)
+				(alternate "TXD1" output line)
 			)
 			(pin bidirectional line
-				(at 63.5 -5.08 180)
+				(at 43.18 -5.08 180)
 				(length 2.54)
 				(name "PD4"
 					(effects
@@ -1405,9 +776,12 @@
 						)
 					)
 				)
+				(alternate "OC1B" output line)
+				(alternate "PCINT28" input line)
+				(alternate "XCK1" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 63.5 -10.16 180)
+				(at 43.18 -10.16 180)
 				(length 2.54)
 				(name "PD5"
 					(effects
@@ -1423,9 +797,11 @@
 						)
 					)
 				)
+				(alternate "OC1A" output line)
+				(alternate "PCINT29" input line)
 			)
 			(pin bidirectional line
-				(at 63.5 -12.7 180)
+				(at 43.18 -12.7 180)
 				(length 2.54)
 				(name "PD6"
 					(effects
@@ -1441,9 +817,12 @@
 						)
 					)
 				)
+				(alternate "ICP" input line)
+				(alternate "OC2B" output line)
+				(alternate "PCINT30" input line)
 			)
 			(pin bidirectional line
-				(at 63.5 -15.24 180)
+				(at 43.18 -15.24 180)
 				(length 2.54)
 				(name "PD7"
 					(effects
@@ -1459,9 +838,11 @@
 						)
 					)
 				)
+				(alternate "OC2A" output line)
+				(alternate "PCINT31" input line)
 			)
 			(pin bidirectional line
-				(at 63.5 -20.32 180)
+				(at 43.18 -20.32 180)
 				(length 2.54)
 				(name "PB1"
 					(effects
@@ -1477,9 +858,12 @@
 						)
 					)
 				)
+				(alternate "CLKO" output line)
+				(alternate "PCINT9" input line)
+				(alternate "T1" input line)
 			)
 			(pin power_in line
-				(at 63.5 -27.94 180)
+				(at 43.18 -27.94 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -1497,7 +881,7 @@
 				)
 			)
 			(pin power_in line
-				(at 63.5 -30.48 180)
+				(at 43.18 -30.48 180)
 				(length 2.54)
 				(name "GND"
 					(effects

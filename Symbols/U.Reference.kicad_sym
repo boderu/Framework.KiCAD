@@ -270,7 +270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "U.Reference.MCP1541.pdf"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/21653C.pdf"
 			(at 0 15.24 0)
 			(effects
 				(font
@@ -298,10 +298,18 @@
 			)
 		)
 		(property "MPN" "MCP1541-I/TO"
-			(at 5.08 -6.35 0)
+			(at 0 1.016 0)
 			(effects
 				(font
 					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Voltage" "4V096"
+			(at 5.08 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -338,7 +346,7 @@
 		)
 		(symbol "MCP1541-I-TO_1_1"
 			(pin power_in line
-				(at -10.16 0 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -374,7 +382,7 @@
 				)
 			)
 			(pin power_out line
-				(at 10.16 0 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "VOUT"
 					(effects
