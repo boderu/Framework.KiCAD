@@ -1,0 +1,220 @@
+(footprint "Converter_DCDC_TRACO_TMR4-xxxxWI_THT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DCDC-Converter, TRACO, TMR4-xxxxWI, 4W, Rev. December 06. 2023, https://www.tracopower.com/products/tmr4wi.pdf, generated with kicad-footprint-generator StandardBox_generator.py")
+	(tags "DCDC-Converter TRACO TMR4WI THT SIP-8 4W")
+	(property "Reference" "REF**"
+		(at 8.9 -3.53 0)
+		(layer "F.SilkS")
+		(uuid "5c6f3e6b-d9da-42cd-8e46-d60cb51b7b52")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Converter_DCDC_TRACO_TMR4-xxxxWI_THT"
+		(at 8.9 7.68 0)
+		(layer "F.Fab")
+		(uuid "71bd121f-1e55-44bc-98c1-b1ec15fdd2f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa7de16b-4e03-4887-a9f9-6062d2b332a8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6d8c62c-f842-4c76-9fcc-8ab8e722b362")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.11 -2.685)
+		(end 19.91 -2.685)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c3c7da9b-7054-4edc-832f-bf387ee04e68")
+	)
+	(fp_line
+		(start -2.11 -0.296)
+		(end -2.11 -2.685)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9095526-a547-42f8-bde4-185b712ab0db")
+	)
+	(fp_line
+		(start -2.11 6.835)
+		(end -2.11 0.296)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "da3a8ef6-bd0c-45cc-858f-1704b66d1211")
+	)
+	(fp_line
+		(start 19.91 -2.685)
+		(end 19.91 6.835)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73e29d20-7417-4577-ae31-8402df0bcaa3")
+	)
+	(fp_line
+		(start 19.91 6.835)
+		(end -2.11 6.835)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5b44e9fb-ea38-4ca8-a3f8-90d07d3759a1")
+	)
+	(fp_poly
+		(pts
+			(xy -2.11 0) (xy -2.58 0.34) (xy -2.58 -0.34)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "ff01e6ca-c97b-4902-a386-e8439357d522")
+	)
+	(fp_rect
+		(start -2.25 -2.83)
+		(end 20.05 6.98)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f2d107f6-a3a3-483f-bb6c-565ae9ecc6c7")
+	)
+	(fp_poly
+		(pts
+			(xy -1 -2.575) (xy 19.8 -2.575) (xy 19.8 6.725) (xy -2 6.725) (xy -2 -1.575)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e7edd48b-fd0d-4072-bbdf-6c248df07cc6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 8.9 2.08 0)
+		(layer "F.Fab")
+		(uuid "04604892-8e63-49c9-9d58-d2a172420067")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.166667)
+		(uuid "aad6cf93-42c5-48f8-ae6d-b1cb1010d329")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "226a7ece-e070-4d1d-927c-abcce69eaacf")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fa72bc26-d687-4353-8587-821016b554c1")
+	)
+	(pad "5" thru_hole circle
+		(at 10.16 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bc501500-4e90-4db5-a1b8-339ef19a7b35")
+	)
+	(pad "6" thru_hole circle
+		(at 12.7 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0edaa496-eacd-4d2f-bc34-ee67743f09d8")
+	)
+	(pad "7" thru_hole circle
+		(at 15.24 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9dc0c52f-93f4-4c68-a25e-0a8a871dd4c2")
+	)
+	(pad "8" thru_hole circle
+		(at 17.78 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0a58c31d-ca97-4d7f-adf8-3cf1d669fafc")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/DCDC/Traco/TMR 4-2411.STEP"
+		(offset
+			(xyz 8.9 -2.15 11.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 180 -180)
+		)
+	)
+)
