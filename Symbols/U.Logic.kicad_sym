@@ -836,7 +836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "U.Logic.SN74HC02.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc02.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1772711250335&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fsn74hc02"
 			(at 0 15.24 0)
 			(effects
 				(font
@@ -846,7 +846,7 @@
 			)
 		)
 		(property "Description" "Quadruple 2-Input Positive-NOR Gates"
-			(at 0 0 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1434,7 +1434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "U.Logic.SN74HC32.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn54hc32-sp.pdf"
 			(at 0 15.24 0)
 			(effects
 				(font
@@ -1444,7 +1444,7 @@
 			)
 		)
 		(property "Description" "Quadruple 2-Input Positive-OR Gates"
-			(at 0 0 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
