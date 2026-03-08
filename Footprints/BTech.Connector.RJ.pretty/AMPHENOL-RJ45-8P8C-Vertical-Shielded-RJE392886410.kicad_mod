@@ -226,7 +226,7 @@
 		(layers "*.Cu" "*.Mask")
 		(uuid "d02bface-7a9d-4429-ad2b-324822d64b69")
 	)
-	(pad "P1_1" thru_hole circle
+	(pad "P1.1" thru_hole circle
 		(at -3.5814 -2.54)
 		(size 1.448 1.448)
 		(drill 0.94)
@@ -235,7 +235,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "12d35195-87ae-405d-9d86-422473b2a61b")
 	)
-	(pad "P1_2" thru_hole circle
+	(pad "P1.2" thru_hole circle
 		(at -4.5974 -4.32)
 		(size 1.448 1.448)
 		(drill 0.94)
@@ -244,7 +244,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "8a738204-e929-42d4-9d25-53f1facffe5e")
 	)
-	(pad "P1_3" thru_hole circle
+	(pad "P1.3" thru_hole circle
 		(at -5.6134 -2.54)
 		(size 1.448 1.448)
 		(drill 0.94)
@@ -253,7 +253,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "12729c55-2ae1-404a-8046-798b760dcb37")
 	)
-	(pad "P1_4" thru_hole circle
+	(pad "P1.4" thru_hole circle
 		(at -6.6294 -4.32)
 		(size 1.448 1.448)
 		(drill 0.94)
@@ -262,7 +262,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "3dce8402-cbfe-4a78-8762-8f296fa76cb3")
 	)
-	(pad "P1_5" thru_hole circle
+	(pad "P1.5" thru_hole circle
 		(at -7.6454 -2.54)
 		(size 1.448 1.448)
 		(drill 0.94)
@@ -271,7 +271,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "294df978-3612-4544-a681-c9a52831b61a")
 	)
-	(pad "P1_6" thru_hole circle
+	(pad "P1.6" thru_hole circle
 		(at -8.6614 -4.32)
 		(size 1.448 1.448)
 		(drill 0.94)
@@ -280,7 +280,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "14627d6f-4f09-4975-97be-bd412064cd57")
 	)
-	(pad "P1_7" thru_hole circle
+	(pad "P1.7" thru_hole circle
 		(at -9.6774 -2.54)
 		(size 1.448 1.448)
 		(drill 0.94)
@@ -289,7 +289,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "cf3a3bc5-ef38-4e50-9d1e-1de0d16d71fa")
 	)
-	(pad "P1_8" thru_hole circle
+	(pad "P1.8" thru_hole circle
 		(at -10.6934 -4.32)
 		(size 1.448 1.448)
 		(drill 0.94)
@@ -298,7 +298,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "3d07e152-ab8f-473c-8f0a-f36b4e428df9")
 	)
-	(pad "P1_9" thru_hole circle
+	(pad "P1.9" thru_hole circle
 		(at -0.8636 -9.14)
 		(size 1.448 1.448)
 		(drill 0.94)
@@ -307,7 +307,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "a1179412-ae44-47b0-b02a-11b053ba9557")
 	)
-	(pad "P1_10" thru_hole circle
+	(pad "P1.10" thru_hole circle
 		(at -2.5654 -9.14)
 		(size 1.448 1.448)
 		(drill 0.94)
@@ -316,7 +316,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "6bbff170-a6aa-43e6-89a3-4dcade05d3fb")
 	)
-	(pad "P1_11" thru_hole circle
+	(pad "P1.11" thru_hole circle
 		(at -11.7094 -9.14)
 		(size 1.448 1.448)
 		(drill 0.94)
@@ -325,7 +325,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "6a40e35b-7ed4-4a82-b19d-920ee9132285")
 	)
-	(pad "P1_12" thru_hole circle
+	(pad "P1.12" thru_hole circle
 		(at -13.4112 -9.14)
 		(size 1.448 1.448)
 		(drill 0.94)
@@ -334,7 +334,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "617e5728-1626-46b1-b765-e735aa4ebfb4")
 	)
-	(pad "P2_1" thru_hole circle
+	(pad "P2.1" thru_hole circle
 		(at 10.6934 -2.54)
 		(size 1.448 1.448)
 		(drill 0.94)
@@ -343,7 +343,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "da4c215c-a7b8-487f-8e56-2db4c23b4eb0")
 	)
-	(pad "P2_2" thru_hole circle
+	(pad "P2.2" thru_hole circle
 		(at 9.6774 -4.32)
 		(size 1.448 1.448)
 		(drill 0.94)
@@ -352,7 +352,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "ec7a5ca9-58ba-4093-b662-5553f782dc7a")
 	)
-	(pad "P2_3" thru_hole circle
+	(pad "P2.3" thru_hole circle
 		(at 8.6614 -2.54)
 		(size 1.448 1.448)
 		(drill 0.94)
@@ -361,7 +361,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "ac164d68-7e30-4f52-9380-c64cf31cbd76")
 	)
-	(pad "P2_4" thru_hole circle
+	(pad "P2.4" thru_hole circle
 		(at 7.6454 -4.32)
 		(size 1.448 1.448)
 		(drill 0.94)
@@ -370,7 +370,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "de34b649-e551-4e69-9098-172c44c8a573")
 	)
-	(pad "P2_5" thru_hole circle
+	(pad "P2.5" thru_hole circle
 		(at 6.6294 -2.54)
 		(size 1.448 1.448)
 		(drill 0.94)
@@ -379,7 +379,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "18acde84-869d-4397-9a8d-47ce16e5af66")
 	)
-	(pad "P2_6" thru_hole circle
+	(pad "P2.6" thru_hole circle
 		(at 5.6134 -4.32)
 		(size 1.448 1.448)
 		(drill 0.94)
@@ -388,7 +388,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "8ed95ae3-746e-4702-9949-7178cea03131")
 	)
-	(pad "P2_7" thru_hole circle
+	(pad "P2.7" thru_hole circle
 		(at 4.5974 -2.54)
 		(size 1.448 1.448)
 		(drill 0.94)
@@ -397,7 +397,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "87f97c7b-4b0f-41ce-8adb-949fea9e04ff")
 	)
-	(pad "P2_8" thru_hole circle
+	(pad "P2.8" thru_hole circle
 		(at 3.5814 -4.32)
 		(size 1.448 1.448)
 		(drill 0.94)
@@ -406,7 +406,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "f95b466b-2906-43f8-9637-c0c2d215b899")
 	)
-	(pad "P2_9" thru_hole circle
+	(pad "P2.9" thru_hole circle
 		(at 13.4112 -9.14)
 		(size 1.448 1.448)
 		(drill 0.94)
@@ -415,7 +415,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "aabfa22c-9f1b-4df8-bbb5-ca158008c240")
 	)
-	(pad "P2_10" thru_hole circle
+	(pad "P2.10" thru_hole circle
 		(at 11.7094 -9.14)
 		(size 1.448 1.448)
 		(drill 0.94)
@@ -424,7 +424,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "7f23bf00-c0bd-461e-b950-71f772b310e3")
 	)
-	(pad "P2_11" thru_hole circle
+	(pad "P2.11" thru_hole circle
 		(at 2.5654 -9.14)
 		(size 1.448 1.448)
 		(drill 0.94)
@@ -433,7 +433,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "d14e25b5-f078-47b9-8a54-9b3e31a580b7")
 	)
-	(pad "P2_12" thru_hole circle
+	(pad "P2.12" thru_hole circle
 		(at 0.8636 -9.14)
 		(size 1.448 1.448)
 		(drill 0.94)
