@@ -11,12 +11,12 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
 	(property "Value" "Mentor.1871.2231"
-		(at 0 -3.81 0)
+		(at -6.0325 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "9dcb466a-be30-4c3b-8a28-5a7e6a48a4b8")
@@ -54,34 +54,14 @@
 		)
 	)
 	(fp_line
-		(start 0 -2.54)
-		(end 9.525 -2.54)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "4e79d034-627b-4418-bd1c-c081e7761f98")
-	)
-	(fp_line
-		(start 9.525 -2.54)
-		(end 9.525 2.54)
+		(start 9.525 -2.2225)
+		(end 9.525 2.2225)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
 		(uuid "49da5617-235f-46ff-a1a3-9d66f2add4e1")
-	)
-	(fp_line
-		(start 9.525 2.54)
-		(end 0 2.54)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "35809654-02a7-4999-953d-1a5fd1837d78")
 	)
 	(fp_line
 		(start -6.985 -2.54)
@@ -264,7 +244,7 @@
 		(uuid "860cb375-f957-458f-ab8c-a29a96053285")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 3.81 0)
+		(at 6.35 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "da1e7205-04e0-416a-a1f9-a90fc42b0414")
