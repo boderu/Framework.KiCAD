@@ -177,7 +177,6 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1)
-		(solder_mask_margin 0.102)
 		(uuid "898a0c54-1a7e-4199-8cef-935e6aceed50")
 	)
 	(pad "1_2" thru_hole roundrect
@@ -187,7 +186,6 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1)
-		(solder_mask_margin 0.102)
 		(uuid "99034bd4-a23e-406f-9a6a-ab6f6973671c")
 	)
 	(embedded_fonts no)
