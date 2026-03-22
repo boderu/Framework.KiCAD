@@ -283,6 +283,250 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "MV5075C"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MV5075C"
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at -5.08 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2804/MVxx74C.pdf"
+			(at -7.62 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Red LED 3 mm Tinted Diffused Package"
+			(at -10.16 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "3mm"
+			(at 2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Color" "Red"
+			(at 2.54 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "MV5075C"
+			(at -1.27 3.81 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "CurrentForward" "20mA"
+			(at 2.54 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VoltageForward" "1V6"
+			(at -2.54 -5.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "ki_keywords" "LED"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "LED*3.0mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MV5075C_0_1"
+			(polyline
+				(pts
+					(xy -3.175 1.651) (xy -3.175 1.143)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.651 0.127) (xy -3.175 1.651) (xy -2.667 1.651)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.651 -1.143) (xy -3.175 0.381) (xy -2.667 0.381) (xy -3.175 0.381) (xy -3.175 -0.127)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy 0 -1.27) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "MV5075C_1_1"
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "MV5439A"
 		(pin_numbers
 			(hide yes)
@@ -329,7 +573,7 @@
 			)
 		)
 		(property "Description" "T-1 (3mm) Bi-Color Indicator Lamp"
-			(at 0 0 0)
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -679,7 +923,7 @@
 			)
 		)
 		(property "Description" "T-1 (3mm) Bi-Color Indicator Lamp"
-			(at 0 0 0)
+			(at 0 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1102,7 +1346,7 @@
 			)
 		)
 		(property "Description" "Low Current (2mA) LED 3 mm Tinted Diffused Package"
-			(at 0 0 0)
+			(at -10.16 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1328,7 +1572,7 @@
 			)
 		)
 		(property "Description" "Low Current (2mA) LED 3 mm Tinted Diffused Package"
-			(at 0 0 0)
+			(at -10.16 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1554,7 +1798,7 @@
 			)
 		)
 		(property "Description" "Low Current (2mA) LED 3 mm Tinted Diffused Package"
-			(at 0 0 0)
+			(at -10.16 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1778,7 +2022,7 @@
 			)
 		)
 		(property "Description" "T-1 (3mm) Bi-Color Indicator Lamp"
-			(at 0 0 0)
+			(at 0 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2133,7 +2377,7 @@
 			)
 		)
 		(property "Description" "LED AMBER CLEAR 0805 SMD"
-			(at 0 0 0)
+			(at -10.16 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2359,7 +2603,7 @@
 			)
 		)
 		(property "Description" "LED BLUE CLEAR 0805 SMD"
-			(at 0 0 0)
+			(at -10.16 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2585,7 +2829,7 @@
 			)
 		)
 		(property "Description" "LED RED CLEAR 0805 SMD"
-			(at 0 0 0)
+			(at -10.16 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2811,7 +3055,7 @@
 			)
 		)
 		(property "Description" "LED GREEN CLEAR 0805 SMD"
-			(at 0 0 0)
+			(at -10.16 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)

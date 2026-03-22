@@ -301,7 +301,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch5.08mm_Drill1.3mm"
+		(property "Footprint" "BTech.TP:KEYSTONE_1287"
 			(at 0 12.7 0)
 			(effects
 				(font
@@ -320,7 +320,7 @@
 			)
 		)
 		(property "Description" "Test Point - Faston"
-			(at 0 0 0)
+			(at 0 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -337,7 +337,7 @@
 			)
 		)
 		(property "MPN" "1287"
-			(at 3.81 1.27 0)
+			(at 5.08 1.27 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -365,7 +365,19 @@
 		(symbol "TAB1287_0_1"
 			(polyline
 				(pts
-					(xy 1.27 0.762) (xy 0 0) (xy 0.762 1.27) (xy 1.27 0.762)
+					(xy 0 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0.762) (xy 1.27 0) (xy 2.032 1.27) (xy 2.54 0.762)
 				)
 				(stroke
 					(width 0)
@@ -377,7 +389,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.397 0.635) (xy 0.635 1.397) (xy 2.413 3.175) (xy 3.175 2.413) (xy 1.397 0.635)
+					(xy 2.667 0.635) (xy 1.905 1.397) (xy 3.683 3.175) (xy 4.445 2.413) (xy 2.667 0.635)
 				)
 				(stroke
 					(width 0)
@@ -390,16 +402,34 @@
 		)
 		(symbol "TAB1287_1_1"
 			(pin passive line
-				(at 0 0 90)
-				(length 0)
-				(name "1"
+				(at 0 -2.54 90)
+				(length 2.54)
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "1_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -2.54 90)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1_2"
 					(effects
 						(font
 							(size 1.27 1.27)

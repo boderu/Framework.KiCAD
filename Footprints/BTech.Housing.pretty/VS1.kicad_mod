@@ -1,10 +1,10 @@
 (footprint "VS1"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -3.81 0 90)
+		(at 2.54 0 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "c771ae8f-d351-4e69-a874-edf7f85f207b")
@@ -16,25 +16,13 @@
 		)
 	)
 	(property "Value" "VS1"
-		(at -5.08 0 90)
+		(at -1.27 -3.81 90)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "c20e0882-5085-417d-a880-d13c982ff6a0")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "22e60a91-e3d2-4b17-9e06-40c3b1338271")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -62,6 +50,46 @@
 				(thickness 0.15)
 			)
 		)
+	)
+	(fp_line
+		(start -4.8 -53.5)
+		(end -4.8 53.5)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "Dwgs.User")
+		(uuid "2899fb43-9863-436c-957f-3e5bd4e7d480")
+	)
+	(fp_line
+		(start -6.35 -1.27)
+		(end -6.35 1.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "c3ab40bf-d1a6-42fe-b500-61b313095548")
+	)
+	(fp_line
+		(start -6.35 1.27)
+		(end -5.08 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "eaa57db2-fe5c-44dd-a9da-8e47637a923a")
+	)
+	(fp_line
+		(start -5.08 0)
+		(end -6.35 -1.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "3658bcf7-f92b-40f9-a086-6e32cf4f0de7")
 	)
 	(fp_line
 		(start -1.27 -1.27)
@@ -345,20 +373,33 @@
 			)
 		)
 	)
+	(fp_text user "front"
+		(at -5.715 3.175 90)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "e2d75239-88ac-4e6a-8452-1e9a93d8715b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(pad "" np_thru_hole circle
 		(at 3.8 -44.45)
 		(size 3.2 3.2)
 		(drill 3.2)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "367ee899-1272-4f9b-aff7-1106b54f9a60")
 	)
 	(pad "" np_thru_hole circle
 		(at 3.8 44.45)
 		(size 3.2 3.2)
 		(drill 3.2)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "41b054e1-4d23-4619-92b1-bddca60afbf0")
 	)
+	(embedded_fonts no)
 	(model "${KICAD_USER_3DMODEL_DIR}/Housing/Fischer-VS1/vs1.stp"
 		(offset
 			(xyz -2.5 13 11.5)
