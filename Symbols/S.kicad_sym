@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20241209)
+	(version 20251024)
 	(generator "kicad_symbol_editor")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(symbol "210-3MS"
 		(pin_names
 			(offset 0)
@@ -10,8 +10,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "S"
 			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20,6 +24,8 @@
 		)
 		(property "Value" "210-3MS"
 			(at 0 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28,33 +34,41 @@
 		)
 		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx03_Slide_6.7x9.18mm_W7.62mm_P2.54mm_LowProfile"
 			(at 0 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.ctscorp.com/Files/DataSheets/Switches/DIP-Switches/CTS-Switches-DIP-209-210-Series-Datasheet.pdf"
 			(at 0 10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "3x DIP Switch, Single Pole Single Throw (SPST) switch"
 			(at 0 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "210-3MS"
 			(at 0 -4.064 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -63,6 +77,8 @@
 		)
 		(property "Usage" "Usage"
 			(at 0 -12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71,20 +87,24 @@
 		)
 		(property "ki_keywords" "dip switch"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "SW?DIP?x3*"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "210-3MS_0_0"
@@ -208,7 +228,7 @@
 			(pin passive line
 				(at -7.62 2.54 0)
 				(length 5.08)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -226,7 +246,7 @@
 			(pin passive line
 				(at -7.62 0 0)
 				(length 5.08)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -244,7 +264,7 @@
 			(pin passive line
 				(at -7.62 -2.54 0)
 				(length 5.08)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -260,16 +280,16 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 2.54 180)
+				(at 7.62 -2.54 180)
 				(length 5.08)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -280,7 +300,7 @@
 			(pin passive line
 				(at 7.62 0 180)
 				(length 5.08)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -296,19 +316,478 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -2.54 180)
+				(at 7.62 2.54 180)
 				(length 5.08)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "ACZ11BR4E-15FA1-20C"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "S"
+			(at 0 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ACZ11BR4E-15FA1-20C"
+			(at 0 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BTech.Encoder:XDCR_ACZ11BR4E-15FA1-20C"
+			(at 0 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/acz11.pdf"
+			(at 0 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Drehgeber Inkremental 20 Quadratur (inkremental) Rechtwinklig"
+			(at 0 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "1.04"
+			(at 0 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Same Sky"
+			(at 0 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "13.75mm"
+			(at 0 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ACZ11BR4E-15FA1-20C"
+			(at 0 8.89 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(symbol "ACZ11BR4E-15FA1-20C_0_0"
+			(polyline
+				(pts
+					(xy -7.62 5.08) (xy -3.81 5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -5.08) (xy -2.54 -5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -7.62 -15.24)
+				(end 7.62 10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 2.54) (xy -3.81 7.62)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -5.715) (xy 0 -5.715)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -2.54 -5.08)
+				(radius 0.254)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 7.62) (xy -3.81 7.62)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 2.54) (xy -3.81 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -0.889 7.62)
+				(radius 0.3302)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -0.889 2.54)
+				(radius 0.3302)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -5.715) (xy 0 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -5.715) (xy 3.81 -5.715)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -5.08) (xy 7.62 -5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 -5.08)
+				(radius 0.254)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.191 7.62) (xy -1.143 5.4864)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.191 2.54) (xy -1.143 0.4064)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 7.62) (xy 4.191 7.62)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 2.54) (xy 4.191 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 10.16 7.62 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "A"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 2.54 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "B"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 5.08 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "C"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -5.08 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "E"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ACZ11BR4E-15FA1-20C_1_0"
+			(pin passive line
+				(at -10.16 -5.08 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "D"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -20.32 90)
+				(length 5.08)
+				(name "SHIELD1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "SH1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -20.32 90)
+				(length 5.08)
+				(name "SHIELD2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "SH2"
+					(effects
+						(font
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -324,8 +803,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "S"
 			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -334,6 +817,8 @@
 		)
 		(property "Value" "C&K-JS202011"
 			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -342,33 +827,41 @@
 		)
 		(property "Footprint" "Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight"
 			(at 0 10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.ckswitches.com/media/1422/js.pdf"
 			(at 0 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Sub-Miniature Slide Switches"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Usage" "Usage"
 			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -377,6 +870,8 @@
 		)
 		(property "MPN" "JS202011CQN"
 			(at 2.54 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -385,20 +880,24 @@
 		)
 		(property "ki_keywords" "switch dual-pole double-throw DPDT spdt ON-ON"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "SW*DPDT*"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "C&K-JS202011_0_0"
@@ -452,24 +951,6 @@
 		)
 		(symbol "C&K-JS202011_1_1"
 			(pin passive line
-				(at -5.08 0 0)
-				(length 2.54)
-				(name "B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 5.08 2.54 180)
 				(length 2.54)
 				(name "A"
@@ -480,6 +961,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -508,24 +1007,6 @@
 		)
 		(symbol "C&K-JS202011_2_1"
 			(pin passive line
-				(at -5.08 0 0)
-				(length 2.54)
-				(name "B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 5.08 2.54 180)
 				(length 2.54)
 				(name "A"
@@ -536,6 +1017,24 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -572,8 +1071,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "S"
 			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -582,6 +1085,8 @@
 		)
 		(property "Value" "E-Switch.100A.WDP1.T2.B4.M2"
 			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -590,33 +1095,41 @@
 		)
 		(property "Footprint" "BTech.Button-Switch:E-Switch.100A.M2.DPDT"
 			(at 0 10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/130/100A-1.pdf"
 			(at 0 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "SWITCH TOGGLE DPDT 5A 120V"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Usage" "Usage"
 			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -625,6 +1138,8 @@
 		)
 		(property "MPN" "100AWDP1T2B4M2QE "
 			(at 5.08 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -633,20 +1148,24 @@
 		)
 		(property "ki_keywords" "switch dual-pole double-throw DPDT spdt ON-ON"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "SW*DPDT*"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "E-Switch.100A.WDP1.T2.B4.M2_0_0"
@@ -700,24 +1219,6 @@
 		)
 		(symbol "E-Switch.100A.WDP1.T2.B4.M2_1_1"
 			(pin passive line
-				(at -5.08 0 0)
-				(length 2.54)
-				(name "B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 5.08 2.54 180)
 				(length 2.54)
 				(name "A"
@@ -728,6 +1229,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -756,24 +1275,6 @@
 		)
 		(symbol "E-Switch.100A.WDP1.T2.B4.M2_2_1"
 			(pin passive line
-				(at -5.08 0 0)
-				(length 2.54)
-				(name "B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 5.08 2.54 180)
 				(length 2.54)
 				(name "A"
@@ -784,6 +1285,24 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -819,8 +1338,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "S"
 			(at 2.54 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -830,6 +1353,8 @@
 		)
 		(property "Value" "1871.2231"
 			(at 2.54 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -839,33 +1364,41 @@
 		)
 		(property "Footprint" "BTech.Button-Switch:Mentor.1871.2231"
 			(at -7.62 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "2x 1-pole push-button, 2x LED"
 			(at -10.16 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "1871.2231"
 			(at 1.016 -5.08 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -874,6 +1407,8 @@
 		)
 		(property "Package" "Mentor 1871"
 			(at 2.54 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -883,6 +1418,8 @@
 		)
 		(property "Usage" "Usage"
 			(at 2.54 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -892,6 +1429,8 @@
 		)
 		(property "ki_locked" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1337,8 +1876,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "S"
 			(at 2.54 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1348,6 +1891,8 @@
 		)
 		(property "Value" "RACON8-100502"
 			(at 2.54 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1357,33 +1902,41 @@
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
 			(at -5.08 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "SW.RACON.pdf"
 			(at -7.62 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "RACON 8 - Kurzhubtaster"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Package" "6.5x4.5"
 			(at 2.54 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1393,6 +1946,8 @@
 		)
 		(property "Usage" "Usage"
 			(at 2.54 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1402,6 +1957,8 @@
 		)
 		(property "MPN" "1.14100.5020000"
 			(at 1.27 0 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -1410,11 +1967,13 @@
 		)
 		(property "ki_keywords" "switch normally-open pushbutton push-button"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "RACON8-100502_0_1"
@@ -1465,24 +2024,6 @@
 				)
 			)
 			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 0 -5.08 90)
 				(length 2.54)
 				(name "1"
@@ -1493,6 +2034,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1514,8 +2073,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "S"
 			(at 2.54 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1525,6 +2088,8 @@
 		)
 		(property "Value" "TL3305A"
 			(at 2.54 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1534,33 +2099,41 @@
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at -5.08 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/213/TL3305.pdf"
 			(at -7.62 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "TL3305 Series Tact Switch"
 			(at -10.16 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Package" "4.5x4.5"
 			(at 2.54 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1570,6 +2143,8 @@
 		)
 		(property "Usage" "Usage"
 			(at 2.54 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1579,6 +2154,8 @@
 		)
 		(property "MPN" "TL3305AF160QG"
 			(at 1.27 0 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -1587,11 +2164,13 @@
 		)
 		(property "ki_keywords" "switch normally-open pushbutton push-button"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "TL3305A_0_1"
